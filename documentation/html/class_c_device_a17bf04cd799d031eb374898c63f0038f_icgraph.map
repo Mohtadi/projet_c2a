@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_device.html#aed67cb1bd29a7a7c4c988770964956a9" title="Slot qui est apellé lorsqu&#39;un plugin detecte une déconnection." alt="" coords="605,25,773,55"/>
+<area shape="rect" id="node5" href="$class_c_device.html#a3d8af6453d6e8f3fe18a0ef98601a24b" title="Slot qui lance la recherche d&#39;un plugin adapté au périphérique." alt="" coords="821,25,1000,55"/>
+<area shape="rect" id="node8" href="$class_c_device.html#a53ed24298b0f78cc75ecd145c8c553fd" title="Le périphérique reçoit des données à transmettre aux services, le slot est apellé depuis les plugins..." alt="" coords="363,76,557,105"/>
+</map>

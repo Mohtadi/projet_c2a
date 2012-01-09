@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a:  Fichier source de /home/c2a/Documents/projet_c2a/services/serviceCopyDNoteDiskToData/service_copy_dnote_disk_to_data.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>/home/c2a/Documents/projet_c2a/services/serviceCopyDNoteDiskToData/service_copy_dnote_disk_to_data.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="service__copy__dnote__disk__to__data_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00002"></a>00002 
+<a name="l00003"></a>00003 
+<a name="l00004"></a>00004 
+<a name="l00005"></a>00005 
+<a name="l00006"></a>00006 
+<a name="l00007"></a>00007 <span class="preprocessor">#ifndef __SERVICE_COPY_DNOTEDISK_TO_DATA_H__</span>
+<a name="l00008"></a>00008 <span class="preprocessor"></span><span class="preprocessor">#define __SERVICE_COPY_DNOTEDISK_TO_DATA_H__</span>
+<a name="l00009"></a>00009 <span class="preprocessor"></span>
+<a name="l00010"></a>00010 <span class="preprocessor">#include&lt;QtGui&gt;</span>
+<a name="l00011"></a>00011 
+<a name="l00012"></a>00012 <span class="preprocessor">#include &quot;../../interface/serviceAbstractObject.h&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;../../interface/serviceAbstract.h&quot;</span>
+<a name="l00014"></a>00014 
+<a name="l00017"></a><a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html">00017</a> <span class="keyword">class </span><a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html" title="Le thread copie les fichiers périodiquement, il faudrait peut être le faire que quand c&amp;#39;est néces...">CServiceCopyDNoteDiskToDataThread</a> : <span class="keyword">public</span> QThread
+<a name="l00018"></a>00018 {
+<a name="l00019"></a>00019     Q_OBJECT
+<a name="l00020"></a>00020    <span class="keyword">public</span> :
+<a name="l00021"></a>00021 
+<a name="l00022"></a>00022     <a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html#adc02b601ed445f716c8df03afd99a7de">CServiceCopyDNoteDiskToDataThread</a>();
+<a name="l00023"></a>00023 
+<a name="l00024"></a>00024     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html#a4b61d89f77103efb6f2d560e8595feab">setListDataService</a>       (<a class="code" href="class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&amp;#39;un service. Un service à accée à toute les informa...">CListDataService</a> *_list_data_service);
+<a name="l00025"></a>00025 
+<a name="l00026"></a>00026     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html#a0c97b871928cad6e953d1bafd4cbe7a4">setTreeWidget</a> (QTreeWidget *_tree_widget);
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html#a16f595d2a8e16a7fdd6e8ddd4e7ea734">setStop</a> (<span class="keywordtype">bool</span> _stop);
+<a name="l00029"></a>00029 
+<a name="l00030"></a>00030     <span class="keyword">public</span> slots :
+<a name="l00031"></a>00031 
+<a name="l00032"></a>00032     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html#aa11d80d29b328f7ad2072c4a3c2f3379">slotFileChanged</a>(<span class="keyword">const</span> QString &amp; _file);
+<a name="l00033"></a>00033 
+<a name="l00034"></a>00034    <span class="keyword">protected</span>:
+<a name="l00035"></a>00035 
+<a name="l00036"></a>00036     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html#ab7575636e2f4ca37ac9ed17ab1417af0">run</a>();
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038    <span class="keyword">private</span> :
+<a name="l00039"></a>00039 
+<a name="l00040"></a>00040    <a class="code" href="class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&amp;#39;un service. Un service à accée à toute les informa...">CListDataService</a> *m_list_data_service;
+<a name="l00041"></a>00041    QTreeWidget *m_tree_widget;
+<a name="l00042"></a>00042    <span class="keywordtype">bool</span> m_stop;
+<a name="l00043"></a>00043    QFileSystemWatcher m_file_system_watcher;
+<a name="l00044"></a>00044    <span class="keywordtype">bool</span> m_refresh;
+<a name="l00045"></a>00045    QStringList m_list_file;
+<a name="l00046"></a>00046 };
+<a name="l00047"></a>00047 
+<a name="l00048"></a>00048 
+<a name="l00051"></a><a class="code" href="class_c_service_copy_d_note_disk_to_data.html">00051</a> <span class="keyword">class </span><a class="code" href="class_c_service_copy_d_note_disk_to_data.html" title="Service de copie des fichiers de la tablette tactile vers le répertoire de travail.">CServiceCopyDNoteDiskToData</a> : <span class="keyword">public</span> <a class="code" href="class_c_service_abstract_object.html" title="Classe abstraite qui contient la déclaration des signaux et slots des services.">CServiceAbstractObject</a> , <span class="keyword">public</span> <a class="code" href="class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services.">CServiceAbstract</a>
+<a name="l00052"></a>00052 {
+<a name="l00053"></a>00053     Q_OBJECT
+<a name="l00054"></a>00054     Q_INTERFACES(<a class="code" href="class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services.">CServiceAbstract</a>)
+<a name="l00055"></a>00055 
+<a name="l00056"></a>00056 <span class="keyword">public</span> :
+<a name="l00057"></a>00057 
+<a name="l00058"></a>00058     <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#ac68d4716edc1d5b5961fc614894c4923">CServiceCopyDNoteDiskToData</a>();
+<a name="l00059"></a>00059 
+<a name="l00060"></a>00060     <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a8bce03f24a0d0d24474a661bac849b57">~CServiceCopyDNoteDiskToData</a>();
+<a name="l00061"></a>00061 
+<a name="l00062"></a>00062     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a2d7d0b6c2285403759ab0d31b0f4d924" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans...">init</a> (<a class="code" href="class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&amp;#39;un service. Un service à accée à toute les informa...">CListDataService</a> *_list_data_informations);
+<a name="l00063"></a>00063 
+<a name="l00064"></a>00064     <span class="keyword">virtual</span> QObject *<a class="code" href="class_c_service_copy_d_note_disk_to_data.html#ab13c3048a97c4924bc9f9d32483e6c48" title="Renvoi l&amp;#39;object pour la connection des signaux et des slots.">getObject</a>();
+<a name="l00065"></a>00065 
+<a name="l00066"></a>00066     <span class="keyword">virtual</span> QString <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#af92f2bcec5d6150eb5819fcf1727eac7" title="Renvoi le nom du service.">getNameService</a>();
+<a name="l00067"></a>00067 
+<a name="l00068"></a>00068     <span class="keyword">virtual</span> QString <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#aeac4f9b6ba9beb69085d5447b4a6c699" title="Renvoi une description basique du service.">getDescriptionService</a>();
+<a name="l00069"></a>00069 
+<a name="l00070"></a>00070     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a03389921468894891a2cb0fb019fe5da" title="Méthode utilisé pour créer le widget associé au paramètrage du service.">createWidget</a>();
+<a name="l00071"></a>00071 
+<a name="l00072"></a>00072     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a9bcd87f6300fde74a1e47f7f4a216a6b" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service.">initWidget</a>();
+<a name="l00073"></a>00073 
+<a name="l00074"></a>00074     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a1921dee4a436e9e2ef9472570dfff8ff">updateWidget</a>();
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076     <span class="keyword">virtual</span> QWidget * <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#af8f4ec77d41189f4e04cfe49c5c65574" title="Renvoi la widget. Chaque service doit avoir un widget de crée.">getWidget</a>();
+<a name="l00077"></a>00077 
+<a name="l00078"></a>00078     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a504d4a17439ad78927be516b62981e64" title="Lance le démarrage du service.">start</a> ();
+<a name="l00079"></a>00079 
+<a name="l00080"></a>00080     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a1361c145518666b92a485e64afb5e36b" title="Stop le service.">stop</a>();
+<a name="l00081"></a>00081 
+<a name="l00082"></a>00082     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a98f1f6e5d3ce9fcaaa85a2d38dd47dcf" title="Fonction d&amp;#39;enregistrement des paramètres pour le fichier projet.">save</a> (QDomDocument &amp;_dom_document , QDomElement &amp;_dom_element);
+<a name="l00083"></a>00083 
+<a name="l00084"></a>00084     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#ae50b6b7c38cb0e1881b41e2b59bcb213" title="Fonction de chargement des paramètres pour le fichier projet.">load</a> (QDomDocument &amp;_dom_document , QDomElement &amp;_dom_element);
+<a name="l00085"></a>00085 
+<a name="l00086"></a>00086 <span class="keyword">public</span> slots :
+<a name="l00087"></a>00087 
+<a name="l00088"></a>00088     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#accf8718d61c60607b0573f762ebd780c">slotUpdate</a>();
+<a name="l00089"></a>00089 
+<a name="l00090"></a>00090 
+<a name="l00091"></a>00091 signals :
+<a name="l00092"></a>00092 
+<a name="l00093"></a>00093     <span class="keywordtype">void</span> <a class="code" href="class_c_service_copy_d_note_disk_to_data.html#a0eefc43f4a2004ac78db9f288855714a">signalSendData</a>();
+<a name="l00094"></a>00094 
+<a name="l00095"></a>00095 <span class="keyword">private</span> :
+<a name="l00096"></a>00096 
+<a name="l00097"></a>00097 
+<a name="l00098"></a>00098     QWidget *m_widget;
+<a name="l00099"></a>00099 
+<a name="l00100"></a>00100     QTreeWidget *m_tree_widget;
+<a name="l00101"></a>00101 
+<a name="l00102"></a>00102 
+<a name="l00103"></a>00103 
+<a name="l00104"></a>00104     QLineEdit *m_line_edit_dir_path;
+<a name="l00105"></a>00105     <a class="code" href="class_c_service_copy_d_note_disk_to_data_thread.html" title="Le thread copie les fichiers périodiquement, il faudrait peut être le faire que quand c&amp;#39;est néces...">CServiceCopyDNoteDiskToDataThread</a> *m_thread;
+<a name="l00106"></a>00106 
+<a name="l00107"></a>00107 
+<a name="l00108"></a>00108 
+<a name="l00109"></a>00109 
+<a name="l00110"></a>00110 };
+<a name="l00111"></a>00111 
+<a name="l00112"></a>00112 
+<a name="l00113"></a>00113 
+<a name="l00114"></a>00114 <span class="preprocessor">#endif</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

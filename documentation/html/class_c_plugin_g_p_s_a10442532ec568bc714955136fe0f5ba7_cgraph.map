@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_g_p_s.html#adee743ad40d19b1b4194b58e1f05533c" title="Initialisation de la liste de données de connections des plugins." alt="" coords="232,5,496,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_g_p_s.html#a1b6ddc85c460e9d5eacc45ec321db040" title="Initialisation de la liste de données des plugins." alt="" coords="564,56,756,85"/>
+<area shape="rect" id="node7" href="$class_c_plugin_g_p_s.html#a920553016df1438a78233439f55753d8" title="CPluginGPS::signalDisconnect" alt="" coords="559,163,761,192"/>
+<area shape="rect" id="node9" href="$class_c_plugin_g_p_s.html#ab859c8bb8ebce3e46a693216be0e5863" title="CPluginGPS::slotDisconnect" alt="" coords="269,109,459,139"/>
+<area shape="rect" id="node15" href="$class_c_plugin_g_p_s.html#a443d12664d955761b623d07004dce984" title="CPluginGPS::slotReceiveData" alt="" coords="264,213,464,243"/>
+<area shape="rect" id="node13" href="$class_c_plugin_g_p_s.html#a05549929b9efabedf1479ee9256b9002" title="CPluginGPS::signalUpdateServices" alt="" coords="545,109,775,139"/>
+</map>

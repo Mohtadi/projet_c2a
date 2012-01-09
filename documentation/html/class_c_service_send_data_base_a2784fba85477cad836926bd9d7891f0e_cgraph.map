@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="397,5,560,35"/>
+<area shape="rect" id="node5" href="$class_c_service_send_data_base.html#ac3615ffeea0c706a734199154d9368b6" title="CServiceSendDataBase::insertDataBase" alt="" coords="348,59,609,88"/>
+<area shape="rect" id="node7" href="$class_c_service_send_data_base.html#a49231da7c885d705ba5221a00c68b444" title="CServiceSendDataBase::addText" alt="" coords="928,59,1147,88"/>
+<area shape="rect" id="node9" href="$class_c_service_send_data_base.html#ab1792e6816f3079a661e5c8216d4717b" title="CServiceSendDataBase::slotError" alt="" coords="659,84,880,113"/>
+</map>

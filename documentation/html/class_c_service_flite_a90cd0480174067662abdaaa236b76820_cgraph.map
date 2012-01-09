@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_flite_thread.html#a3ecad98910893ffc1fef8a5f27e5358d" title="CServiceFliteThread::setListDataService" alt="" coords="228,5,487,35"/>
+<area shape="rect" id="node5" href="$class_c_service_flite_thread.html#a2e2fcfaa378daceb78b835facc1b5d94" title="CServiceFliteThread::setTreeWidget" alt="" coords="240,59,475,88"/>
+<area shape="rect" id="node7" href="$class_c_service_flite.html#a58b72241ece183fc13634f57b9712034" title="CServiceFlite::updateWidget" alt="" coords="263,112,452,141"/>
+<area shape="rect" id="node9" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="537,112,700,141"/>
+</map>

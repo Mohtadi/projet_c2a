@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_cute_com.html#ae22237ee4da0689fddaaead236a1034c" title="CCuteCom::CCuteCom" alt="" coords="1605,421,1768,451"/>
+<area shape="rect" id="node5" href="$class_c_cute_com.html#a1c9c96ab74e4bcce23a8976d2d8c1b40" title="CCuteCom::connectTTY" alt="" coords="1183,85,1348,115"/>
+<area shape="rect" id="node19" href="$class_c_cute_com.html#a25b7dc2dc6f3a74867329184f98b93c8" title="CCuteCom::disconnectTTYRestore" alt="" coords="279,420,508,449"/>
+<area shape="rect" id="node38" href="$class_c_cute_com.html#ac95b379dc38a545ae0a7b781234fb06a" title="CCuteCom::readSettings" alt="" coords="565,472,733,501"/>
+<area shape="rect" id="node8" href="$class_c_cute_com.html#aab57e16f84247e466b60baf3bfbeec53" title="CCuteCom::sendFile" alt="" coords="1405,421,1549,451"/>
+<area shape="rect" id="node11" href="$class_c_plugin_serial_port.html#aa68361cf8fee362054579efd9991fd8c" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="1399,165,1556,195"/>
+<area shape="rect" id="node13" href="$class_c_plugin_g_p_s.html#a930ca0527571b892f48bb436fe094121" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="1412,5,1543,35"/>
+<area shape="rect" id="node15" href="$class_c_plugin_g_p_r_s.html#aff2345e810323a0c7277291aba859025" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="1408,59,1547,88"/>
+<area shape="rect" id="node17" href="$class_c_plugin_c_a_n_gine.html#a8439fc9d105565675d9c2cb33cee7eb8" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="1399,112,1556,141"/>
+<area shape="rect" id="node21" href="$class_c_cute_com.html#ad3b1a33b0a4dcaca73635585c9683891" title="CCuteCom::disconnectTTY" alt="" coords="557,237,741,267"/>
+<area shape="rect" id="node24" href="$class_c_cute_com.html#a7b00c99ca23ffcaec6272b1789790fe9" title="CCuteCom::readData" alt="" coords="887,51,1036,80"/>
+<area shape="rect" id="node27" href="$class_c_plugin_serial_port.html#a3d8a28cbe02aafe9b808a4f7a70ffc78" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="883,317,1040,347"/>
+<area shape="rect" id="node29" href="$class_c_plugin_g_p_s.html#ac08a7a54f2e02a02784f81b3537c2a17" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="897,104,1025,133"/>
+<area shape="rect" id="node31" href="$class_c_plugin_g_p_r_s.html#aba0a39c3ff3cd7d7e7ccaa81d0da3118" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="892,157,1031,187"/>
+<area shape="rect" id="node33" href="$class_c_plugin_c_a_n_gine.html#a5ff3b96fa7c695729f7e8846daf943c9" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="883,211,1040,240"/>
+<area shape="rect" id="node35" href="$class_c_plugin_abstract_serial_port.html#aba9e48a2a3d145800ba43663d7d17bcf" title="Destructeur." alt="" coords="791,264,1132,293"/>
+</map>

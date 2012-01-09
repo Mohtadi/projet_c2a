@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_send_data_base.html#aeaf1e1b94d2e47f4ed04ffbb7725b16e" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="391,5,639,35"/>
+<area shape="rect" id="node7" href="$class_c_service_send_data_base.html#a2784fba85477cad836926bd9d7891f0e" title="CServiceSendDataBase::slotUpdateDataBase" alt="" coords="368,59,661,88"/>
+<area shape="rect" id="node5" href="$class_c_data.html#a590d37da468e1144e203826b98a5051a" title="Renvoi sous forme d&#39;une string list le titre des données, utilisé pour les titre des QTreeWidget..." alt="" coords="759,5,924,35"/>
+<area shape="rect" id="node9" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="760,59,923,88"/>
+<area shape="rect" id="node11" href="$class_c_service_send_data_base.html#ac3615ffeea0c706a734199154d9368b6" title="CServiceSendDataBase::insertDataBase" alt="" coords="711,112,972,141"/>
+<area shape="rect" id="node13" href="$class_c_service_send_data_base.html#a49231da7c885d705ba5221a00c68b444" title="CServiceSendDataBase::addText" alt="" coords="1291,112,1509,141"/>
+<area shape="rect" id="node15" href="$class_c_service_send_data_base.html#ab1792e6816f3079a661e5c8216d4717b" title="CServiceSendDataBase::slotError" alt="" coords="1021,137,1243,167"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins." alt="" coords="24,112,141,141"/>
+<area shape="rect" id="node3" href="$class_c_plugin_abstract_serial_port.html" title="Classe abstraite des plugins port série." alt="" coords="209,85,383,115"/>
+<area shape="rect" id="node13" href="$class_c_plugin_bluetooth.html" title="Classe du plugin bluetooth. Permet de reconnaitre les périphériques bluetooth, et d&#39;envoyer des f..." alt="" coords="235,139,357,168"/>
+<area shape="rect" id="node15" href="$class_c_plugin_corsair.html" title="Cette classe est similaire au plugin d&#45;note de la tablette tactile. Il faudrait faire un plugin plus ..." alt="" coords="241,192,351,221"/>
+<area shape="rect" id="node17" href="$class_c_plugin_d_note_x20_disk.html" title="Cette classe est similaire au plugin corsaire. Il faudrait faire un plugin plus générique avec libusb..." alt="" coords="219,245,373,275"/>
+<area shape="rect" id="node19" href="$class_c_plugin_network.html" title="Cette classe permet de récupérer les adresses réseaux." alt="" coords="237,32,355,61"/>
+<area shape="rect" id="node5" href="$class_c_plugin_c_a_n_gine.html" title="Classe pour gérer le cangine. Pour détecter la déconnection du périphérique il faut surveiller avec u..." alt="" coords="433,5,556,35"/>
+<area shape="rect" id="node7" href="$class_c_plugin_g_p_r_s.html" title="Cette classe gère le gprs. La difficulté est la gestion du protocole de communication." alt="" coords="441,59,548,88"/>
+<area shape="rect" id="node9" href="$class_c_plugin_g_p_s.html" title="Cette classe gère le gps." alt="" coords="447,112,543,141"/>
+<area shape="rect" id="node11" href="$class_c_plugin_serial_port.html" title="Cette classe se connecte en serial port si les périphériques connues ne sont pas détectés. En faite elle n&#39;est pas très utile, sauf pour le programmeur. Attention, une seul instance de chaque plugin est utilisable, donc si deux périphérique sont reconnu, un seul s&#39;associera avec le plugin." alt="" coords="432,165,557,195"/>
+<area shape="rect" id="node20" href="$class_c_plugin_abstract_object.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins pour les slots et si..." alt="" coords="5,165,160,195"/>
+</map>

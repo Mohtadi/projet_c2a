@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_send_data_base.html#aa482fce55d94517a96a85bd52f734872" title="CServiceSendDataBase::detectTablesAndCreate" alt="" coords="253,59,563,88"/>
+<area shape="rect" id="node14" href="$class_c_service_send_data_base.html#a3816309badf8eaf6312bf741e8b86b3f" title="CServiceSendDataBase::slotFinished" alt="" coords="965,111,1208,140"/>
+<area shape="rect" id="node5" href="$class_c_service_send_data_base.html#a7c3bdcdc746a2c45d9467e4c7d495540" title="CServiceSendDataBase::createTablesDataBase" alt="" coords="612,5,916,35"/>
+<area shape="rect" id="node12" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="683,59,845,88"/>
+<area shape="rect" id="node7" href="$class_c_service_send_data_base.html#a49231da7c885d705ba5221a00c68b444" title="CServiceSendDataBase::addText" alt="" coords="1256,57,1475,87"/>
+<area shape="rect" id="node9" href="$class_c_service_send_data_base.html#ab1792e6816f3079a661e5c8216d4717b" title="CServiceSendDataBase::slotError" alt="" coords="976,57,1197,87"/>
+</map>

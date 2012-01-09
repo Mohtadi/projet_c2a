@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$cutecom_8h.html" title="/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/cutecom.h" alt="" coords="799,83,1279,112"/>
+<area shape="rect" id="node5" href="$cutecom_8cpp.html" title="/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/cutecom.cpp" alt="" coords="511,160,1004,189"/>
+<area shape="rect" id="node7" href="$plugin__abstract__serial__port_8h.html" title="/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/plugin_abstract_serial_port.h" alt="" coords="1028,160,1615,189"/>
+<area shape="rect" id="node9" href="$plugin__abstract__serial__port_8cpp.html" title="/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/plugin_abstract_serial_port.cpp" alt="" coords="5,237,605,267"/>
+<area shape="rect" id="node11" href="$plugin__cangine_8h.html" title="Plugin de périphériques cangine." alt="" coords="629,237,1088,267"/>
+<area shape="rect" id="node15" href="$plugin__gprs_8h.html" title="Plugin de périphériques du gprs." alt="" coords="1112,237,1531,267"/>
+<area shape="rect" id="node19" href="$plugin__gps_8h.html" title="Plugin de périphériques du gps." alt="" coords="1561,237,1967,267"/>
+<area shape="rect" id="node23" href="$plugin__serial__port_8h.html" title="Plugin de périphériques par défaut. Si je detecte un périphérique et que je ne sais pas ce que c&#39;..." alt="" coords="2001,237,2476,267"/>
+<area shape="rect" id="node13" href="$plugin__cangine_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginCANGine/plugin_cangine.cpp" alt="" coords="604,315,1076,344"/>
+<area shape="rect" id="node17" href="$plugin__gprs_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginGPRS/plugin_gprs.cpp" alt="" coords="1100,315,1535,344"/>
+<area shape="rect" id="node21" href="$plugin__gps_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginGPS/plugin_gps.cpp" alt="" coords="1559,315,1977,344"/>
+<area shape="rect" id="node25" href="$plugin__serial__port_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginSerialPort/plugin_serial_port.cpp" alt="" coords="2001,315,2489,344"/>
+</map>

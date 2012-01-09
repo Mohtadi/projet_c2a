@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_g_p_r_s.html#af46eb2425234b900eb1acc13a7b2202b" title="Initialisation de la liste de données des plugins." alt="" coords="276,5,479,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_g_p_r_s.html#ab6139643a43c1c4da24c393998695bf7" title="CPluginGPRS::signalDisconnect" alt="" coords="271,59,484,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_g_p_r_s.html#a98c5b9f22a85c81e417e4ffa11830c97" title="CPluginGPRS::signalUpdateServices" alt="" coords="257,112,497,141"/>
+</map>

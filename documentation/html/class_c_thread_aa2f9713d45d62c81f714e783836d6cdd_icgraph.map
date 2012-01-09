@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_flite.html#a90cd0480174067662abdaaa236b76820" title="CServiceFlite::slotUpdate" alt="" coords="259,5,429,35"/>
+<area shape="rect" id="node5" href="$class_c_service_save_file_html.html#a5ebcf345fc4ae2f137f7e8411d4dc265" title="Lance le démarrage du service." alt="" coords="249,59,439,88"/>
+<area shape="rect" id="node7" href="$class_c_service_save_file.html#af80f8c02990f4cd413d1fc79356f6f2e" title="Lance le démarrage du service." alt="" coords="264,112,424,141"/>
+<area shape="rect" id="node9" href="$class_c_service_copy_d_note_disk_to_data.html#a504d4a17439ad78927be516b62981e64" title="Lance le démarrage du service." alt="" coords="220,165,468,195"/>
+<area shape="rect" id="node13" href="$class_c_service_copy_corsair_to_data.html#a70ee67b6dbb2b11ca5ab0f5bce1e6cfc" title="Lance le démarrage du service." alt="" coords="231,219,457,248"/>
+<area shape="rect" id="node11" href="$class_c_service_copy_d_note_disk_to_data.html#accf8718d61c60607b0573f762ebd780c" title="CServiceCopyDNoteDiskToData::slotUpdate" alt="" coords="519,165,804,195"/>
+<area shape="rect" id="node15" href="$class_c_service_copy_corsair_to_data.html#a8a3763e5133e5b152ec5ad6ca7d2f0d1" title="CServiceCopyCorsairToData::slotUpdate" alt="" coords="531,219,792,248"/>
+</map>

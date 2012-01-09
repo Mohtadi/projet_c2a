@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&#39;un plugin de type EDataInformations, qui contient la valeure _value_d..." alt="" coords="153,5,388,35"/>
+<area shape="rect" id="node7" href="$class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8" title="Renvoi la valeure en fonction du _type_data dans la liste." alt="" coords="187,59,355,88"/>
+<area shape="rect" id="node9" href="$class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations." alt="" coords="193,112,348,141"/>
+<area shape="rect" id="node5" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="439,5,601,35"/>
+</map>

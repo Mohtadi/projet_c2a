@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_cute_com.html#a1c9c96ab74e4bcce23a8976d2d8c1b40" title="CCuteCom::connectTTY" alt="" coords="211,137,376,167"/>
+<area shape="rect" id="node17" href="$class_c_cute_com.html#a25b7dc2dc6f3a74867329184f98b93c8" title="CCuteCom::disconnectTTYRestore" alt="" coords="916,216,1145,245"/>
+<area shape="rect" id="node25" href="$class_c_cute_com.html#ae1b217dd7b6acb6d5fe8e96e78a0539d" title="CCuteCom::killSz" alt="" coords="229,267,357,296"/>
+<area shape="rect" id="node27" href="$cutecom_8cpp.html#a1a9d37c6a13fa57f63d8ba1dcda27788" title="millisleep" alt="" coords="731,344,805,373"/>
+<area shape="rect" id="node29" href="$class_c_cute_com.html#a6e6d85c52e8372d221e7fa2d9d0f66fb" title="CCuteCom::readFromStderr" alt="" coords="200,475,387,504"/>
+<area shape="rect" id="node31" href="$class_c_cute_com.html#a80ba2f83a4dc1fcc9618f344f4f5be56" title="CCuteCom::saveSettings" alt="" coords="208,528,379,557"/>
+<area shape="rect" id="node33" href="$class_c_cute_com.html#a7fdf750598f4dbf27fddcbb2b30a2d04" title="CCuteCom::sendByte" alt="" coords="453,371,603,400"/>
+<area shape="rect" id="node36" href="$class_c_cute_com.html#a83bfb569cf3ada33134c1678791c41f8" title="CCuteCom::sendDone" alt="" coords="216,581,371,611"/>
+<area shape="rect" id="node38" href="$class_c_cute_com.html#ab6f770cfea18549e324cc15188dc9c14" title="CCuteCom::sendString" alt="" coords="215,371,372,400"/>
+<area shape="rect" id="node5" href="$class_c_cute_com.html#a71b0dee8727849f66e79cd1080fb9073" title="CCuteCom::enableSettingWidgets" alt="" coords="1196,189,1417,219"/>
+<area shape="rect" id="node7" href="$class_c_cute_com.html#a7b00c99ca23ffcaec6272b1789790fe9" title="CCuteCom::readData" alt="" coords="453,59,603,88"/>
+<area shape="rect" id="node22" href="$class_c_cute_com.html#a052311cc27baaa995f9dea3137be5936" title="CCuteCom::setNewOptions" alt="" coords="435,112,621,141"/>
+<area shape="rect" id="node9" href="$class_c_cute_com.html#a7cf2460cddbd2bde532d04499b57593c" title="CCuteCom::addOutput" alt="" coords="691,5,845,35"/>
+<area shape="rect" id="node15" href="$class_c_cute_com.html#ad3b1a33b0a4dcaca73635585c9683891" title="CCuteCom::disconnectTTY" alt="" coords="676,59,860,88"/>
+<area shape="rect" id="node20" href="$class_c_cute_com.html#ab9281b0ad5b8c39fdf626eef77ea81e4" title="CCuteCom::signalDisconnect" alt="" coords="671,112,865,141"/>
+<area shape="rect" id="node11" href="$class_c_cute_com.html#a2226126b32973dac770b69448fcdc660" title="CCuteCom::doOutput" alt="" coords="956,5,1105,35"/>
+<area shape="rect" id="node13" href="$class_c_cute_com.html#a5eed7c303a5f2667899df3389c3a6692" title="CCuteCom::signalReceiveData" alt="" coords="1204,5,1409,35"/>
+</map>

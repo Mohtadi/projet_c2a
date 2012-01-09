@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_thread_device_monitor.html#ad09cf295045d11a9cdcb5639f4b6641a" title="Signal qui permet de rafraichir l&#39;interface." alt="" coords="239,5,556,35"/>
+<area shape="rect" id="node5" href="$class_c_thread_device_monitor.html#a48c1e726204348f98a4238e0ce7b9745" title="Signal qui emet à un CDevice de chercher un plugin valide pour le périphérique." alt="" coords="260,59,535,88"/>
+</map>

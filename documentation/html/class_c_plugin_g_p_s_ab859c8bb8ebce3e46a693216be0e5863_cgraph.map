@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_g_p_s.html#a1b6ddc85c460e9d5eacc45ec321db040" title="Initialisation de la liste de données des plugins." alt="" coords="265,5,457,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_g_p_s.html#a920553016df1438a78233439f55753d8" title="CPluginGPS::signalDisconnect" alt="" coords="260,59,463,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_g_p_s.html#a05549929b9efabedf1479ee9256b9002" title="CPluginGPS::signalUpdateServices" alt="" coords="247,112,476,141"/>
+</map>

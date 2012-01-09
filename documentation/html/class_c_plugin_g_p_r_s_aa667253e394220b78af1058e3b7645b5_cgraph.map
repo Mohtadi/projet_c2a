@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_g_p_r_s.html#af4eaeec29547c54fdc070cd2dc40e1aa" title="Initialisation de la liste de données de connections des plugins." alt="" coords="253,5,528,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_g_p_r_s.html#af46eb2425234b900eb1acc13a7b2202b" title="Initialisation de la liste de données des plugins." alt="" coords="596,56,799,85"/>
+<area shape="rect" id="node7" href="$class_c_plugin_g_p_r_s.html#ab6139643a43c1c4da24c393998695bf7" title="CPluginGPRS::signalDisconnect" alt="" coords="591,163,804,192"/>
+<area shape="rect" id="node9" href="$class_c_plugin_g_p_r_s.html#a66bcd1bfe66a822ae3749d09028aede4" title="CPluginGPRS::slotDisconnect" alt="" coords="291,109,491,139"/>
+<area shape="rect" id="node15" href="$class_c_plugin_g_p_r_s.html#a86aa42966419b82bac49447bf04c4c2f" title="CPluginGPRS::slotReceiveData" alt="" coords="285,213,496,243"/>
+<area shape="rect" id="node13" href="$class_c_plugin_g_p_r_s.html#a98c5b9f22a85c81e417e4ffa11830c97" title="CPluginGPRS::signalUpdateServices" alt="" coords="577,109,817,139"/>
+</map>

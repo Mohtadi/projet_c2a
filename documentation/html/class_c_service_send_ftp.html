@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a: Référence de la classe CServiceSendFtp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hiérarchie&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&nbsp;de&nbsp;classe</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a>  </div>
+  <div class="headertitle">
+<h1>Référence de la classe CServiceSendFtp</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="CServiceSendFtp" --><!-- doxytag: inherits="CServiceAbstractObject,CServiceAbstract" -->
+<p><code>#include &lt;<a class="el" href="service__send__ftp_8h_source.html">service_send_ftp.h</a>&gt;</code></p>
+
+<p>Est dérivée de <a class="el" href="class_c_service_abstract_object.html">CServiceAbstractObject</a>, et <a class="el" href="class_c_service_abstract.html">CServiceAbstract</a>.</p>
+<div class="dynheader">
+Graphe de collaboration de CServiceSendFtp:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp__coll__graph.png" border="0" usemap="#_c_service_send_ftp_coll__map" alt="Collaboration graph"/></div>
+<map name="_c_service_send_ftp_coll__map" id="_c_service_send_ftp_coll__map">
+<area shape="rect" id="node2" href="class_c_service_abstract_object.html" title="Classe abstraite qui contient la déclaration des signaux et slots des services." alt="" coords="5,101,168,131"/><area shape="rect" id="node4" href="class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services." alt="" coords="192,101,317,131"/><area shape="rect" id="node6" href="class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&#39;un service. Un service à accée à toute les informa..." alt="" coords="192,5,317,35"/></map>
+<center><span class="legend">[<a href="graph_legend.html">légende</a>]</span></center></div>
+
+<p><a href="class_c_service_send_ftp-members.html">Liste de tous les membres</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a3da4188f63b86b683f8f109e6b78441f">slotUpdate</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a7b00525ab4f0e471133e2690a9b9c172">slotSendFile</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#adb4f25b80b10b5e832632603c5af0d89">slotStateChanged</a> (int)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a1613faa1861530adbaa3b4f3d451b343">slotCommandFinished</a> (int id, bool error)</td></tr>
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a7b53ca95126dd7cf4441423dae81ff04">signalSendData</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a96d677669124f90313ab145dcbca7804">CServiceSendFtp</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#af261780aba659f5bc79618194b0c5e5c">~CServiceSendFtp</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#abbf13b1f868cb1d69e0ffafdbcbde205">init</a> (<a class="el" href="class_c_list_data_service.html">CListDataService</a> *_list_data_informations)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans l'application, et tout les services y ont accés.  <a href="#abbf13b1f868cb1d69e0ffafdbcbde205"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QObject *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a4d2b2d0b62a18ce817f3112879d56eec">getObject</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi l'object pour la connection des signaux et des slots.  <a href="#a4d2b2d0b62a18ce817f3112879d56eec"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a7647843778f185d386323a8a560f6036">getNameService</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi le nom du service.  <a href="#a7647843778f185d386323a8a560f6036"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#afd9774b5d5d05204cac6dc868269d9c9">getDescriptionService</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi une description basique du service.  <a href="#afd9774b5d5d05204cac6dc868269d9c9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a46ff19e5e2aa6915334947f797cad293">createWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Méthode utilisé pour créer le widget associé au paramètrage du service.  <a href="#a46ff19e5e2aa6915334947f797cad293"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#ac1515359a2bb711f1eeb64e83266fa11">initWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Méthode utilisé pour initialiser le widget associé au paramètrage du service.  <a href="#ac1515359a2bb711f1eeb64e83266fa11"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a8d44e68064a5ddd1a7750905e4be070d">updateWidget</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QWidget *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a7b8709b73320966536b9c495f21a40c5">getWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi la widget. Chaque service doit avoir un widget de crée.  <a href="#a7b8709b73320966536b9c495f21a40c5"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a03efc92018a3233531356795b5a8e569">start</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lance le démarrage du service.  <a href="#a03efc92018a3233531356795b5a8e569"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a908aa40db66ce2c2b5824204c049486d">stop</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Stop le service.  <a href="#a908aa40db66ce2c2b5824204c049486d"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a8d5f1ac83926c2b1be9db052eb7bffab">addText</a> (QString _text)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#a9fc52add41d19eaeed85c326f9251160">save</a> (QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Fonction d'enregistrement des paramètres pour le fichier projet.  <a href="#a9fc52add41d19eaeed85c326f9251160"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_ftp.html#ac7d4b8a0526d25a12fc89eefcbc05462">load</a> (QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Fonction de chargement des paramètres pour le fichier projet.  <a href="#ac7d4b8a0526d25a12fc89eefcbc05462"></a><br/></td></tr>
+</table>
+<hr/><h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="a96d677669124f90313ab145dcbca7804"></a><!-- doxytag: member="CServiceSendFtp::CServiceSendFtp" ref="a96d677669124f90313ab145dcbca7804" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CServiceSendFtp::CServiceSendFtp </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a96d677669124f90313ab145dcbca7804_cgraph.png" border="0" usemap="#class_c_service_send_ftp_a96d677669124f90313ab145dcbca7804_cgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a96d677669124f90313ab145dcbca7804_cgraph" id="class_c_service_send_ftp_a96d677669124f90313ab145dcbca7804_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a46ff19e5e2aa6915334947f797cad293" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="291,5,501,35"/><area shape="rect" id="node5" href="class_c_service_send_ftp.html#a7b00525ab4f0e471133e2690a9b9c172" title="CServiceSendFtp::slotSendFile" alt="" coords="293,59,499,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af261780aba659f5bc79618194b0c5e5c"></a><!-- doxytag: member="CServiceSendFtp::~CServiceSendFtp" ref="af261780aba659f5bc79618194b0c5e5c" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CServiceSendFtp::~CServiceSendFtp </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/><h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="a8d5f1ac83926c2b1be9db052eb7bffab"></a><!-- doxytag: member="CServiceSendFtp::addText" ref="a8d5f1ac83926c2b1be9db052eb7bffab" args="(QString _text)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::addText </td>
+          <td>(</td>
+          <td class="paramtype">QString&nbsp;</td>
+          <td class="paramname"> <em>_text</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a8d5f1ac83926c2b1be9db052eb7bffab_icgraph.png" border="0" usemap="#class_c_service_send_ftp_a8d5f1ac83926c2b1be9db052eb7bffab_icgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a8d5f1ac83926c2b1be9db052eb7bffab_icgraph" id="class_c_service_send_ftp_a8d5f1ac83926c2b1be9db052eb7bffab_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a1613faa1861530adbaa3b4f3d451b343" title="CServiceSendFtp::slotCommandFinished" alt="" coords="236,5,497,35"/><area shape="rect" id="node7" href="class_c_service_send_ftp.html#adb4f25b80b10b5e832632603c5af0d89" title="CServiceSendFtp::slotStateChanged" alt="" coords="248,59,485,88"/><area shape="rect" id="node5" href="class_c_service_send_ftp.html#a03efc92018a3233531356795b5a8e569" title="Lance le démarrage du service." alt="" coords="548,32,705,61"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a46ff19e5e2aa6915334947f797cad293"></a><!-- doxytag: member="CServiceSendFtp::createWidget" ref="a46ff19e5e2aa6915334947f797cad293" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::createWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Méthode utilisé pour créer le widget associé au paramètrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a193fefa5fce1706c423f35fcbbde0f57">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a46ff19e5e2aa6915334947f797cad293_icgraph.png" border="0" usemap="#class_c_service_send_ftp_a46ff19e5e2aa6915334947f797cad293_icgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a46ff19e5e2aa6915334947f797cad293_icgraph" id="class_c_service_send_ftp_a46ff19e5e2aa6915334947f797cad293_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a96d677669124f90313ab145dcbca7804" title="CServiceSendFtp::CServiceSendFtp" alt="" coords="265,5,500,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afd9774b5d5d05204cac6dc868269d9c9"></a><!-- doxytag: member="CServiceSendFtp::getDescriptionService" ref="afd9774b5d5d05204cac6dc868269d9c9" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CServiceSendFtp::getDescriptionService </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi une description basique du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a0b0ba137409806890e1004266e95961d">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7647843778f185d386323a8a560f6036"></a><!-- doxytag: member="CServiceSendFtp::getNameService" ref="a7647843778f185d386323a8a560f6036" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CServiceSendFtp::getNameService </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi le nom du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a3dc0fb1acae6e181abd827200eb711fc">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a7647843778f185d386323a8a560f6036_icgraph.png" border="0" usemap="#class_c_service_send_ftp_a7647843778f185d386323a8a560f6036_icgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a7647843778f185d386323a8a560f6036_icgraph" id="class_c_service_send_ftp_a7647843778f185d386323a8a560f6036_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#ac7d4b8a0526d25a12fc89eefcbc05462" title="Fonction de chargement des paramètres pour le fichier projet." alt="" coords="288,5,445,35"/><area shape="rect" id="node5" href="class_c_service_send_ftp.html#a9fc52add41d19eaeed85c326f9251160" title="Fonction d&#39;enregistrement des paramètres pour le fichier projet." alt="" coords="287,59,447,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4d2b2d0b62a18ce817f3112879d56eec"></a><!-- doxytag: member="CServiceSendFtp::getObject" ref="a4d2b2d0b62a18ce817f3112879d56eec" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QObject * CServiceSendFtp::getObject </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi l'object pour la connection des signaux et des slots. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ac14305da687c30981a247d22866131f8">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b8709b73320966536b9c495f21a40c5"></a><!-- doxytag: member="CServiceSendFtp::getWidget" ref="a7b8709b73320966536b9c495f21a40c5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget * CServiceSendFtp::getWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi la widget. Chaque service doit avoir un widget de crée. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a075c4787a54f6ad7cb53c83fd3dee73a">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abbf13b1f868cb1d69e0ffafdbcbde205"></a><!-- doxytag: member="CServiceSendFtp::init" ref="abbf13b1f868cb1d69e0ffafdbcbde205" args="(CListDataService *_list_data_informations)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_list_data_service.html">CListDataService</a> *&nbsp;</td>
+          <td class="paramname"> <em>_list_data_service</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans l'application, et tout les services y ont accés. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a9b4552c16e29974ec493750c24d207ee">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_abbf13b1f868cb1d69e0ffafdbcbde205_cgraph.png" border="0" usemap="#class_c_service_send_ftp_abbf13b1f868cb1d69e0ffafdbcbde205_cgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_abbf13b1f868cb1d69e0ffafdbcbde205_cgraph" id="class_c_service_send_ftp_abbf13b1f868cb1d69e0ffafdbcbde205_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#ac1515359a2bb711f1eeb64e83266fa11" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="207,5,396,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac1515359a2bb711f1eeb64e83266fa11"></a><!-- doxytag: member="CServiceSendFtp::initWidget" ref="ac1515359a2bb711f1eeb64e83266fa11" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::initWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Méthode utilisé pour initialiser le widget associé au paramètrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ad8861d7e9e6d4eb0c2d2ccef29bbdaa7">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_ac1515359a2bb711f1eeb64e83266fa11_icgraph.png" border="0" usemap="#class_c_service_send_ftp_ac1515359a2bb711f1eeb64e83266fa11_icgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_ac1515359a2bb711f1eeb64e83266fa11_icgraph" id="class_c_service_send_ftp_ac1515359a2bb711f1eeb64e83266fa11_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#abbf13b1f868cb1d69e0ffafdbcbde205" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="247,5,396,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac7d4b8a0526d25a12fc89eefcbc05462"></a><!-- doxytag: member="CServiceSendFtp::load" ref="ac7d4b8a0526d25a12fc89eefcbc05462" args="(QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::load </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDomElement &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_element</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Fonction de chargement des paramètres pour le fichier projet. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a27065c998abeb12278874cfccb93d9e1">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_ac7d4b8a0526d25a12fc89eefcbc05462_cgraph.png" border="0" usemap="#class_c_service_send_ftp_ac7d4b8a0526d25a12fc89eefcbc05462_cgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_ac7d4b8a0526d25a12fc89eefcbc05462_cgraph" id="class_c_service_send_ftp_ac7d4b8a0526d25a12fc89eefcbc05462_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a7647843778f185d386323a8a560f6036" title="Renvoi le nom du service." alt="" coords="212,5,441,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9fc52add41d19eaeed85c326f9251160"></a><!-- doxytag: member="CServiceSendFtp::save" ref="a9fc52add41d19eaeed85c326f9251160" args="(QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::save </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDomElement &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_element</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Fonction d'enregistrement des paramètres pour le fichier projet. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#afc5d28e1f9f4338f677be74297189c7a">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a9fc52add41d19eaeed85c326f9251160_cgraph.png" border="0" usemap="#class_c_service_send_ftp_a9fc52add41d19eaeed85c326f9251160_cgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a9fc52add41d19eaeed85c326f9251160_cgraph" id="class_c_service_send_ftp_a9fc52add41d19eaeed85c326f9251160_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a7647843778f185d386323a8a560f6036" title="Renvoi le nom du service." alt="" coords="217,5,447,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b53ca95126dd7cf4441423dae81ff04"></a><!-- doxytag: member="CServiceSendFtp::signalSendData" ref="a7b53ca95126dd7cf4441423dae81ff04" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::signalSendData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1613faa1861530adbaa3b4f3d451b343"></a><!-- doxytag: member="CServiceSendFtp::slotCommandFinished" ref="a1613faa1861530adbaa3b4f3d451b343" args="(int id, bool error)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::slotCommandFinished </td>
+          <td>(</td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>error</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_cgraph.png" border="0" usemap="#class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_cgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_cgraph" id="class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a8d5f1ac83926c2b1be9db052eb7bffab" title="CServiceSendFtp::addText" alt="" coords="319,5,497,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_icgraph.png" border="0" usemap="#class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_icgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_icgraph" id="class_c_service_send_ftp_a1613faa1861530adbaa3b4f3d451b343_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a03efc92018a3233531356795b5a8e569" title="Lance le démarrage du service." alt="" coords="319,5,476,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b00525ab4f0e471133e2690a9b9c172"></a><!-- doxytag: member="CServiceSendFtp::slotSendFile" ref="a7b00525ab4f0e471133e2690a9b9c172" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::slotSendFile </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a7b00525ab4f0e471133e2690a9b9c172_icgraph.png" border="0" usemap="#class_c_service_send_ftp_a7b00525ab4f0e471133e2690a9b9c172_icgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a7b00525ab4f0e471133e2690a9b9c172_icgraph" id="class_c_service_send_ftp_a7b00525ab4f0e471133e2690a9b9c172_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a96d677669124f90313ab145dcbca7804" title="CServiceSendFtp::CServiceSendFtp" alt="" coords="260,5,495,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adb4f25b80b10b5e832632603c5af0d89"></a><!-- doxytag: member="CServiceSendFtp::slotStateChanged" ref="adb4f25b80b10b5e832632603c5af0d89" args="(int)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::slotStateChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_cgraph.png" border="0" usemap="#class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_cgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_cgraph" id="class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a8d5f1ac83926c2b1be9db052eb7bffab" title="CServiceSendFtp::addText" alt="" coords="292,5,471,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_icgraph.png" border="0" usemap="#class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_icgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_icgraph" id="class_c_service_send_ftp_adb4f25b80b10b5e832632603c5af0d89_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a03efc92018a3233531356795b5a8e569" title="Lance le démarrage du service." alt="" coords="292,5,449,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3da4188f63b86b683f8f109e6b78441f"></a><!-- doxytag: member="CServiceSendFtp::slotUpdate" ref="a3da4188f63b86b683f8f109e6b78441f" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::slotUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a03efc92018a3233531356795b5a8e569"></a><!-- doxytag: member="CServiceSendFtp::start" ref="a03efc92018a3233531356795b5a8e569" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::start </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lance le démarrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a5c0455c0b0d8a2b1b7d5ee2923677f68">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_ftp_a03efc92018a3233531356795b5a8e569_cgraph.png" border="0" usemap="#class_c_service_send_ftp_a03efc92018a3233531356795b5a8e569_cgraph" alt=""/></div>
+<map name="class_c_service_send_ftp_a03efc92018a3233531356795b5a8e569_cgraph" id="class_c_service_send_ftp_a03efc92018a3233531356795b5a8e569_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_ftp.html#a1613faa1861530adbaa3b4f3d451b343" title="CServiceSendFtp::slotCommandFinished" alt="" coords="215,5,476,35"/><area shape="rect" id="node7" href="class_c_service_send_ftp.html#adb4f25b80b10b5e832632603c5af0d89" title="CServiceSendFtp::slotStateChanged" alt="" coords="227,59,464,88"/><area shape="rect" id="node5" href="class_c_service_send_ftp.html#a8d5f1ac83926c2b1be9db052eb7bffab" title="CServiceSendFtp::addText" alt="" coords="527,32,705,61"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a908aa40db66ce2c2b5824204c049486d"></a><!-- doxytag: member="CServiceSendFtp::stop" ref="a908aa40db66ce2c2b5824204c049486d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::stop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stop le service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ac26dc37102f572fdff37874f3b561221">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8d44e68064a5ddd1a7750905e4be070d"></a><!-- doxytag: member="CServiceSendFtp::updateWidget" ref="a8d44e68064a5ddd1a7750905e4be070d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendFtp::updateWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>/home/c2a/Documents/projet_c2a/services/serviceSendFTP/<a class="el" href="service__send__ftp_8h_source.html">service_send_ftp.h</a></li>
+<li>/home/c2a/Documents/projet_c2a/services/serviceSendFTP/<a class="el" href="service__send__ftp_8cpp.html">service_send_ftp.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

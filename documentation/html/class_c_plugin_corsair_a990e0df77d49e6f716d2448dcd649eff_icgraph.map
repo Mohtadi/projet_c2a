@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_corsair.html#acac1da1009a409fd6f01e6ad3356ffc9" title="CPluginCorsair::parseDirectory" alt="" coords="300,5,503,35"/>
+<area shape="rect" id="node7" href="$class_c_plugin_corsair.html#a14d845e3b59c7b30c17754e6ec834543" title="CPluginCorsair::slotDisconnect" alt="" coords="299,59,504,88"/>
+<area shape="rect" id="node5" href="$class_c_plugin_corsair.html#a05542099fc6dc6d097323231a646bbb2" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="584,5,728,35"/>
+<area shape="rect" id="node9" href="$class_c_plugin_corsair.html#a983a80df4c1d5333b8df1d1fb6720c9c" title="CPluginCorsair::CPluginCorsair" alt="" coords="553,59,759,88"/>
+</map>

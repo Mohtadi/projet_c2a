@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a: Référence de la classe CPluginAbstractObject</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hiérarchie&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&nbsp;de&nbsp;classe</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a>  </div>
+  <div class="headertitle">
+<h1>Référence de la classe CPluginAbstractObject</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="CPluginAbstractObject" -->
+<p>Classe abstraite qui contient la déclaration des méthodes génériques aux plugins pour les slots et signaux.  
+<a href="#_details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="plugin_abstract_object_8h_source.html">pluginAbstractObject.h</a>&gt;</code></p>
+
+<p>Dérivée par <a class="el" href="class_c_plugin_abstract_serial_port.html">CPluginAbstractSerialPort</a>, <a class="el" href="class_c_plugin_bluetooth.html">CPluginBluetooth</a>, <a class="el" href="class_c_plugin_corsair.html">CPluginCorsair</a>, <a class="el" href="class_c_plugin_d_note_x20_disk.html">CPluginDNoteX20Disk</a>, et <a class="el" href="class_c_plugin_network.html">CPluginNetwork</a>.</p>
+
+<p><a href="class_c_plugin_abstract_object-members.html">Liste de tous les membres</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_abstract_object.html#abcc455e8c37c3ecfa0ac78de8e29d8f7">slotReceiveData</a> (QString &amp;_data)=0</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Slot connecté à cutecom pour les périphériques séries. Il reçoit toute les données du périphériques.  <a href="#abcc455e8c37c3ecfa0ac78de8e29d8f7"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_abstract_object.html#a01da8036df49c2db06360cfe2d75d0a8">slotSendData</a> ()=0</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Le signal est émis depuis les services et apelle le slot, afin de renvoyer des actions a effectuer par le périphrique.  <a href="#a01da8036df49c2db06360cfe2d75d0a8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_abstract_object.html#ab513e4ff4ada78de30a01087e9f28c2c">slotDisconnect</a> ()=0</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Méthode de déconnection, selon les cas il est nécessaire de surveiller le périphérique avec un timer. Il faut donc le connecter à un slot.  <a href="#ab513e4ff4ada78de30a01087e9f28c2c"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_abstract_object.html#aca47bbe0b030cd8e955f5e3e05f1d6bb">signalDisconnect</a> (<a class="el" href="class_c_plugin_abstract.html">CPluginAbstract</a> *)=0</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Le signal est émis lorsque 'une déconnection est detectée.  <a href="#aca47bbe0b030cd8e955f5e3e05f1d6bb"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_abstract_object.html#a7b901c8965f114e5d0787fac0878cd17">signalUpdateServices</a> ()=0</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lorsque des données sont reçues et rafraichit un signal est émis pour réactualiser l'application la liste des services et les services.  <a href="#a7b901c8965f114e5d0787fac0878cd17"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Description détaillée</h2>
+<p>Classe abstraite qui contient la déclaration des méthodes génériques aux plugins pour les slots et signaux. </p>
+<hr/><h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="aca47bbe0b030cd8e955f5e3e05f1d6bb"></a><!-- doxytag: member="CPluginAbstractObject::signalDisconnect" ref="aca47bbe0b030cd8e955f5e3e05f1d6bb" args="(CPluginAbstract *)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginAbstractObject::signalDisconnect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_plugin_abstract.html">CPluginAbstract</a> *&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual, signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Le signal est émis lorsque 'une déconnection est detectée. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7b901c8965f114e5d0787fac0878cd17"></a><!-- doxytag: member="CPluginAbstractObject::signalUpdateServices" ref="a7b901c8965f114e5d0787fac0878cd17" args="()=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginAbstractObject::signalUpdateServices </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual, signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lorsque des données sont reçues et rafraichit un signal est émis pour réactualiser l'application la liste des services et les services. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab513e4ff4ada78de30a01087e9f28c2c"></a><!-- doxytag: member="CPluginAbstractObject::slotDisconnect" ref="ab513e4ff4ada78de30a01087e9f28c2c" args="()=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginAbstractObject::slotDisconnect </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Méthode de déconnection, selon les cas il est nécessaire de surveiller le périphérique avec un timer. Il faut donc le connecter à un slot. </p>
+
+</div>
+</div>
+<a class="anchor" id="abcc455e8c37c3ecfa0ac78de8e29d8f7"></a><!-- doxytag: member="CPluginAbstractObject::slotReceiveData" ref="abcc455e8c37c3ecfa0ac78de8e29d8f7" args="(QString &amp;_data)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginAbstractObject::slotReceiveData </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;&nbsp;</td>
+          <td class="paramname"> <em>_data</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Slot connecté à cutecom pour les périphériques séries. Il reçoit toute les données du périphériques. </p>
+
+</div>
+</div>
+<a class="anchor" id="a01da8036df49c2db06360cfe2d75d0a8"></a><!-- doxytag: member="CPluginAbstractObject::slotSendData" ref="a01da8036df49c2db06360cfe2d75d0a8" args="()=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginAbstractObject::slotSendData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Le signal est émis depuis les services et apelle le slot, afin de renvoyer des actions a effectuer par le périphrique. </p>
+<p>Le slot traite les actions à effectuer selon le service. </p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li>/home/c2a/Documents/projet_c2a/interface/<a class="el" href="plugin_abstract_object_8h_source.html">pluginAbstractObject.h</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

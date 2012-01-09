@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_bluetooth_thread.html#ab9a359a1c84d41e70ed111c85bf6f697" title="CPluginBluetoothThread::setDeviceId" alt="" coords="228,5,468,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_bluetooth_thread.html#a4827d7148ef870a0fee485dc17daeb2b" title="CPluginBluetoothThread::setListDataPlugin" alt="" coords="211,59,485,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_bluetooth_thread.html#ad164a97e7cbe25fed41e3c7cc46f7ae6" title="CPluginBluetoothThread::setSocketId" alt="" coords="228,112,468,141"/>
+</map>

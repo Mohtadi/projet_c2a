@@ -1,0 +1,586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a: Référence de la classe CPluginCANGine</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hiérarchie&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&nbsp;de&nbsp;classe</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pro-methods">Fonctions membres protégées</a>  </div>
+  <div class="headertitle">
+<h1>Référence de la classe CPluginCANGine</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="CPluginCANGine" --><!-- doxytag: inherits="CPluginAbstractSerialPort" -->
+<p>Classe pour gérer le cangine. Pour détecter la déconnection du périphérique il faut surveiller avec un timer. Le parsage du message est assez lourd, peut être faudrait t'il améliorer.  
+<a href="#_details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="plugin__cangine_8h_source.html">plugin_cangine.h</a>&gt;</code></p>
+
+<p>Est dérivée de <a class="el" href="class_c_plugin_abstract_serial_port.html">CPluginAbstractSerialPort</a>.</p>
+<div class="dynheader">
+Graphe de collaboration de CPluginCANGine:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine__coll__graph.png" border="0" usemap="#_c_plugin_c_a_n_gine_coll__map" alt="Collaboration graph"/></div>
+<map name="_c_plugin_c_a_n_gine_coll__map" id="_c_plugin_c_a_n_gine_coll__map">
+<area shape="rect" id="node2" href="class_c_plugin_abstract_serial_port.html" title="Classe abstraite des plugins port série." alt="" coords="156,277,329,307"/><area shape="rect" id="node4" href="class_c_plugin_abstract_object.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins pour les slots et si..." alt="" coords="5,181,160,211"/><area shape="rect" id="node6" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins." alt="" coords="184,181,301,211"/><area shape="rect" id="node8" href="class_c_list_data_plugin.html" title="Cette classe reprèsente la liste des données d&#39;un plugin. Elle stocke plusieurs liste de donnée..." alt="" coords="180,85,297,115"/><area shape="rect" id="node10" href="class_c_cute_com.html" title="CCuteCom" alt="" coords="328,181,416,211"/><area shape="rect" id="node12" href="class_ui_1_1_cute_comm_dlg.html" title="Ui::CuteCommDlg" alt="" coords="321,85,452,115"/><area shape="rect" id="node14" href="class_ui___cute_comm_dlg.html" title="Ui_CuteCommDlg" alt="" coords="323,5,451,35"/></map>
+<center><span class="legend">[<a href="graph_legend.html">légende</a>]</span></center></div>
+
+<p><a href="class_c_plugin_c_a_n_gine-members.html">Liste de tous les membres</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a79906b980bf36f20442b512ed954e37a">slotReceiveData</a> (QString &amp;_data)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a41a05cb007c9880e2d666d77531cbca2">slotSendData</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a304235544c05fa11c2248e075b2429a9">slotDisconnect</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#aec7c08d548258ea593819917b379b507">signalDisconnect</a> (<a class="el" href="class_c_plugin_abstract.html">CPluginAbstract</a> *)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a6b64be44e6b9242ececd83398420f33c">signalUpdateServices</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955">CPluginCANGine</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a666d4908e849b226117fe9d3b98a81f2">~CPluginCANGine</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a977c2ea168bd4a5163e5574b88191aa2">getNamePlugin</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi le nom du plugin.  <a href="#a977c2ea168bd4a5163e5574b88191aa2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QObject *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a71574991db41f095efbf6b1a9678dd3b">getObject</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi l'object, ca permet de connecter les signaux.  <a href="#a71574991db41f095efbf6b1a9678dd3b"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a9e6eade95baa50df1bb94ac251c2dd1c">setDevice</a> (QString _device)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Affecte le nom du périphérique. Ex : /dev/ttyS0.  <a href="#a9e6eade95baa50df1bb94ac251c2dd1c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a8439fc9d105565675d9c2cb33cee7eb8">start</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloquante mais pas plus de quelques seconde. C'est cette fonction qui est apellé pour tester les plugins un à un par le thread.  <a href="#a8439fc9d105565675d9c2cb33cee7eb8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a5ff3b96fa7c695729f7e8846daf943c9">stop</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Stop le plugin, lors d'une déconnection par exemple.  <a href="#a5ff3b96fa7c695729f7e8846daf943c9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QWidget *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a0157812bfc92f23a79d12c70625999c1">getWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi le widget associé, pour les plugins série, le widget est cutecom, les autres n'ont pas de widgets. Lorsqu'on enlévera cutecom cette fonction sera peut être inutile, si on a plus besoin de widget.  <a href="#a0157812bfc92f23a79d12c70625999c1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a110b39081fe22e05cabdf42707ad94d3">getPriority</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Cette variable permet de donner une priorité lorsque deux ou plusieurs plugins sont valide pour dététer un périphérique. Par exemple le plugin gps et serial port sont valide, mais le gps est prioritaire lors de l'assignation du plugin au périphérique.  <a href="#a110b39081fe22e05cabdf42707ad94d3"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a8ec5a99680aa2adbe992113393932cad">isUsed</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Utilisé par l'application pour savoir si le plugin est associé à un périphérique ou pas.  <a href="#a8ec5a99680aa2adbe992113393932cad"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#aad94b7f5f17f32a8ad1245c72421cbe7">setUsed</a> (bool _used)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Utilisé par l'application pour indiquer l'utilisation d'un plugin par un périphérique.  <a href="#aad94b7f5f17f32a8ad1245c72421cbe7"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="pro-methods"></a>
+Fonctions membres protégées</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#a1dea9189f8c720d8d32c03f89a0bd105">setDataConnectionSettings</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialisation de la liste de données de connections des plugins.  <a href="#a1dea9189f8c720d8d32c03f89a0bd105"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_c_a_n_gine.html#ae8757e165df887c26e126b7c0023bad9">setDefaultData</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialisation de la liste de données des plugins.  <a href="#ae8757e165df887c26e126b7c0023bad9"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Description détaillée</h2>
+<p>Classe pour gérer le cangine. Pour détecter la déconnection du périphérique il faut surveiller avec un timer. Le parsage du message est assez lourd, peut être faudrait t'il améliorer. </p>
+<hr/><h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="a24ce7fe434c9c9533caba3ba13c0b955"></a><!-- doxytag: member="CPluginCANGine::CPluginCANGine" ref="a24ce7fe434c9c9533caba3ba13c0b955" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPluginCANGine::CPluginCANGine </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a24ce7fe434c9c9533caba3ba13c0b955_cgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a24ce7fe434c9c9533caba3ba13c0b955_cgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a24ce7fe434c9c9533caba3ba13c0b955_cgraph" id="class_c_plugin_c_a_n_gine_a24ce7fe434c9c9533caba3ba13c0b955_cgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#a1dea9189f8c720d8d32c03f89a0bd105" title="Initialisation de la liste de données de connections des plugins." alt="" coords="289,5,580,35"/><area shape="rect" id="node5" href="class_c_plugin_c_a_n_gine.html#ae8757e165df887c26e126b7c0023bad9" title="Initialisation de la liste de données des plugins." alt="" coords="649,56,868,85"/><area shape="rect" id="node7" href="class_c_plugin_c_a_n_gine.html#aec7c08d548258ea593819917b379b507" title="CPluginCANGine::signalDisconnect" alt="" coords="643,163,875,192"/><area shape="rect" id="node9" href="class_c_plugin_c_a_n_gine.html#a304235544c05fa11c2248e075b2429a9" title="CPluginCANGine::slotDisconnect" alt="" coords="325,109,544,139"/><area shape="rect" id="node15" href="class_c_plugin_c_a_n_gine.html#a79906b980bf36f20442b512ed954e37a" title="CPluginCANGine::slotReceiveData" alt="" coords="320,213,549,243"/><area shape="rect" id="node13" href="class_c_plugin_c_a_n_gine.html#a6b64be44e6b9242ececd83398420f33c" title="CPluginCANGine::signalUpdateServices" alt="" coords="629,109,888,139"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a666d4908e849b226117fe9d3b98a81f2"></a><!-- doxytag: member="CPluginCANGine::~CPluginCANGine" ref="a666d4908e849b226117fe9d3b98a81f2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPluginCANGine::~CPluginCANGine </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/><h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="a977c2ea168bd4a5163e5574b88191aa2"></a><!-- doxytag: member="CPluginCANGine::getNamePlugin" ref="a977c2ea168bd4a5163e5574b88191aa2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CPluginCANGine::getNamePlugin </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi le nom du plugin. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#ac87e580b8e60932b9dceb9cb4e0cfe7e">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71574991db41f095efbf6b1a9678dd3b"></a><!-- doxytag: member="CPluginCANGine::getObject" ref="a71574991db41f095efbf6b1a9678dd3b" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QObject * CPluginCANGine::getObject </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi l'object, ca permet de connecter les signaux. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#ae645cc7d33106380c81c31916cc519c7">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a110b39081fe22e05cabdf42707ad94d3"></a><!-- doxytag: member="CPluginCANGine::getPriority" ref="a110b39081fe22e05cabdf42707ad94d3" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPluginCANGine::getPriority </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Cette variable permet de donner une priorité lorsque deux ou plusieurs plugins sont valide pour dététer un périphérique. Par exemple le plugin gps et serial port sont valide, mais le gps est prioritaire lors de l'assignation du plugin au périphérique. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a82e223d9fc6a9bf711fef59b74795bc0">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0157812bfc92f23a79d12c70625999c1"></a><!-- doxytag: member="CPluginCANGine::getWidget" ref="a0157812bfc92f23a79d12c70625999c1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget * CPluginCANGine::getWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi le widget associé, pour les plugins série, le widget est cutecom, les autres n'ont pas de widgets. Lorsqu'on enlévera cutecom cette fonction sera peut être inutile, si on a plus besoin de widget. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#ac5461e9773a66ad1af7a8d4f464e7423">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8ec5a99680aa2adbe992113393932cad"></a><!-- doxytag: member="CPluginCANGine::isUsed" ref="a8ec5a99680aa2adbe992113393932cad" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPluginCANGine::isUsed </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Utilisé par l'application pour savoir si le plugin est associé à un périphérique ou pas. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#abea79ef53560b77e9f818db3f07263f7">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1dea9189f8c720d8d32c03f89a0bd105"></a><!-- doxytag: member="CPluginCANGine::setDataConnectionSettings" ref="a1dea9189f8c720d8d32c03f89a0bd105" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::setDataConnectionSettings </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialisation de la liste de données de connections des plugins. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a5548ecb9c3e5ce0394f2e5c5e3159fc9">CPluginAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a1dea9189f8c720d8d32c03f89a0bd105_icgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a1dea9189f8c720d8d32c03f89a0bd105_icgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a1dea9189f8c720d8d32c03f89a0bd105_icgraph" id="class_c_plugin_c_a_n_gine_a1dea9189f8c720d8d32c03f89a0bd105_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955" title="CPluginCANGine::CPluginCANGine" alt="" coords="347,5,581,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae8757e165df887c26e126b7c0023bad9"></a><!-- doxytag: member="CPluginCANGine::setDefaultData" ref="ae8757e165df887c26e126b7c0023bad9" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::setDefaultData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialisation de la liste de données des plugins. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a4b6e1110df451ec0b58414e94d9308b5">CPluginAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_ae8757e165df887c26e126b7c0023bad9_icgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_ae8757e165df887c26e126b7c0023bad9_icgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_ae8757e165df887c26e126b7c0023bad9_icgraph" id="class_c_plugin_c_a_n_gine_ae8757e165df887c26e126b7c0023bad9_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955" title="CPluginCANGine::CPluginCANGine" alt="" coords="541,5,776,35"/><area shape="rect" id="node5" href="class_c_plugin_c_a_n_gine.html#a304235544c05fa11c2248e075b2429a9" title="CPluginCANGine::slotDisconnect" alt="" coords="275,31,493,60"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9e6eade95baa50df1bb94ac251c2dd1c"></a><!-- doxytag: member="CPluginCANGine::setDevice" ref="a9e6eade95baa50df1bb94ac251c2dd1c" args="(QString _device)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::setDevice </td>
+          <td>(</td>
+          <td class="paramtype">QString&nbsp;</td>
+          <td class="paramname"> <em>_device</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Affecte le nom du périphérique. Ex : /dev/ttyS0. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a1e8aa77031495a191ee79227190b8a8e">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad94b7f5f17f32a8ad1245c72421cbe7"></a><!-- doxytag: member="CPluginCANGine::setUsed" ref="aad94b7f5f17f32a8ad1245c72421cbe7" args="(bool _used)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::setUsed </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>_used</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Utilisé par l'application pour indiquer l'utilisation d'un plugin par un périphérique. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#aceee71156fbd549ea7d6fc3378e9fa56">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec7c08d548258ea593819917b379b507"></a><!-- doxytag: member="CPluginCANGine::signalDisconnect" ref="aec7c08d548258ea593819917b379b507" args="(CPluginAbstract *)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::signalDisconnect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_plugin_abstract.html">CPluginAbstract</a> *&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_aec7c08d548258ea593819917b379b507_icgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_aec7c08d548258ea593819917b379b507_icgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_aec7c08d548258ea593819917b379b507_icgraph" id="class_c_plugin_c_a_n_gine_aec7c08d548258ea593819917b379b507_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955" title="CPluginCANGine::CPluginCANGine" alt="" coords="552,5,787,35"/><area shape="rect" id="node5" href="class_c_plugin_c_a_n_gine.html#a304235544c05fa11c2248e075b2429a9" title="CPluginCANGine::slotDisconnect" alt="" coords="285,31,504,60"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b64be44e6b9242ececd83398420f33c"></a><!-- doxytag: member="CPluginCANGine::signalUpdateServices" ref="a6b64be44e6b9242ececd83398420f33c" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::signalUpdateServices </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a6b64be44e6b9242ececd83398420f33c_icgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a6b64be44e6b9242ececd83398420f33c_icgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a6b64be44e6b9242ececd83398420f33c_icgraph" id="class_c_plugin_c_a_n_gine_a6b64be44e6b9242ececd83398420f33c_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#a304235544c05fa11c2248e075b2429a9" title="CPluginCANGine::slotDisconnect" alt="" coords="312,5,531,35"/><area shape="rect" id="node5" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955" title="CPluginCANGine::CPluginCANGine" alt="" coords="579,5,813,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a304235544c05fa11c2248e075b2429a9"></a><!-- doxytag: member="CPluginCANGine::slotDisconnect" ref="a304235544c05fa11c2248e075b2429a9" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::slotDisconnect </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_cgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_cgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_cgraph" id="class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_cgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#ae8757e165df887c26e126b7c0023bad9" title="Initialisation de la liste de données des plugins." alt="" coords="292,5,511,35"/><area shape="rect" id="node5" href="class_c_plugin_c_a_n_gine.html#aec7c08d548258ea593819917b379b507" title="CPluginCANGine::signalDisconnect" alt="" coords="285,59,517,88"/><area shape="rect" id="node7" href="class_c_plugin_c_a_n_gine.html#a6b64be44e6b9242ececd83398420f33c" title="CPluginCANGine::signalUpdateServices" alt="" coords="272,112,531,141"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_icgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_icgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_icgraph" id="class_c_plugin_c_a_n_gine_a304235544c05fa11c2248e075b2429a9_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955" title="CPluginCANGine::CPluginCANGine" alt="" coords="272,5,507,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a79906b980bf36f20442b512ed954e37a"></a><!-- doxytag: member="CPluginCANGine::slotReceiveData" ref="a79906b980bf36f20442b512ed954e37a" args="(QString &amp;_data)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::slotReceiveData </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;&nbsp;</td>
+          <td class="paramname"> <em>_data</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a79906b980bf36f20442b512ed954e37a_icgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a79906b980bf36f20442b512ed954e37a_icgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a79906b980bf36f20442b512ed954e37a_icgraph" id="class_c_plugin_c_a_n_gine_a79906b980bf36f20442b512ed954e37a_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955" title="CPluginCANGine::CPluginCANGine" alt="" coords="283,5,517,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a41a05cb007c9880e2d666d77531cbca2"></a><!-- doxytag: member="CPluginCANGine::slotSendData" ref="a41a05cb007c9880e2d666d77531cbca2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CPluginCANGine::slotSendData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline, virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8439fc9d105565675d9c2cb33cee7eb8"></a><!-- doxytag: member="CPluginCANGine::start" ref="a8439fc9d105565675d9c2cb33cee7eb8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPluginCANGine::start </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloquante mais pas plus de quelques seconde. C'est cette fonction qui est apellé pour tester les plugins un à un par le thread. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#af44a922d7ca9eb29ca2a687a572bbcdc">CPluginAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a8439fc9d105565675d9c2cb33cee7eb8_cgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a8439fc9d105565675d9c2cb33cee7eb8_cgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a8439fc9d105565675d9c2cb33cee7eb8_cgraph" id="class_c_plugin_c_a_n_gine_a8439fc9d105565675d9c2cb33cee7eb8_cgraph">
+<area shape="rect" id="node3" href="class_c_cute_com.html#a1c9c96ab74e4bcce23a8976d2d8c1b40" title="CCuteCom::connectTTY" alt="" coords="215,57,380,87"/><area shape="rect" id="node5" href="class_c_cute_com.html#a71b0dee8727849f66e79cd1080fb9073" title="CCuteCom::enableSettingWidgets" alt="" coords="1191,5,1412,35"/><area shape="rect" id="node7" href="class_c_cute_com.html#a7b00c99ca23ffcaec6272b1789790fe9" title="CCuteCom::readData" alt="" coords="448,57,597,87"/><area shape="rect" id="node22" href="class_c_cute_com.html#a052311cc27baaa995f9dea3137be5936" title="CCuteCom::setNewOptions" alt="" coords="429,111,616,140"/><area shape="rect" id="node9" href="class_c_cute_com.html#a7cf2460cddbd2bde532d04499b57593c" title="CCuteCom::addOutput" alt="" coords="685,84,840,113"/><area shape="rect" id="node15" href="class_c_cute_com.html#ad3b1a33b0a4dcaca73635585c9683891" title="CCuteCom::disconnectTTY" alt="" coords="671,31,855,60"/><area shape="rect" id="node20" href="class_c_cute_com.html#ab9281b0ad5b8c39fdf626eef77ea81e4" title="CCuteCom::signalDisconnect" alt="" coords="665,137,860,167"/><area shape="rect" id="node11" href="class_c_cute_com.html#a2226126b32973dac770b69448fcdc660" title="CCuteCom::doOutput" alt="" coords="951,84,1100,113"/><area shape="rect" id="node13" href="class_c_cute_com.html#a5eed7c303a5f2667899df3389c3a6692" title="CCuteCom::signalReceiveData" alt="" coords="1199,84,1404,113"/><area shape="rect" id="node17" href="class_c_cute_com.html#a25b7dc2dc6f3a74867329184f98b93c8" title="CCuteCom::disconnectTTYRestore" alt="" coords="911,31,1140,60"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ff3b96fa7c695729f7e8846daf943c9"></a><!-- doxytag: member="CPluginCANGine::stop" ref="a5ff3b96fa7c695729f7e8846daf943c9" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginCANGine::stop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stop le plugin, lors d'une déconnection par exemple. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#aa8114644bf0e37c5e1844fa028e5d5e9">CPluginAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_c_a_n_gine_a5ff3b96fa7c695729f7e8846daf943c9_cgraph.png" border="0" usemap="#class_c_plugin_c_a_n_gine_a5ff3b96fa7c695729f7e8846daf943c9_cgraph" alt=""/></div>
+<map name="class_c_plugin_c_a_n_gine_a5ff3b96fa7c695729f7e8846daf943c9_cgraph" id="class_c_plugin_c_a_n_gine_a5ff3b96fa7c695729f7e8846daf943c9_cgraph">
+<area shape="rect" id="node3" href="class_c_cute_com.html#ad3b1a33b0a4dcaca73635585c9683891" title="CCuteCom::disconnectTTY" alt="" coords="211,5,395,35"/><area shape="rect" id="node5" href="class_c_cute_com.html#a25b7dc2dc6f3a74867329184f98b93c8" title="CCuteCom::disconnectTTYRestore" alt="" coords="444,5,673,35"/><area shape="rect" id="node7" href="class_c_cute_com.html#a71b0dee8727849f66e79cd1080fb9073" title="CCuteCom::enableSettingWidgets" alt="" coords="724,5,945,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>/home/c2a/Documents/projet_c2a/plugins/pluginCANGine/<a class="el" href="plugin__cangine_8h_source.html">plugin_cangine.h</a></li>
+<li>/home/c2a/Documents/projet_c2a/plugins/pluginCANGine/<a class="el" href="plugin__cangine_8cpp.html">plugin_cangine.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

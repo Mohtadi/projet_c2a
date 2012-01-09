@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_bluetooth.html#a3cb88579476c788ea613665931206ac0" title="Initialisation de la liste de données des plugins." alt="" coords="292,5,511,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_bluetooth.html#a4efa3ef2ef53a860b4292d474f5fbae0" title="CPluginBluetooth::signalDisconnect" alt="" coords="287,59,516,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_bluetooth.html#ad2d8c2fc274f74ee43081841bf5ffd71" title="CPluginBluetooth::signalUpdateServices" alt="" coords="272,112,531,141"/>
+</map>

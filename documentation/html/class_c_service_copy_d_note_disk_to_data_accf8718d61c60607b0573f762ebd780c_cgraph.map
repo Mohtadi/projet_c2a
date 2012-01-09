@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_copy_d_note_disk_to_data.html#a504d4a17439ad78927be516b62981e64" title="Lance le démarrage du service." alt="" coords="369,72,617,101"/>
+<area shape="rect" id="node11" href="$class_c_service_copy_d_note_disk_to_data.html#a1921dee4a436e9e2ef9472570dfff8ff" title="CServiceCopyDNoteDiskToData::updateWidget" alt="" coords="343,139,644,168"/>
+<area shape="rect" id="node5" href="$class_c_service_copy_d_note_disk_to_data_thread.html#a4b61d89f77103efb6f2d560e8595feab" title="CServiceCopyDNoteDiskToDataThread::setListDataService" alt="" coords="695,5,1068,35"/>
+<area shape="rect" id="node7" href="$class_c_service_copy_d_note_disk_to_data_thread.html#a16f595d2a8e16a7fdd6e8ddd4e7ea734" title="CServiceCopyDNoteDiskToDataThread::setStop" alt="" coords="728,59,1035,88"/>
+<area shape="rect" id="node9" href="$class_c_service_copy_d_note_disk_to_data_thread.html#a0c97b871928cad6e953d1bafd4cbe7a4" title="CServiceCopyDNoteDiskToDataThread::setTreeWidget" alt="" coords="708,112,1055,141"/>
+<area shape="rect" id="node13" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="800,165,963,195"/>
+</map>

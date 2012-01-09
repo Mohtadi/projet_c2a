@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_copy_d_note_disk_to_data.html#a9bcd87f6300fde74a1e47f7f4a216a6b" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="223,5,503,35"/>
+<area shape="rect" id="node7" href="$class_c_service_copy_corsair_to_data.html#abc858051987348c3a6c3f262241f26a4" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="233,59,492,88"/>
+<area shape="rect" id="node11" href="$class_c_service_copy_d_note_disk_to_data_thread.html#ab7575636e2f4ca37ac9ed17ab1417af0" title="CServiceCopyDNoteDiskToDataThread::run" alt="" coords="223,112,503,141"/>
+<area shape="rect" id="node13" href="$class_c_service_copy_corsair_to_data_thread.html#a5031d41ac28a7023db22236a4c1d5cff" title="CServiceCopyCorsairToDataThread::run" alt="" coords="233,165,492,195"/>
+<area shape="rect" id="node15" href="$class_c_service_send_bluetooth.html#ae5b730d6c99bae10c4c3a9856b1be65a" title="CServiceSendBluetooth::slotSendFile" alt="" coords="243,219,483,248"/>
+<area shape="rect" id="node5" href="$class_c_service_copy_d_note_disk_to_data.html#a2d7d0b6c2285403759ab0d31b0f4d924" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="587,5,827,35"/>
+<area shape="rect" id="node9" href="$class_c_service_copy_corsair_to_data.html#a7ce1a3b5f0d2fb898d8940ed2c5feba9" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="599,59,815,88"/>
+<area shape="rect" id="node17" href="$class_c_service_send_bluetooth.html#a9ecaf49e55f86d7dab6e2695ed6e7a41" title="CServiceSendBluetooth::CServiceSendBluetooth" alt="" coords="553,192,860,221"/>
+<area shape="rect" id="node19" href="$class_c_service_send_bluetooth.html#ad95e67d1262d837176bae580342b594b" title="Lance le démarrage du service." alt="" coords="609,245,804,275"/>
+</map>

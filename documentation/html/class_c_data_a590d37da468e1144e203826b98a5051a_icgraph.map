@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_dock_widget_list_data_service.html#aac261ac62f78d7d365eed5da04704fc0" title="CDockWidgetListDataService::createTreeWidgetListDataService" alt="" coords="223,5,623,35"/>
+<area shape="rect" id="node7" href="$class_c_service_send_data_base.html#aeaf1e1b94d2e47f4ed04ffbb7725b16e" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="299,59,547,88"/>
+<area shape="rect" id="node11" href="$class_c_service_save_file_html.html#abb4dc038ee1c7f99febcd2078e8ff8ee" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="303,112,543,141"/>
+<area shape="rect" id="node15" href="$class_c_service_save_file.html#a766ab22ed0a9149cf2a0c9aa1e9c38c2" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="317,165,528,195"/>
+<area shape="rect" id="node19" href="$class_c_service_flite.html#ae9cfb245fd3e1090c88cb73874ce2e43" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="329,219,516,248"/>
+<area shape="rect" id="node23" href="$class_c_service_copy_d_note_disk_to_data.html#a03389921468894891a2cb0fb019fe5da" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="273,272,572,301"/>
+<area shape="rect" id="node27" href="$class_c_service_copy_corsair_to_data.html#a52a209f5a752839cf01045dff3cd1ccb" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="284,325,561,355"/>
+<area shape="rect" id="node5" href="$class_c_dock_widget_list_data_service.html#a05e6aaafeb9a0da4385261b23011db56" title="CDockWidgetListDataService::CDockWidgetListDataService" alt="" coords="691,5,1069,35"/>
+<area shape="rect" id="node9" href="$class_c_service_send_data_base.html#ab6d827bbc92aca169edb6d0043694356" title="CServiceSendDataBase::CServiceSendDataBase" alt="" coords="723,59,1037,88"/>
+<area shape="rect" id="node13" href="$class_c_service_save_file_html.html#ae029cb9b964180be07f34c449cc61415" title="CServiceSaveFileHtml::CServiceSaveFileHtml" alt="" coords="732,112,1028,141"/>
+<area shape="rect" id="node17" href="$class_c_service_save_file.html#a4a15fa46ce4f27957bc1088b19efd9ce" title="CServiceSaveFile::CServiceSaveFile" alt="" coords="760,165,1000,195"/>
+<area shape="rect" id="node21" href="$class_c_service_flite.html#a6f6f7fd4352403228487e96fd99a7841" title="CServiceFlite::CServiceFlite" alt="" coords="787,219,973,248"/>
+<area shape="rect" id="node25" href="$class_c_service_copy_d_note_disk_to_data.html#ac68d4716edc1d5b5961fc614894c4923" title="CServiceCopyDNoteDiskToData::CServiceCopyDNoteDiskToData" alt="" coords="672,272,1088,301"/>
+<area shape="rect" id="node29" href="$class_c_service_copy_corsair_to_data.html#a98f1cce6c13e66e1587c47d6026da9cc" title="CServiceCopyCorsairToData::CServiceCopyCorsairToData" alt="" coords="695,325,1065,355"/>
+</map>

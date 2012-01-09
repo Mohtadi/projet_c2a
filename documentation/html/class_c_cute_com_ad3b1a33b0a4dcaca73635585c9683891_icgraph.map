@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_cute_com.html#ae22237ee4da0689fddaaead236a1034c" title="CCuteCom::CCuteCom" alt="" coords="1053,42,1216,71"/>
+<area shape="rect" id="node5" href="$class_c_cute_com.html#a7b00c99ca23ffcaec6272b1789790fe9" title="CCuteCom::readData" alt="" coords="335,95,484,125"/>
+<area shape="rect" id="node21" href="$class_c_plugin_serial_port.html#a3d8a28cbe02aafe9b808a4f7a70ffc78" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="331,149,488,178"/>
+<area shape="rect" id="node23" href="$class_c_plugin_g_p_s.html#ac08a7a54f2e02a02784f81b3537c2a17" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="345,202,473,231"/>
+<area shape="rect" id="node25" href="$class_c_plugin_g_p_r_s.html#aba0a39c3ff3cd7d7e7ccaa81d0da3118" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="340,255,479,285"/>
+<area shape="rect" id="node27" href="$class_c_plugin_c_a_n_gine.html#a5ff3b96fa7c695729f7e8846daf943c9" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="331,309,488,338"/>
+<area shape="rect" id="node29" href="$class_c_plugin_abstract_serial_port.html#aba9e48a2a3d145800ba43663d7d17bcf" title="Destructeur." alt="" coords="239,362,580,391"/>
+<area shape="rect" id="node7" href="$class_c_cute_com.html#a1c9c96ab74e4bcce23a8976d2d8c1b40" title="CCuteCom::connectTTY" alt="" coords="631,147,796,177"/>
+<area shape="rect" id="node10" href="$class_c_cute_com.html#aab57e16f84247e466b60baf3bfbeec53" title="CCuteCom::sendFile" alt="" coords="853,94,997,123"/>
+<area shape="rect" id="node13" href="$class_c_plugin_serial_port.html#aa68361cf8fee362054579efd9991fd8c" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="847,147,1004,177"/>
+<area shape="rect" id="node15" href="$class_c_plugin_g_p_s.html#a930ca0527571b892f48bb436fe094121" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="860,201,991,230"/>
+<area shape="rect" id="node17" href="$class_c_plugin_g_p_r_s.html#aff2345e810323a0c7277291aba859025" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="856,254,995,283"/>
+<area shape="rect" id="node19" href="$class_c_plugin_c_a_n_gine.html#a8439fc9d105565675d9c2cb33cee7eb8" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="847,307,1004,337"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_c_a_n_gine.html#ae8757e165df887c26e126b7c0023bad9" title="Initialisation de la liste de données des plugins." alt="" coords="292,5,511,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_c_a_n_gine.html#aec7c08d548258ea593819917b379b507" title="CPluginCANGine::signalDisconnect" alt="" coords="285,59,517,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_c_a_n_gine.html#a6b64be44e6b9242ececd83398420f33c" title="CPluginCANGine::signalUpdateServices" alt="" coords="272,112,531,141"/>
+</map>

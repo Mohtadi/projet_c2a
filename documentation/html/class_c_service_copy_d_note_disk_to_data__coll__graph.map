@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_c_service_abstract_object.html" title="Classe abstraite qui contient la déclaration des signaux et slots des services." alt="" coords="5,101,168,131"/>
+<area shape="rect" id="node4" href="$class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services." alt="" coords="192,101,317,131"/>
+<area shape="rect" id="node6" href="$class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&#39;un service. Un service à accée à toute les informa..." alt="" coords="305,5,431,35"/>
+<area shape="rect" id="node8" href="$class_c_service_copy_d_note_disk_to_data_thread.html" title="Le thread copie les fichiers périodiquement, il faudrait peut être le faire que quand c&#39;est néces..." alt="" coords="341,101,595,131"/>
+</map>

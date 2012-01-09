@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_cute_com.html#ae22237ee4da0689fddaaead236a1034c" title="CCuteCom::CCuteCom" alt="" coords="221,5,384,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_g_p_r_s.html#ad66c5fa035d116fc98481bc9841cc5a1" title="CPluginGPRS::slotSendData" alt="" coords="207,59,399,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_g_p_r_s.html#aff2345e810323a0c7277291aba859025" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="233,112,372,141"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_abstract.html#ae645cc7d33106380c81c31916cc519c7" title="Renvoi l&#39;object, ca permet de connecter les signaux." alt="" coords="228,5,409,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_abstract.html#aceee71156fbd549ea7d6fc3378e9fa56" title="Utilisé par l&#39;application pour indiquer l&#39;utilisation d&#39;un plugin par un périphérique..." alt="" coords="232,59,405,88"/>
+<area shape="rect" id="node7" href="$class_c_device.html#a17bf04cd799d031eb374898c63f0038f" title="Signal qui apelle la mise à jour de l&#39;interface pour actualiser les données reçuent du périphériq..." alt="" coords="465,137,772,167"/>
+<area shape="rect" id="node9" href="$class_c_device.html#a53ed24298b0f78cc75ecd145c8c553fd" title="Le périphérique reçoit des données à transmettre aux services, le slot est apellé depuis les plugins..." alt="" coords="221,163,416,192"/>
+<area shape="rect" id="node12" href="$class_c_plugin_abstract.html#aa8114644bf0e37c5e1844fa028e5d5e9" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="244,216,393,245"/>
+</map>

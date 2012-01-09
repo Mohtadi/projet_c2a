@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a: Référence de la classe CServiceSendBluetooth</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hiérarchie&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&nbsp;de&nbsp;classe</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a>  </div>
+  <div class="headertitle">
+<h1>Référence de la classe CServiceSendBluetooth</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="CServiceSendBluetooth" --><!-- doxytag: inherits="CServiceAbstractObject,CServiceAbstract" -->
+<p>Les informations sont transmis au plugin bluetooth par l'intermediaire de la liste de donnée, c'est lui qui envoi les fichiers. On aurait pu le faire dans le service, mais si un autre service à besoin de cette fonctionnalité il faut la réécrire.  
+<a href="#_details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="service__send__bluetooth_8h_source.html">service_send_bluetooth.h</a>&gt;</code></p>
+
+<p>Est dérivée de <a class="el" href="class_c_service_abstract_object.html">CServiceAbstractObject</a>, et <a class="el" href="class_c_service_abstract.html">CServiceAbstract</a>.</p>
+<div class="dynheader">
+Graphe de collaboration de CServiceSendBluetooth:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth__coll__graph.png" border="0" usemap="#_c_service_send_bluetooth_coll__map" alt="Collaboration graph"/></div>
+<map name="_c_service_send_bluetooth_coll__map" id="_c_service_send_bluetooth_coll__map">
+<area shape="rect" id="node2" href="class_c_service_abstract_object.html" title="Classe abstraite qui contient la déclaration des signaux et slots des services." alt="" coords="5,101,168,131"/><area shape="rect" id="node4" href="class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services." alt="" coords="192,101,317,131"/><area shape="rect" id="node6" href="class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&#39;un service. Un service à accée à toute les informa..." alt="" coords="192,5,317,35"/></map>
+<center><span class="legend">[<a href="graph_legend.html">légende</a>]</span></center></div>
+
+<p><a href="class_c_service_send_bluetooth-members.html">Liste de tous les membres</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#accb565bc533b50aab4b6c551e5fabe1a">slotUpdate</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#ae5b730d6c99bae10c4c3a9856b1be65a">slotSendFile</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#ad6f5227c4eebb1b86fe51f4b3f38cfce">signalSendData</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#a9ecaf49e55f86d7dab6e2695ed6e7a41">CServiceSendBluetooth</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#ac75d0303e1757fec44586665c8213786">~CServiceSendBluetooth</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#a1a56f104a2e0cfd04ea7ad28632d4f97">init</a> (<a class="el" href="class_c_list_data_service.html">CListDataService</a> *_list_data_informations)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans l'application, et tout les services y ont accés.  <a href="#a1a56f104a2e0cfd04ea7ad28632d4f97"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QObject *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#aae9c2f9786fc2455f4b66e65fc146c73">getObject</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi l'object pour la connection des signaux et des slots.  <a href="#aae9c2f9786fc2455f4b66e65fc146c73"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#aa42fd95b55dfef687e6957213a49a170">getNameService</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi le nom du service.  <a href="#aa42fd95b55dfef687e6957213a49a170"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#aeb7de473093f6d437a9f07317515f5fa">getDescriptionService</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi une description basique du service.  <a href="#aeb7de473093f6d437a9f07317515f5fa"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#ad0e78a74f59dbe82f21853149d772824">createWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Méthode utilisé pour créer le widget associé au paramètrage du service.  <a href="#ad0e78a74f59dbe82f21853149d772824"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#a7c11876539e14c5ede4fa16675fcb96c">initWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Méthode utilisé pour initialiser le widget associé au paramètrage du service.  <a href="#a7c11876539e14c5ede4fa16675fcb96c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#ae8354e953e17f8c362a874c09a5c2e1e">updateWidget</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QWidget *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#a1aca63057cf18aeb864330ecc11da3aa">getWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi la widget. Chaque service doit avoir un widget de crée.  <a href="#a1aca63057cf18aeb864330ecc11da3aa"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#ad95e67d1262d837176bae580342b594b">start</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lance le démarrage du service.  <a href="#ad95e67d1262d837176bae580342b594b"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#aafbb500da2b2b3a94ed4de3d24b98fd1">stop</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Stop le service.  <a href="#aafbb500da2b2b3a94ed4de3d24b98fd1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#aba9fadb2282cd623da0f36d6691bd91c">save</a> (QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Fonction d'enregistrement des paramètres pour le fichier projet.  <a href="#aba9fadb2282cd623da0f36d6691bd91c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_send_bluetooth.html#ad5f3eb8b79f1a8ded6f7b70d17f9ab9f">load</a> (QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Fonction de chargement des paramètres pour le fichier projet.  <a href="#ad5f3eb8b79f1a8ded6f7b70d17f9ab9f"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Description détaillée</h2>
+<p>Les informations sont transmis au plugin bluetooth par l'intermediaire de la liste de donnée, c'est lui qui envoi les fichiers. On aurait pu le faire dans le service, mais si un autre service à besoin de cette fonctionnalité il faut la réécrire. </p>
+<hr/><h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="a9ecaf49e55f86d7dab6e2695ed6e7a41"></a><!-- doxytag: member="CServiceSendBluetooth::CServiceSendBluetooth" ref="a9ecaf49e55f86d7dab6e2695ed6e7a41" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CServiceSendBluetooth::CServiceSendBluetooth </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_a9ecaf49e55f86d7dab6e2695ed6e7a41_cgraph.png" border="0" usemap="#class_c_service_send_bluetooth_a9ecaf49e55f86d7dab6e2695ed6e7a41_cgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_a9ecaf49e55f86d7dab6e2695ed6e7a41_cgraph" id="class_c_service_send_bluetooth_a9ecaf49e55f86d7dab6e2695ed6e7a41_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#ad0e78a74f59dbe82f21853149d772824" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="364,59,609,88"/><area shape="rect" id="node5" href="class_c_service_send_bluetooth.html#ae5b730d6c99bae10c4c3a9856b1be65a" title="CServiceSendBluetooth::slotSendFile" alt="" coords="367,112,607,141"/><area shape="rect" id="node7" href="class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&#39;un plugin de type EDataInformations, qui contient la valeure _value_d..." alt="" coords="672,5,907,35"/><area shape="rect" id="node11" href="class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8" title="Renvoi la valeure en fonction du _type_data dans la liste." alt="" coords="705,59,873,88"/><area shape="rect" id="node13" href="class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations." alt="" coords="712,112,867,141"/><area shape="rect" id="node15" href="class_c_list_data.html#a8577645a0359b0de86c6ba60fbd0323e" title="Ajoute un CData si le _type_data n&#39;existe pas dans la liste, ou le modifie sinon." alt="" coords="705,165,873,195"/><area shape="rect" id="node17" href="class_c_service_send_bluetooth.html#ad6f5227c4eebb1b86fe51f4b3f38cfce" title="CServiceSendBluetooth::signalSendData" alt="" coords="659,219,920,248"/><area shape="rect" id="node9" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="969,5,1132,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac75d0303e1757fec44586665c8213786"></a><!-- doxytag: member="CServiceSendBluetooth::~CServiceSendBluetooth" ref="ac75d0303e1757fec44586665c8213786" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CServiceSendBluetooth::~CServiceSendBluetooth </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/><h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="ad0e78a74f59dbe82f21853149d772824"></a><!-- doxytag: member="CServiceSendBluetooth::createWidget" ref="ad0e78a74f59dbe82f21853149d772824" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::createWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Méthode utilisé pour créer le widget associé au paramètrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a193fefa5fce1706c423f35fcbbde0f57">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_ad0e78a74f59dbe82f21853149d772824_icgraph.png" border="0" usemap="#class_c_service_send_bluetooth_ad0e78a74f59dbe82f21853149d772824_icgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_ad0e78a74f59dbe82f21853149d772824_icgraph" id="class_c_service_send_bluetooth_ad0e78a74f59dbe82f21853149d772824_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#a9ecaf49e55f86d7dab6e2695ed6e7a41" title="CServiceSendBluetooth::CServiceSendBluetooth" alt="" coords="303,5,609,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb7de473093f6d437a9f07317515f5fa"></a><!-- doxytag: member="CServiceSendBluetooth::getDescriptionService" ref="aeb7de473093f6d437a9f07317515f5fa" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CServiceSendBluetooth::getDescriptionService </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi une description basique du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a0b0ba137409806890e1004266e95961d">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa42fd95b55dfef687e6957213a49a170"></a><!-- doxytag: member="CServiceSendBluetooth::getNameService" ref="aa42fd95b55dfef687e6957213a49a170" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CServiceSendBluetooth::getNameService </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi le nom du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a3dc0fb1acae6e181abd827200eb711fc">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_aa42fd95b55dfef687e6957213a49a170_icgraph.png" border="0" usemap="#class_c_service_send_bluetooth_aa42fd95b55dfef687e6957213a49a170_icgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_aa42fd95b55dfef687e6957213a49a170_icgraph" id="class_c_service_send_bluetooth_aa42fd95b55dfef687e6957213a49a170_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#ad5f3eb8b79f1a8ded6f7b70d17f9ab9f" title="Fonction de chargement des paramètres pour le fichier projet." alt="" coords="323,5,515,35"/><area shape="rect" id="node5" href="class_c_service_send_bluetooth.html#aba9fadb2282cd623da0f36d6691bd91c" title="Fonction d&#39;enregistrement des paramètres pour le fichier projet." alt="" coords="320,59,517,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aae9c2f9786fc2455f4b66e65fc146c73"></a><!-- doxytag: member="CServiceSendBluetooth::getObject" ref="aae9c2f9786fc2455f4b66e65fc146c73" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QObject * CServiceSendBluetooth::getObject </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi l'object pour la connection des signaux et des slots. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ac14305da687c30981a247d22866131f8">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1aca63057cf18aeb864330ecc11da3aa"></a><!-- doxytag: member="CServiceSendBluetooth::getWidget" ref="a1aca63057cf18aeb864330ecc11da3aa" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget * CServiceSendBluetooth::getWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi la widget. Chaque service doit avoir un widget de crée. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a075c4787a54f6ad7cb53c83fd3dee73a">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a56f104a2e0cfd04ea7ad28632d4f97"></a><!-- doxytag: member="CServiceSendBluetooth::init" ref="a1a56f104a2e0cfd04ea7ad28632d4f97" args="(CListDataService *_list_data_informations)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_list_data_service.html">CListDataService</a> *&nbsp;</td>
+          <td class="paramname"> <em>_list_data_service</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans l'application, et tout les services y ont accés. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a9b4552c16e29974ec493750c24d207ee">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_a1a56f104a2e0cfd04ea7ad28632d4f97_cgraph.png" border="0" usemap="#class_c_service_send_bluetooth_a1a56f104a2e0cfd04ea7ad28632d4f97_cgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_a1a56f104a2e0cfd04ea7ad28632d4f97_cgraph" id="class_c_service_send_bluetooth_a1a56f104a2e0cfd04ea7ad28632d4f97_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#a7c11876539e14c5ede4fa16675fcb96c" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="240,5,467,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7c11876539e14c5ede4fa16675fcb96c"></a><!-- doxytag: member="CServiceSendBluetooth::initWidget" ref="a7c11876539e14c5ede4fa16675fcb96c" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::initWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Méthode utilisé pour initialiser le widget associé au paramètrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ad8861d7e9e6d4eb0c2d2ccef29bbdaa7">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_a7c11876539e14c5ede4fa16675fcb96c_icgraph.png" border="0" usemap="#class_c_service_send_bluetooth_a7c11876539e14c5ede4fa16675fcb96c_icgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_a7c11876539e14c5ede4fa16675fcb96c_icgraph" id="class_c_service_send_bluetooth_a7c11876539e14c5ede4fa16675fcb96c_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#a1a56f104a2e0cfd04ea7ad28632d4f97" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="280,5,467,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad5f3eb8b79f1a8ded6f7b70d17f9ab9f"></a><!-- doxytag: member="CServiceSendBluetooth::load" ref="ad5f3eb8b79f1a8ded6f7b70d17f9ab9f" args="(QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::load </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDomElement &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_element</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Fonction de chargement des paramètres pour le fichier projet. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a27065c998abeb12278874cfccb93d9e1">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_ad5f3eb8b79f1a8ded6f7b70d17f9ab9f_cgraph.png" border="0" usemap="#class_c_service_send_bluetooth_ad5f3eb8b79f1a8ded6f7b70d17f9ab9f_cgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_ad5f3eb8b79f1a8ded6f7b70d17f9ab9f_cgraph" id="class_c_service_send_bluetooth_ad5f3eb8b79f1a8ded6f7b70d17f9ab9f_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#aa42fd95b55dfef687e6957213a49a170" title="Renvoi le nom du service." alt="" coords="248,5,515,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aba9fadb2282cd623da0f36d6691bd91c"></a><!-- doxytag: member="CServiceSendBluetooth::save" ref="aba9fadb2282cd623da0f36d6691bd91c" args="(QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::save </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDomElement &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_element</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Fonction d'enregistrement des paramètres pour le fichier projet. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#afc5d28e1f9f4338f677be74297189c7a">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_aba9fadb2282cd623da0f36d6691bd91c_cgraph.png" border="0" usemap="#class_c_service_send_bluetooth_aba9fadb2282cd623da0f36d6691bd91c_cgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_aba9fadb2282cd623da0f36d6691bd91c_cgraph" id="class_c_service_send_bluetooth_aba9fadb2282cd623da0f36d6691bd91c_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#aa42fd95b55dfef687e6957213a49a170" title="Renvoi le nom du service." alt="" coords="251,5,517,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad6f5227c4eebb1b86fe51f4b3f38cfce"></a><!-- doxytag: member="CServiceSendBluetooth::signalSendData" ref="ad6f5227c4eebb1b86fe51f4b3f38cfce" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::signalSendData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_ad6f5227c4eebb1b86fe51f4b3f38cfce_icgraph.png" border="0" usemap="#class_c_service_send_bluetooth_ad6f5227c4eebb1b86fe51f4b3f38cfce_icgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_ad6f5227c4eebb1b86fe51f4b3f38cfce_icgraph" id="class_c_service_send_bluetooth_ad6f5227c4eebb1b86fe51f4b3f38cfce_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#ae5b730d6c99bae10c4c3a9856b1be65a" title="CServiceSendBluetooth::slotSendFile" alt="" coords="316,32,556,61"/><area shape="rect" id="node5" href="class_c_service_send_bluetooth.html#a9ecaf49e55f86d7dab6e2695ed6e7a41" title="CServiceSendBluetooth::CServiceSendBluetooth" alt="" coords="607,5,913,35"/><area shape="rect" id="node7" href="class_c_service_send_bluetooth.html#ad95e67d1262d837176bae580342b594b" title="Lance le démarrage du service." alt="" coords="663,59,857,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae5b730d6c99bae10c4c3a9856b1be65a"></a><!-- doxytag: member="CServiceSendBluetooth::slotSendFile" ref="ae5b730d6c99bae10c4c3a9856b1be65a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::slotSendFile </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_cgraph.png" border="0" usemap="#class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_cgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_cgraph" id="class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_cgraph">
+<area shape="rect" id="node3" href="class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&#39;un plugin de type EDataInformations, qui contient la valeure _value_d..." alt="" coords="309,5,544,35"/><area shape="rect" id="node7" href="class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8" title="Renvoi la valeure en fonction du _type_data dans la liste." alt="" coords="343,59,511,88"/><area shape="rect" id="node9" href="class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations." alt="" coords="349,112,504,141"/><area shape="rect" id="node11" href="class_c_list_data.html#a8577645a0359b0de86c6ba60fbd0323e" title="Ajoute un CData si le _type_data n&#39;existe pas dans la liste, ou le modifie sinon." alt="" coords="343,165,511,195"/><area shape="rect" id="node13" href="class_c_service_send_bluetooth.html#ad6f5227c4eebb1b86fe51f4b3f38cfce" title="CServiceSendBluetooth::signalSendData" alt="" coords="296,219,557,248"/><area shape="rect" id="node5" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="607,5,769,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_icgraph.png" border="0" usemap="#class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_icgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_icgraph" id="class_c_service_send_bluetooth_ae5b730d6c99bae10c4c3a9856b1be65a_icgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#a9ecaf49e55f86d7dab6e2695ed6e7a41" title="CServiceSendBluetooth::CServiceSendBluetooth" alt="" coords="297,5,604,35"/><area shape="rect" id="node5" href="class_c_service_send_bluetooth.html#ad95e67d1262d837176bae580342b594b" title="Lance le démarrage du service." alt="" coords="353,59,548,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="accb565bc533b50aab4b6c551e5fabe1a"></a><!-- doxytag: member="CServiceSendBluetooth::slotUpdate" ref="accb565bc533b50aab4b6c551e5fabe1a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::slotUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad95e67d1262d837176bae580342b594b"></a><!-- doxytag: member="CServiceSendBluetooth::start" ref="ad95e67d1262d837176bae580342b594b" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::start </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lance le démarrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a5c0455c0b0d8a2b1b7d5ee2923677f68">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_ad95e67d1262d837176bae580342b594b_cgraph.png" border="0" usemap="#class_c_service_send_bluetooth_ad95e67d1262d837176bae580342b594b_cgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_ad95e67d1262d837176bae580342b594b_cgraph" id="class_c_service_send_bluetooth_ad95e67d1262d837176bae580342b594b_cgraph">
+<area shape="rect" id="node3" href="class_c_service_send_bluetooth.html#ae5b730d6c99bae10c4c3a9856b1be65a" title="CServiceSendBluetooth::slotSendFile" alt="" coords="249,112,489,141"/><area shape="rect" id="node5" href="class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&#39;un plugin de type EDataInformations, qui contient la valeure _value_d..." alt="" coords="552,5,787,35"/><area shape="rect" id="node9" href="class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8" title="Renvoi la valeure en fonction du _type_data dans la liste." alt="" coords="585,59,753,88"/><area shape="rect" id="node11" href="class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations." alt="" coords="592,112,747,141"/><area shape="rect" id="node13" href="class_c_list_data.html#a8577645a0359b0de86c6ba60fbd0323e" title="Ajoute un CData si le _type_data n&#39;existe pas dans la liste, ou le modifie sinon." alt="" coords="585,165,753,195"/><area shape="rect" id="node15" href="class_c_service_send_bluetooth.html#ad6f5227c4eebb1b86fe51f4b3f38cfce" title="CServiceSendBluetooth::signalSendData" alt="" coords="539,219,800,248"/><area shape="rect" id="node7" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="849,5,1012,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aafbb500da2b2b3a94ed4de3d24b98fd1"></a><!-- doxytag: member="CServiceSendBluetooth::stop" ref="aafbb500da2b2b3a94ed4de3d24b98fd1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::stop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stop le service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ac26dc37102f572fdff37874f3b561221">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_send_bluetooth_aafbb500da2b2b3a94ed4de3d24b98fd1_cgraph.png" border="0" usemap="#class_c_service_send_bluetooth_aafbb500da2b2b3a94ed4de3d24b98fd1_cgraph" alt=""/></div>
+<map name="class_c_service_send_bluetooth_aafbb500da2b2b3a94ed4de3d24b98fd1_cgraph" id="class_c_service_send_bluetooth_aafbb500da2b2b3a94ed4de3d24b98fd1_cgraph">
+<area shape="rect" id="node3" href="class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&#39;un plugin de type EDataInformations, qui contient la valeure _value_d..." alt="" coords="249,5,484,35"/><area shape="rect" id="node7" href="class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations." alt="" coords="289,59,444,88"/><area shape="rect" id="node9" href="class_c_list_data.html#a8577645a0359b0de86c6ba60fbd0323e" title="Ajoute un CData si le _type_data n&#39;existe pas dans la liste, ou le modifie sinon." alt="" coords="283,112,451,141"/><area shape="rect" id="node5" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="535,5,697,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae8354e953e17f8c362a874c09a5c2e1e"></a><!-- doxytag: member="CServiceSendBluetooth::updateWidget" ref="ae8354e953e17f8c362a874c09a5c2e1e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSendBluetooth::updateWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>/home/c2a/Documents/projet_c2a/services/serviceSendBluetooth/<a class="el" href="service__send__bluetooth_8h_source.html">service_send_bluetooth.h</a></li>
+<li>/home/c2a/Documents/projet_c2a/services/serviceSendBluetooth/<a class="el" href="service__send__bluetooth_8cpp.html">service_send_bluetooth.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

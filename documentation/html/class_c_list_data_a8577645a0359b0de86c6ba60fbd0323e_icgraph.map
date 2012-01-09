@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_send_bluetooth.html#ae5b730d6c99bae10c4c3a9856b1be65a" title="CServiceSendBluetooth::slotSendFile" alt="" coords="223,32,463,61"/>
+<area shape="rect" id="node9" href="$class_c_service_send_bluetooth.html#aafbb500da2b2b3a94ed4de3d24b98fd1" title="Stop le service." alt="" coords="245,85,440,115"/>
+<area shape="rect" id="node5" href="$class_c_service_send_bluetooth.html#a9ecaf49e55f86d7dab6e2695ed6e7a41" title="CServiceSendBluetooth::CServiceSendBluetooth" alt="" coords="513,5,820,35"/>
+<area shape="rect" id="node7" href="$class_c_service_send_bluetooth.html#ad95e67d1262d837176bae580342b594b" title="Lance le démarrage du service." alt="" coords="569,59,764,88"/>
+</map>

@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a: Référence de la classe CPluginBluetooth</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hiérarchie&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&nbsp;de&nbsp;classe</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pro-methods">Fonctions membres protégées</a>  </div>
+  <div class="headertitle">
+<h1>Référence de la classe CPluginBluetooth</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="CPluginBluetooth" --><!-- doxytag: inherits="CPluginAbstractObject,CPluginAbstract" -->
+<p>Classe du plugin bluetooth. Permet de reconnaitre les périphériques bluetooth, et d'envoyer des fichiers sur un périphériques. L'association des appareil n'est pas géré pour l'instant.  
+<a href="#_details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="plugin__bluetooth_8h_source.html">plugin_bluetooth.h</a>&gt;</code></p>
+
+<p>Est dérivée de <a class="el" href="class_c_plugin_abstract_object.html">CPluginAbstractObject</a>, et <a class="el" href="class_c_plugin_abstract.html">CPluginAbstract</a>.</p>
+<div class="dynheader">
+Graphe de collaboration de CPluginBluetooth:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth__coll__graph.png" border="0" usemap="#_c_plugin_bluetooth_coll__map" alt="Collaboration graph"/></div>
+<map name="_c_plugin_bluetooth_coll__map" id="_c_plugin_bluetooth_coll__map">
+<area shape="rect" id="node2" href="class_c_plugin_abstract_object.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins pour les slots et si..." alt="" coords="311,5,465,35"/><area shape="rect" id="node4" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins." alt="" coords="329,59,447,88"/><area shape="rect" id="node6" href="class_c_list_data_plugin.html" title="Cette classe reprèsente la liste des données d&#39;un plugin. Elle stocke plusieurs liste de donnée..." alt="" coords="5,112,123,141"/><area shape="rect" id="node8" href="class_c_plugin_bluetooth_thread_send_file.html" title="Ce thread est lancé lors de l&#39;envoi de fichiers." alt="" coords="281,112,495,141"/><area shape="rect" id="node11" href="class_c_plugin_bluetooth_thread.html" title="Ce thread surveille et détecte les périphériques bluetooth." alt="" coords="307,165,469,195"/></map>
+<center><span class="legend">[<a href="graph_legend.html">légende</a>]</span></center></div>
+
+<p><a href="class_c_plugin_bluetooth-members.html">Liste de tous les membres</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#acfb3b0d31cf4d8d29db1e439e7badb8c">slotReceiveData</a> (QString &amp;_data)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#ac6ee1ca3619fe2c3509ded8a835f09ff">slotSendData</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#afa06245a1907d6c263f0b88065bb594e">slotDisconnect</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#aae6b0e030ad5c50761676481ed560d01">slotThread</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a4efa3ef2ef53a860b4292d474f5fbae0">signalDisconnect</a> (<a class="el" href="class_c_plugin_abstract.html">CPluginAbstract</a> *)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#ad2d8c2fc274f74ee43081841bf5ffd71">signalUpdateServices</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#afdd92aa4e29f529056f30411622cecbd">CPluginBluetooth</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#afebb1369b2dffc67e818ca5a17a42fd1">~CPluginBluetooth</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a6786470bb2ed58add5de346b0c6a71aa">getNamePlugin</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi le nom du plugin.  <a href="#a6786470bb2ed58add5de346b0c6a71aa"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QObject *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a3976e218a396d897af5a66a0f6502c14">getObject</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi l'object, ca permet de connecter les signaux.  <a href="#a3976e218a396d897af5a66a0f6502c14"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a48cc206e9c06ee328f73961341303404">setDevice</a> (QString _device)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Affecte le nom du périphérique. Ex : /dev/ttyS0.  <a href="#a48cc206e9c06ee328f73961341303404"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a87e48e73fe653423bde5fdd16b0c2367">start</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloquante mais pas plus de quelques seconde. C'est cette fonction qui est apellé pour tester les plugins un à un par le thread.  <a href="#a87e48e73fe653423bde5fdd16b0c2367"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a543b3f209ff877325152dde0c69f79e3">stop</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Stop le plugin, lors d'une déconnection par exemple.  <a href="#a543b3f209ff877325152dde0c69f79e3"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QWidget *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a1d50b8a9c340c45ae2e5e0b5ef7dc7e7">getWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi le widget associé, pour les plugins série, le widget est cutecom, les autres n'ont pas de widgets. Lorsqu'on enlévera cutecom cette fonction sera peut être inutile, si on a plus besoin de widget.  <a href="#a1d50b8a9c340c45ae2e5e0b5ef7dc7e7"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a41a5c2f91a356584773655d3955cfc87">getPriority</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Cette variable permet de donner une priorité lorsque deux ou plusieurs plugins sont valide pour dététer un périphérique. Par exemple le plugin gps et serial port sont valide, mais le gps est prioritaire lors de l'assignation du plugin au périphérique.  <a href="#a41a5c2f91a356584773655d3955cfc87"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a3a5d2f1123fedebfd25e5253947848b6">isUsed</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Utilisé par l'application pour savoir si le plugin est associé à un périphérique ou pas.  <a href="#a3a5d2f1123fedebfd25e5253947848b6"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a4a74691379b49caa1f622b74ef793481">setUsed</a> (bool _used)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Utilisé par l'application pour indiquer l'utilisation d'un plugin par un périphérique.  <a href="#a4a74691379b49caa1f622b74ef793481"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="pro-methods"></a>
+Fonctions membres protégées</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a0bf6cc63080703bd690a5fee004ad38e">setDataConnectionSettings</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialisation de la liste de données de connections des plugins.  <a href="#a0bf6cc63080703bd690a5fee004ad38e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_plugin_bluetooth.html#a3cb88579476c788ea613665931206ac0">setDefaultData</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialisation de la liste de données des plugins.  <a href="#a3cb88579476c788ea613665931206ac0"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Description détaillée</h2>
+<p>Classe du plugin bluetooth. Permet de reconnaitre les périphériques bluetooth, et d'envoyer des fichiers sur un périphériques. L'association des appareil n'est pas géré pour l'instant. </p>
+<hr/><h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="afdd92aa4e29f529056f30411622cecbd"></a><!-- doxytag: member="CPluginBluetooth::CPluginBluetooth" ref="afdd92aa4e29f529056f30411622cecbd" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPluginBluetooth::CPluginBluetooth </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_afdd92aa4e29f529056f30411622cecbd_cgraph.png" border="0" usemap="#class_c_plugin_bluetooth_afdd92aa4e29f529056f30411622cecbd_cgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_afdd92aa4e29f529056f30411622cecbd_cgraph" id="class_c_plugin_bluetooth_afdd92aa4e29f529056f30411622cecbd_cgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#a0bf6cc63080703bd690a5fee004ad38e" title="Initialisation de la liste de données de connections des plugins." alt="" coords="285,5,576,35"/><area shape="rect" id="node5" href="class_c_plugin_bluetooth.html#a3cb88579476c788ea613665931206ac0" title="Initialisation de la liste de données des plugins." alt="" coords="644,56,863,85"/><area shape="rect" id="node7" href="class_c_plugin_bluetooth.html#afa06245a1907d6c263f0b88065bb594e" title="CPluginBluetooth::slotDisconnect" alt="" coords="321,109,540,139"/><area shape="rect" id="node14" href="class_c_plugin_bluetooth.html#aae6b0e030ad5c50761676481ed560d01" title="CPluginBluetooth::slotThread" alt="" coords="335,163,527,192"/><area shape="rect" id="node10" href="class_c_plugin_bluetooth.html#a4efa3ef2ef53a860b4292d474f5fbae0" title="CPluginBluetooth::signalDisconnect" alt="" coords="639,109,868,139"/><area shape="rect" id="node12" href="class_c_plugin_bluetooth.html#ad2d8c2fc274f74ee43081841bf5ffd71" title="CPluginBluetooth::signalUpdateServices" alt="" coords="624,163,883,192"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afebb1369b2dffc67e818ca5a17a42fd1"></a><!-- doxytag: member="CPluginBluetooth::~CPluginBluetooth" ref="afebb1369b2dffc67e818ca5a17a42fd1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPluginBluetooth::~CPluginBluetooth </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/><h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="a6786470bb2ed58add5de346b0c6a71aa"></a><!-- doxytag: member="CPluginBluetooth::getNamePlugin" ref="a6786470bb2ed58add5de346b0c6a71aa" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CPluginBluetooth::getNamePlugin </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi le nom du plugin. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#ac87e580b8e60932b9dceb9cb4e0cfe7e">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3976e218a396d897af5a66a0f6502c14"></a><!-- doxytag: member="CPluginBluetooth::getObject" ref="a3976e218a396d897af5a66a0f6502c14" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QObject * CPluginBluetooth::getObject </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi l'object, ca permet de connecter les signaux. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#ae645cc7d33106380c81c31916cc519c7">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a41a5c2f91a356584773655d3955cfc87"></a><!-- doxytag: member="CPluginBluetooth::getPriority" ref="a41a5c2f91a356584773655d3955cfc87" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPluginBluetooth::getPriority </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Cette variable permet de donner une priorité lorsque deux ou plusieurs plugins sont valide pour dététer un périphérique. Par exemple le plugin gps et serial port sont valide, mais le gps est prioritaire lors de l'assignation du plugin au périphérique. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a82e223d9fc6a9bf711fef59b74795bc0">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d50b8a9c340c45ae2e5e0b5ef7dc7e7"></a><!-- doxytag: member="CPluginBluetooth::getWidget" ref="a1d50b8a9c340c45ae2e5e0b5ef7dc7e7" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget * CPluginBluetooth::getWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi le widget associé, pour les plugins série, le widget est cutecom, les autres n'ont pas de widgets. Lorsqu'on enlévera cutecom cette fonction sera peut être inutile, si on a plus besoin de widget. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#ac5461e9773a66ad1af7a8d4f464e7423">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3a5d2f1123fedebfd25e5253947848b6"></a><!-- doxytag: member="CPluginBluetooth::isUsed" ref="a3a5d2f1123fedebfd25e5253947848b6" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPluginBluetooth::isUsed </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Utilisé par l'application pour savoir si le plugin est associé à un périphérique ou pas. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#abea79ef53560b77e9f818db3f07263f7">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0bf6cc63080703bd690a5fee004ad38e"></a><!-- doxytag: member="CPluginBluetooth::setDataConnectionSettings" ref="a0bf6cc63080703bd690a5fee004ad38e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::setDataConnectionSettings </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialisation de la liste de données de connections des plugins. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a5548ecb9c3e5ce0394f2e5c5e3159fc9">CPluginAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_a0bf6cc63080703bd690a5fee004ad38e_icgraph.png" border="0" usemap="#class_c_plugin_bluetooth_a0bf6cc63080703bd690a5fee004ad38e_icgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_a0bf6cc63080703bd690a5fee004ad38e_icgraph" id="class_c_plugin_bluetooth_a0bf6cc63080703bd690a5fee004ad38e_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#afdd92aa4e29f529056f30411622cecbd" title="CPluginBluetooth::CPluginBluetooth" alt="" coords="344,5,576,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3cb88579476c788ea613665931206ac0"></a><!-- doxytag: member="CPluginBluetooth::setDefaultData" ref="a3cb88579476c788ea613665931206ac0" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::setDefaultData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialisation de la liste de données des plugins. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a4b6e1110df451ec0b58414e94d9308b5">CPluginAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_a3cb88579476c788ea613665931206ac0_icgraph.png" border="0" usemap="#class_c_plugin_bluetooth_a3cb88579476c788ea613665931206ac0_icgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_a3cb88579476c788ea613665931206ac0_icgraph" id="class_c_plugin_bluetooth_a3cb88579476c788ea613665931206ac0_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#afdd92aa4e29f529056f30411622cecbd" title="CPluginBluetooth::CPluginBluetooth" alt="" coords="539,5,771,35"/><area shape="rect" id="node5" href="class_c_plugin_bluetooth.html#afa06245a1907d6c263f0b88065bb594e" title="CPluginBluetooth::slotDisconnect" alt="" coords="272,31,491,60"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a48cc206e9c06ee328f73961341303404"></a><!-- doxytag: member="CPluginBluetooth::setDevice" ref="a48cc206e9c06ee328f73961341303404" args="(QString _device)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::setDevice </td>
+          <td>(</td>
+          <td class="paramtype">QString&nbsp;</td>
+          <td class="paramname"> <em>_device</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Affecte le nom du périphérique. Ex : /dev/ttyS0. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#a1e8aa77031495a191ee79227190b8a8e">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a74691379b49caa1f622b74ef793481"></a><!-- doxytag: member="CPluginBluetooth::setUsed" ref="a4a74691379b49caa1f622b74ef793481" args="(bool _used)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::setUsed </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>_used</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Utilisé par l'application pour indiquer l'utilisation d'un plugin par un périphérique. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#aceee71156fbd549ea7d6fc3378e9fa56">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4efa3ef2ef53a860b4292d474f5fbae0"></a><!-- doxytag: member="CPluginBluetooth::signalDisconnect" ref="a4efa3ef2ef53a860b4292d474f5fbae0" args="(CPluginAbstract *)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::signalDisconnect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_plugin_abstract.html">CPluginAbstract</a> *&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_a4efa3ef2ef53a860b4292d474f5fbae0_icgraph.png" border="0" usemap="#class_c_plugin_bluetooth_a4efa3ef2ef53a860b4292d474f5fbae0_icgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_a4efa3ef2ef53a860b4292d474f5fbae0_icgraph" id="class_c_plugin_bluetooth_a4efa3ef2ef53a860b4292d474f5fbae0_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#afa06245a1907d6c263f0b88065bb594e" title="CPluginBluetooth::slotDisconnect" alt="" coords="285,5,504,35"/><area shape="rect" id="node5" href="class_c_plugin_bluetooth.html#afdd92aa4e29f529056f30411622cecbd" title="CPluginBluetooth::CPluginBluetooth" alt="" coords="552,5,784,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad2d8c2fc274f74ee43081841bf5ffd71"></a><!-- doxytag: member="CPluginBluetooth::signalUpdateServices" ref="ad2d8c2fc274f74ee43081841bf5ffd71" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::signalUpdateServices </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_ad2d8c2fc274f74ee43081841bf5ffd71_icgraph.png" border="0" usemap="#class_c_plugin_bluetooth_ad2d8c2fc274f74ee43081841bf5ffd71_icgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_ad2d8c2fc274f74ee43081841bf5ffd71_icgraph" id="class_c_plugin_bluetooth_ad2d8c2fc274f74ee43081841bf5ffd71_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#afa06245a1907d6c263f0b88065bb594e" title="CPluginBluetooth::slotDisconnect" alt="" coords="312,5,531,35"/><area shape="rect" id="node7" href="class_c_plugin_bluetooth.html#aae6b0e030ad5c50761676481ed560d01" title="CPluginBluetooth::slotThread" alt="" coords="325,59,517,88"/><area shape="rect" id="node5" href="class_c_plugin_bluetooth.html#afdd92aa4e29f529056f30411622cecbd" title="CPluginBluetooth::CPluginBluetooth" alt="" coords="579,32,811,61"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afa06245a1907d6c263f0b88065bb594e"></a><!-- doxytag: member="CPluginBluetooth::slotDisconnect" ref="afa06245a1907d6c263f0b88065bb594e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::slotDisconnect </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_cgraph.png" border="0" usemap="#class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_cgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_cgraph" id="class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_cgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#a3cb88579476c788ea613665931206ac0" title="Initialisation de la liste de données des plugins." alt="" coords="292,5,511,35"/><area shape="rect" id="node5" href="class_c_plugin_bluetooth.html#a4efa3ef2ef53a860b4292d474f5fbae0" title="CPluginBluetooth::signalDisconnect" alt="" coords="287,59,516,88"/><area shape="rect" id="node7" href="class_c_plugin_bluetooth.html#ad2d8c2fc274f74ee43081841bf5ffd71" title="CPluginBluetooth::signalUpdateServices" alt="" coords="272,112,531,141"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_icgraph.png" border="0" usemap="#class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_icgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_icgraph" id="class_c_plugin_bluetooth_afa06245a1907d6c263f0b88065bb594e_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#afdd92aa4e29f529056f30411622cecbd" title="CPluginBluetooth::CPluginBluetooth" alt="" coords="272,5,504,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="acfb3b0d31cf4d8d29db1e439e7badb8c"></a><!-- doxytag: member="CPluginBluetooth::slotReceiveData" ref="acfb3b0d31cf4d8d29db1e439e7badb8c" args="(QString &amp;_data)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::slotReceiveData </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;&nbsp;</td>
+          <td class="paramname"> <em>_data</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac6ee1ca3619fe2c3509ded8a835f09ff"></a><!-- doxytag: member="CPluginBluetooth::slotSendData" ref="ac6ee1ca3619fe2c3509ded8a835f09ff" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::slotSendData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_ac6ee1ca3619fe2c3509ded8a835f09ff_cgraph.png" border="0" usemap="#class_c_plugin_bluetooth_ac6ee1ca3619fe2c3509ded8a835f09ff_cgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_ac6ee1ca3619fe2c3509ded8a835f09ff_cgraph" id="class_c_plugin_bluetooth_ac6ee1ca3619fe2c3509ded8a835f09ff_cgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth_thread_send_file.html#ab575f98bf6cb14113fa9eea8a5aa09a3" title="CPluginBluetoothThreadSendFile::setDevice" alt="" coords="287,5,567,35"/><area shape="rect" id="node5" href="class_c_plugin_bluetooth_thread_send_file.html#aef183d63bf2b7b68a132cfb5f0562136" title="CPluginBluetoothThreadSendFile::setFile" alt="" coords="296,59,557,88"/><area shape="rect" id="node7" href="class_c_plugin_bluetooth_thread_send_file.html#a72c51cb9f7b110c5c51088b59471be79" title="CPluginBluetoothThreadSendFile::setListDataPlugin" alt="" coords="264,112,589,141"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aae6b0e030ad5c50761676481ed560d01"></a><!-- doxytag: member="CPluginBluetooth::slotThread" ref="aae6b0e030ad5c50761676481ed560d01" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::slotThread </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_cgraph.png" border="0" usemap="#class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_cgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_cgraph" id="class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_cgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#ad2d8c2fc274f74ee43081841bf5ffd71" title="CPluginBluetooth::signalUpdateServices" alt="" coords="245,5,504,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_icgraph.png" border="0" usemap="#class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_icgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_icgraph" id="class_c_plugin_bluetooth_aae6b0e030ad5c50761676481ed560d01_icgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth.html#afdd92aa4e29f529056f30411622cecbd" title="CPluginBluetooth::CPluginBluetooth" alt="" coords="245,5,477,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a87e48e73fe653423bde5fdd16b0c2367"></a><!-- doxytag: member="CPluginBluetooth::start" ref="a87e48e73fe653423bde5fdd16b0c2367" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPluginBluetooth::start </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloquante mais pas plus de quelques seconde. C'est cette fonction qui est apellé pour tester les plugins un à un par le thread. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#af44a922d7ca9eb29ca2a687a572bbcdc">CPluginAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_plugin_bluetooth_a87e48e73fe653423bde5fdd16b0c2367_cgraph.png" border="0" usemap="#class_c_plugin_bluetooth_a87e48e73fe653423bde5fdd16b0c2367_cgraph" alt=""/></div>
+<map name="class_c_plugin_bluetooth_a87e48e73fe653423bde5fdd16b0c2367_cgraph" id="class_c_plugin_bluetooth_a87e48e73fe653423bde5fdd16b0c2367_cgraph">
+<area shape="rect" id="node3" href="class_c_plugin_bluetooth_thread.html#ab9a359a1c84d41e70ed111c85bf6f697" title="CPluginBluetoothThread::setDeviceId" alt="" coords="228,5,468,35"/><area shape="rect" id="node5" href="class_c_plugin_bluetooth_thread.html#a4827d7148ef870a0fee485dc17daeb2b" title="CPluginBluetoothThread::setListDataPlugin" alt="" coords="211,59,485,88"/><area shape="rect" id="node7" href="class_c_plugin_bluetooth_thread.html#ad164a97e7cbe25fed41e3c7cc46f7ae6" title="CPluginBluetoothThread::setSocketId" alt="" coords="228,112,468,141"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a543b3f209ff877325152dde0c69f79e3"></a><!-- doxytag: member="CPluginBluetooth::stop" ref="a543b3f209ff877325152dde0c69f79e3" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginBluetooth::stop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stop le plugin, lors d'une déconnection par exemple. </p>
+
+<p>Implémente <a class="el" href="class_c_plugin_abstract.html#aa8114644bf0e37c5e1844fa028e5d5e9">CPluginAbstract</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>/home/c2a/Documents/projet_c2a/plugins/pluginBluetooth/<a class="el" href="plugin__bluetooth_8h_source.html">plugin_bluetooth.h</a></li>
+<li>/home/c2a/Documents/projet_c2a/plugins/pluginBluetooth/<a class="el" href="plugin__bluetooth_8cpp.html">plugin_bluetooth.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

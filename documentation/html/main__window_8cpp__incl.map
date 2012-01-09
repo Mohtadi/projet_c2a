@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$main__window_8h.html" title="Fenêtre principale de l&#39;application." alt="" coords="561,83,673,112"/>
+<area shape="rect" id="node5" href="$define_8h.html" title="define.h" alt="" coords="376,392,443,421"/>
+<area shape="rect" id="node37" href="$dock__widget__device__monitor_8h.html" title="dock_widget_device_monitor.h" alt="" coords="165,160,365,189"/>
+<area shape="rect" id="node47" href="$dock__widget__list__data__service_8h.html" title="dock_widget_list_data_service.h" alt="" coords="497,315,708,344"/>
+<area shape="rect" id="node50" href="$dock__widget__plugins_8h.html" title="dock_widget_plugins.h" alt="" coords="732,315,887,344"/>
+<area shape="rect" id="node53" href="$dock__widget__services_8h.html" title="Ce widget contient et initialise les services." alt="" coords="372,237,535,267"/>
+<area shape="rect" id="node57" href="$dock__widget__services__stacked__widget_8h.html" title="Ce widget contient tout les widgets de paramétrage de chaques services." alt="" coords="801,160,1060,189"/>
+<area shape="rect" id="node60" href="$central__widget_8h.html" title="central_widget.h" alt="" coords="559,237,676,267"/>
+<area shape="rect" id="node15" href="$plugin_abstract_8h.html" title="Classe abstraite des plugins." alt="" coords="392,469,573,499"/>
+<area shape="rect" id="node23" href="$service_abstract_8h.html" title="Classe abstraite des services." alt="" coords="597,469,787,499"/>
+<area shape="rect" id="node19" href="$data__plugins_8h.html" title="data_plugins.h" alt="" coords="385,547,492,576"/>
+<area shape="rect" id="node40" href="$thread__device__monitor_8h.html" title="Thread de détéction de connections ou déconnections des périphériques." alt="" coords="135,237,297,267"/>
+<area shape="rect" id="node43" href="$device_8h.html" title="device.h" alt="" coords="303,315,372,344"/>
+</map>

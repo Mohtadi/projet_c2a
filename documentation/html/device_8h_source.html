@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a:  Fichier source de /home/c2a/Documents/projet_c2a/include/device.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>/home/c2a/Documents/projet_c2a/include/device.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="device_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00002"></a>00002 
+<a name="l00003"></a>00003 
+<a name="l00004"></a>00004 
+<a name="l00005"></a>00005 
+<a name="l00006"></a>00006 <span class="preprocessor">#ifndef __DEVICE_H__</span>
+<a name="l00007"></a>00007 <span class="preprocessor"></span><span class="preprocessor">#define __DEVICE_H__</span>
+<a name="l00008"></a>00008 <span class="preprocessor"></span>
+<a name="l00009"></a>00009 <span class="preprocessor">#include &quot;<a class="code" href="define_8h.html">define.h</a>&quot;</span>
+<a name="l00010"></a>00010 
+<a name="l00013"></a><a class="code" href="class_c_device.html">00013</a> <span class="keyword">class </span><a class="code" href="class_c_device.html" title="Classe de device.">CDevice</a> : <span class="keyword">public</span> QObject
+<a name="l00014"></a>00014 {
+<a name="l00015"></a>00015 Q_OBJECT
+<a name="l00016"></a>00016 <span class="keyword">public</span> :
+<a name="l00017"></a>00017 
+<a name="l00020"></a>00020     <a class="code" href="class_c_device.html#a9b2667b4c21fd3b7331d6afe57b915a9" title="Constructeur.">CDevice</a> (QString _device , QList&lt;CPluginAbstract*&gt; * _list_plugins = NULL , QObject *_parent = 0);
+<a name="l00021"></a>00021 
+<a name="l00024"></a>00024     <a class="code" href="class_c_device.html#a9b2667b4c21fd3b7331d6afe57b915a9" title="Constructeur.">CDevice</a> (<span class="keyword">const</span> <a class="code" href="class_c_device.html" title="Classe de device.">CDevice</a> &amp;_device , QObject *_parent = 0);
+<a name="l00025"></a>00025 
+<a name="l00028"></a>00028     <a class="code" href="class_c_device.html#ae907463e4e03cd1034157888cb995710" title="Destructeur.">~CDevice</a> ();
+<a name="l00029"></a>00029 
+<a name="l00032"></a>00032     QString <a class="code" href="class_c_device.html#ae6cf7ba1b33d0d9abbdd53f230f7502d" title="Renvoi le nom du périphérique à surveiller. Par exemple /dev/ttyUSB0.">getDevice</a>();
+<a name="l00033"></a>00033 
+<a name="l00036"></a>00036     <a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a> *<a class="code" href="class_c_device.html#ae02edc2abf0e4ab8453f8a6426edf93f" title="Renvoi le plugin associé, NULL si il y a aucun plugin d&amp;#39;associé.">getPlugin</a>();
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038 <span class="keyword">public</span> slots :
+<a name="l00039"></a>00039 
+<a name="l00042"></a>00042     <span class="keywordtype">void</span> <a class="code" href="class_c_device.html#a3d8af6453d6e8f3fe18a0ef98601a24b" title="Slot qui lance la recherche d&amp;#39;un plugin adapté au périphérique.">slotSearchPlugin</a>   ();
+<a name="l00043"></a>00043 
+<a name="l00046"></a>00046     <span class="keywordtype">void</span> <a class="code" href="class_c_device.html#aed67cb1bd29a7a7c4c988770964956a9" title="Slot qui est apellé lorsqu&amp;#39;un plugin detecte une déconnection.">slotDisconnect</a>     (<a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a>* _abstract_plugin);
+<a name="l00047"></a>00047 
+<a name="l00050"></a>00050     <span class="keywordtype">void</span> <a class="code" href="class_c_device.html#a53ed24298b0f78cc75ecd145c8c553fd" title="Le périphérique reçoit des données à transmettre aux services, le slot est apellé depuis les plugins...">slotUpdateServices</a> ();
+<a name="l00051"></a>00051 
+<a name="l00052"></a>00052 signals :
+<a name="l00053"></a>00053 
+<a name="l00056"></a>00056     <span class="keywordtype">void</span> <a class="code" href="class_c_device.html#a17bf04cd799d031eb374898c63f0038f" title="Signal qui apelle la mise à jour de l&amp;#39;interface pour actualiser les données reçuent du périphériq...">signalUpdateTreeWidgetDeviceMonitor</a> (<a class="code" href="class_c_device.html" title="Classe de device.">CDevice</a> *);
+<a name="l00057"></a>00057 
+<a name="l00058"></a>00058 <span class="keyword">private</span>:
+<a name="l00059"></a>00059 
+<a name="l00060"></a>00060     QString m_device;
+<a name="l00061"></a>00061 
+<a name="l00062"></a>00062     <a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a> *m_plugin;
+<a name="l00063"></a>00063 
+<a name="l00064"></a>00064     QList&lt;CPluginAbstract*&gt; *m_list_plugins;
+<a name="l00065"></a>00065 
+<a name="l00066"></a>00066     QList&lt;CPluginAbstract*&gt;  m_list_plugins_valid;
+<a name="l00067"></a>00067 };
+<a name="l00068"></a>00068 
+<a name="l00069"></a>00069 <span class="preprocessor">#endif</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:06 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_serial_port.html#a91cf1ca72eb6b60f558b0e9fef08f46f" title="Initialisation de la liste de données de connections des plugins." alt="" coords="291,5,584,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_serial_port.html#a2e69cc8119a03736cd1bf5f1a92c5c35" title="Initialisation de la liste de données des plugins." alt="" coords="652,56,873,85"/>
+<area shape="rect" id="node7" href="$class_c_plugin_serial_port.html#a8ff1cf0e8787d0fb248bbd4316aedc20" title="CPluginSerialPort::signalDisconnect" alt="" coords="647,163,879,192"/>
+<area shape="rect" id="node9" href="$class_c_plugin_serial_port.html#ae6ec64debce774cbd7fe5cd2454a6259" title="CPluginSerialPort::slotDisconnect" alt="" coords="328,109,547,139"/>
+<area shape="rect" id="node15" href="$class_c_plugin_serial_port.html#a83497f7e95ee4c7aaf0b91b602a6eb90" title="CPluginSerialPort::slotReceiveData" alt="" coords="323,213,552,243"/>
+<area shape="rect" id="node13" href="$class_c_plugin_serial_port.html#a51dcdc1e3b27543e22232801b84c947a" title="CPluginSerialPort::signalUpdateServices" alt="" coords="633,109,892,139"/>
+</map>

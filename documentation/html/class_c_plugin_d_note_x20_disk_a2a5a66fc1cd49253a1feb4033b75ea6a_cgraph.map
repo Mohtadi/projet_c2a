@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_d_note_x20_disk.html#ae16cb12d2c25a607067990c78fea9dc6" title="Initialisation de la liste de données des plugins." alt="" coords="324,5,575,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_d_note_x20_disk.html#af8c4656a236e0fe0698b1516fca15e48" title="CPluginDNoteX20Disk::signalDisconnect" alt="" coords="317,59,581,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_d_note_x20_disk.html#a795c2fa52d64a59b22ef5c2aaec2f856" title="CPluginDNoteX20Disk::signalUpdateServices" alt="" coords="304,112,595,141"/>
+</map>

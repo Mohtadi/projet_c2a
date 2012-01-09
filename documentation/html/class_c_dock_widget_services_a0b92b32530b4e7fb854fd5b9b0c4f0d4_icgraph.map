@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_dock_widget_services.html#a407f7930cd98cea43e86477d608ca56e" title="Lance le chargement de projet, cette fonction apelle la fonction de chargement de chaque services cha..." alt="" coords="397,5,584,35"/>
+<area shape="rect" id="node5" href="$class_c_dock_widget_services.html#a53e5e8817732ed62435e12bcead67014" title="Permet d&#39;envoyer un signal pour actualiser les services. (Peut être à revoir et à mettre au clair..." alt="" coords="328,59,653,88"/>
+<area shape="rect" id="node7" href="$class_c_dock_widget_services.html#aa72d7eedf9712d8e735091a048bc234c" title="Lance ou stop un service quand l&#39;utilisateur coche le service. Gère l&#39;interface pour actualis..." alt="" coords="295,112,687,141"/>
+<area shape="rect" id="node9" href="$class_c_dock_widget_services.html#a10bdebd547e36102137044b9dfbd1869" title="Constructeur." alt="" coords="736,112,1032,141"/>
+</map>

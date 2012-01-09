@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_data.html#a037d59261b54eb8546950ac2d6f9c6ca" title="Renvoi la descritpion de la donnée." alt="" coords="489,5,641,35"/>
+<area shape="rect" id="node5" href="$class_c_data.html#a68b65e8e35c242980cf899e820300592" title="Renvoi le type de la donnée." alt="" coords="495,59,636,88"/>
+<area shape="rect" id="node7" href="$class_c_data.html#a2d9e72332df79e46ef00bb4b6ee9d681" title="Renvoi l&#39;unité de la donnée." alt="" coords="496,112,635,141"/>
+<area shape="rect" id="node9" href="$class_c_data.html#a4cbecee173d3d9561ea494615367949f" title="Renvoi la valeure de la donnée." alt="" coords="492,165,639,195"/>
+<area shape="rect" id="node11" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="484,219,647,248"/>
+</map>

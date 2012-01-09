@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a:  Fichier source de /home/c2a/Documents/projet_c2a/interface/data_plugins.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>/home/c2a/Documents/projet_c2a/interface/data_plugins.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="data__plugins_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00002"></a>00002 
+<a name="l00003"></a>00003 
+<a name="l00004"></a>00004 
+<a name="l00005"></a>00005 
+<a name="l00006"></a>00006 <span class="preprocessor">#ifndef __DATA_PLUGINS_H__</span>
+<a name="l00007"></a>00007 <span class="preprocessor"></span><span class="preprocessor">#define __DATA_PLUGINS_H__</span>
+<a name="l00008"></a>00008 <span class="preprocessor"></span>
+<a name="l00009"></a>00009 <span class="preprocessor">#include&lt;QVariant&gt;</span>
+<a name="l00010"></a>00010 
+<a name="l00012"></a><a class="code" href="data__plugins_8h.html#a2c949272911af8855d718bfc4ee81b61">00012</a> <span class="preprocessor">#define WORKING_DIRECTORY QApplication::applicationDirPath()+&quot;/data&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor"></span>
+<a name="l00014"></a><a class="code" href="data__plugins_8h.html#a4066feaf28f2e26b93a1e77589dc77d7">00014</a> <span class="preprocessor">#define UNIT_NONE &quot;&quot;</span>
+<a name="l00015"></a>00015 <span class="preprocessor"></span>
+<a name="l00016"></a>00016 
+<a name="l00017"></a><a class="code" href="data__plugins_8h.html#a6a8148231bb6ffd749550c3401b68fcc">00017</a> <span class="preprocessor">#define DESCRIPTION_NAME_PLUGIN         &quot;nom du plugin&quot;</span>
+<a name="l00018"></a><a class="code" href="data__plugins_8h.html#a3b68cb6e2fdc6b4a74d3301789b61c46">00018</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_TYPE                &quot;type de périphérique&quot;</span>
+<a name="l00019"></a><a class="code" href="data__plugins_8h.html#a0fcfa00fa7f46df72616094f4bcd0aaa">00019</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_ID                  &quot;identifiant unique à chaque plugin, ne pas mettre d&#39;espace utilisé pour cré les tables de  la base de données&quot;</span>
+<a name="l00020"></a><a class="code" href="data__plugins_8h.html#aac54ea12300e8474a1f75a257adec2cc">00020</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_USED                &quot;périphérique utilisé&quot;</span>
+<a name="l00021"></a><a class="code" href="data__plugins_8h.html#a9310835d335684dd67692e6524a7e5cb">00021</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_DEVICE              &quot;port du périphérique&quot;</span>
+<a name="l00022"></a>00022 <span class="preprocessor"></span>
+<a name="l00023"></a><a class="code" href="data__plugins_8h.html#aac0762de85d6d486121d9b02b1967c8e">00023</a> <span class="preprocessor">#define DESCRIPTION_BAUD_RATE           &quot;vitesse de connexion&quot;</span>
+<a name="l00024"></a><a class="code" href="data__plugins_8h.html#a24e00b3cf19d65d270dc0ca845ce274f">00024</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_DATA_BITS           &quot;nombre de bits pour un caractère de donnée&quot;</span>
+<a name="l00025"></a><a class="code" href="data__plugins_8h.html#a7b1c819520a945fa6ce1a00a4f60bde3">00025</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_STOP_BITS           &quot;bit qui indique la fin d&#39;une communication&quot;</span>
+<a name="l00026"></a><a class="code" href="data__plugins_8h.html#a8c5fdfc48f0ead40bde8d80ce2b1e3a1">00026</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_PARITY              &quot;type de parité du signal None, Odd, Even, Mark ou Space&quot;</span>
+<a name="l00027"></a><a class="code" href="data__plugins_8h.html#ae095e8562bb482b9affae4b502508bb0">00027</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_HANDSHAKE_SOFTWARE  &quot;contrôle de flux logiciel&quot;</span>
+<a name="l00028"></a><a class="code" href="data__plugins_8h.html#a0ab0027c3f27f6e91c853867d5d7b891">00028</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_HANDCHAKE_HARDWARE  &quot;contrôle de flux matériel&quot;</span>
+<a name="l00029"></a><a class="code" href="data__plugins_8h.html#a361f84007e9e29e1f543c17786e08ca7">00029</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_READING             &quot;mode lecture&quot;</span>
+<a name="l00030"></a><a class="code" href="data__plugins_8h.html#ad33a8b3a5fd7b6342fc0c55e2cd75eb8">00030</a> <span class="preprocessor"></span><span class="preprocessor">#define DESCRIPTION_WRITING             &quot;mode écriture&quot;</span>
+<a name="l00031"></a>00031 <span class="preprocessor"></span>
+<a name="l00034"></a><a class="code" href="class_c_data.html">00034</a> <span class="keyword">class </span><a class="code" href="class_c_data.html" title="Conteneur pour les données.">CData</a>
+<a name="l00035"></a>00035 {
+<a name="l00036"></a>00036 <span class="keyword">public</span> :
+<a name="l00037"></a>00037 
+<a name="l00040"></a><a class="code" href="class_c_data.html#a4ffca6f75f4d0ef31ecfdb213f044a97">00040</a>     <a class="code" href="class_c_data.html#a4ffca6f75f4d0ef31ecfdb213f044a97" title="Constructeur.">CData</a> (QString _type_data , QVariant _value_data , QString _unit_data = <span class="stringliteral">&quot;&quot;</span> , QString _description = <span class="stringliteral">&quot;&quot;</span>) :
+<a name="l00041"></a>00041         m_type_data   (_type_data) ,
+<a name="l00042"></a>00042         m_value_data  (_value_data) ,
+<a name="l00043"></a>00043         m_unit_data   (_unit_data) ,
+<a name="l00044"></a>00044         m_description (_description)
+<a name="l00045"></a>00045     {
+<a name="l00046"></a>00046     }
+<a name="l00047"></a>00047 
+<a name="l00050"></a><a class="code" href="class_c_data.html#a1f5b6d63919f6d646b45642756c7277c">00050</a>     <a class="code" href="class_c_data.html#a1f5b6d63919f6d646b45642756c7277c" title="Constructeur.">~CData</a>()
+<a name="l00051"></a>00051     {
+<a name="l00052"></a>00052     }
+<a name="l00053"></a>00053 
+<a name="l00056"></a><a class="code" href="class_c_data.html#a0b60874553bdeed1183b3f883a21c7c1">00056</a>     <span class="keywordtype">void</span> <a class="code" href="class_c_data.html#a0b60874553bdeed1183b3f883a21c7c1" title="Affecte le type de donnée, ce champs représente l&amp;#39;identificateur de la variable lorsque elle est ...">setTypeData</a>    (QString _type_data)         { m_type_data = _type_data; }
+<a name="l00057"></a>00057 
+<a name="l00060"></a><a class="code" href="class_c_data.html#a919d5406d440ffc366f90725edad4d80">00060</a>     <span class="keywordtype">void</span> <a class="code" href="class_c_data.html#a919d5406d440ffc366f90725edad4d80" title="Affecte la valeure de la donnée. Le type QVariant est un type générique à QT. Il est possible de mett...">setValueData</a>   (QVariant _value_data)       { m_value_data = _value_data; }
+<a name="l00061"></a>00061 
+<a name="l00064"></a><a class="code" href="class_c_data.html#a68dbbe5c95ae1f1ba83feebe21c76514">00064</a>     <span class="keywordtype">void</span> <a class="code" href="class_c_data.html#a68dbbe5c95ae1f1ba83feebe21c76514" title="Affecte l&amp;#39;unité à la donnée.">setUnitData</a>   (QString _unit_data)       { m_unit_data = _unit_data; }
+<a name="l00065"></a>00065 
+<a name="l00068"></a><a class="code" href="class_c_data.html#ad5918d362781fd028fbd021a37c94576">00068</a>     <span class="keywordtype">void</span> <a class="code" href="class_c_data.html#ad5918d362781fd028fbd021a37c94576" title="Description de la donnée. Permet de fournir une description précise du champs.">setDescription</a> (QString  _description)      { m_description = _description; }
+<a name="l00069"></a>00069 
+<a name="l00072"></a><a class="code" href="class_c_data.html#a68b65e8e35c242980cf899e820300592">00072</a>     QString  <a class="code" href="class_c_data.html#a68b65e8e35c242980cf899e820300592" title="Renvoi le type de la donnée.">getTypeData</a>()               { <span class="keywordflow">return</span> m_type_data;}
+<a name="l00073"></a>00073 
+<a name="l00076"></a><a class="code" href="class_c_data.html#a4cbecee173d3d9561ea494615367949f">00076</a>     QVariant <a class="code" href="class_c_data.html#a4cbecee173d3d9561ea494615367949f" title="Renvoi la valeure de la donnée.">getValueData</a>()              { <span class="keywordflow">return</span> m_value_data;}
+<a name="l00077"></a>00077 
+<a name="l00080"></a><a class="code" href="class_c_data.html#a2d9e72332df79e46ef00bb4b6ee9d681">00080</a>     QString <a class="code" href="class_c_data.html#a2d9e72332df79e46ef00bb4b6ee9d681" title="Renvoi l&amp;#39;unité de la donnée.">getUnitData</a>()              { <span class="keywordflow">return</span> m_unit_data;}
+<a name="l00081"></a>00081 
+<a name="l00084"></a><a class="code" href="class_c_data.html#a037d59261b54eb8546950ac2d6f9c6ca">00084</a>     QString  <a class="code" href="class_c_data.html#a037d59261b54eb8546950ac2d6f9c6ca" title="Renvoi la descritpion de la donnée.">getDescription</a>()            { <span class="keywordflow">return</span> m_description; }
+<a name="l00085"></a>00085 
+<a name="l00088"></a><a class="code" href="class_c_data.html#aeef52e536ae9da9e14f00d0bed1b09bd">00088</a>     QStringList <a class="code" href="class_c_data.html#aeef52e536ae9da9e14f00d0bed1b09bd" title="Renvoi sous forme d&amp;#39;une string list les données, utilisé pour le QTreeWidgetItem.">getStringList</a>()  { <span class="keywordflow">return</span> QStringList()&lt;&lt;m_type_data&lt;&lt;m_value_data.toString()&lt;&lt;m_unit_data&lt;&lt;m_description; }
+<a name="l00089"></a>00089 
+<a name="l00092"></a><a class="code" href="class_c_data.html#a590d37da468e1144e203826b98a5051a">00092</a>     <span class="keyword">static</span> QStringList <a class="code" href="class_c_data.html#a590d37da468e1144e203826b98a5051a" title="Renvoi sous forme d&amp;#39;une string list le titre des données, utilisé pour les titre des QTreeWidget...">getStringListTitle</a>() { <span class="keywordflow">return</span> QStringList()&lt;&lt;<span class="stringliteral">&quot;Type&quot;</span>&lt;&lt;<span class="stringliteral">&quot;Valeure&quot;</span>&lt;&lt;<span class="stringliteral">&quot;Unité&quot;</span>&lt;&lt;<span class="stringliteral">&quot;Description&quot;</span>; }
+<a name="l00093"></a>00093 
+<a name="l00094"></a>00094 <span class="keyword">private</span>:
+<a name="l00095"></a>00095 
+<a name="l00096"></a>00096     QString          m_type_data;
+<a name="l00097"></a>00097 
+<a name="l00098"></a>00098     QVariant         m_value_data;
+<a name="l00099"></a>00099 
+<a name="l00100"></a>00100     QString          m_unit_data;
+<a name="l00101"></a>00101 
+<a name="l00102"></a>00102     QString          m_description;
+<a name="l00103"></a>00103 };
+<a name="l00104"></a>00104 
+<a name="l00107"></a><a class="code" href="class_c_list_data.html">00107</a> <span class="keyword">class </span><a class="code" href="class_c_list_data.html" title="Représente une liste de donnée. Cette classe possède les accesseurs pour manipuler les données...">CListData</a> : <span class="keyword">public</span> QList&lt;CData&gt;
+<a name="l00108"></a>00108 {
+<a name="l00109"></a>00109 <span class="keyword">public</span> :
+<a name="l00110"></a>00110 
+<a name="l00113"></a><a class="code" href="class_c_list_data.html#a0a84183efda370279a572330a03e2552">00113</a>     <a class="code" href="class_c_list_data.html#a0a84183efda370279a572330a03e2552" title="Constructeur.">CListData</a> () {}
+<a name="l00114"></a>00114 
+<a name="l00117"></a><a class="code" href="class_c_list_data.html#a40e741dd2b5b05b5f4437f9adf6add60">00117</a>     <a class="code" href="class_c_list_data.html#a40e741dd2b5b05b5f4437f9adf6add60" title="Constructeur.">~CListData</a> () {}
+<a name="l00118"></a>00118 
+<a name="l00121"></a><a class="code" href="class_c_list_data.html#a8577645a0359b0de86c6ba60fbd0323e">00121</a>     <span class="keywordtype">void</span> <a class="code" href="class_c_list_data.html#a8577645a0359b0de86c6ba60fbd0323e" title="Ajoute un CData si le _type_data n&amp;#39;existe pas dans la liste, ou le modifie sinon.">setValueData</a> (QString _type_data , QVariant _value_data, QString _unit_data = <span class="stringliteral">&quot;&quot;</span> , QString _description = <span class="stringliteral">&quot;&quot;</span>)
+<a name="l00122"></a>00122     {       
+<a name="l00123"></a>00123         <span class="keywordtype">bool</span> exist = <span class="keyword">false</span>;
+<a name="l00124"></a>00124         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0 ; i &lt; count() ; i++)
+<a name="l00125"></a>00125         {
+<a name="l00126"></a>00126             <span class="keywordflow">if</span> ((*<span class="keyword">this</span>)[i].getTypeData() == _type_data)
+<a name="l00127"></a>00127             {
+<a name="l00128"></a>00128                 exist = <span class="keyword">true</span>;
+<a name="l00129"></a>00129                 (*this)[i].setValueData(_value_data);
+<a name="l00130"></a>00130             }
+<a name="l00131"></a>00131         }
+<a name="l00132"></a>00132         <span class="keywordflow">if</span> (exist == <span class="keyword">false</span>)
+<a name="l00133"></a>00133         {
+<a name="l00134"></a>00134             append(<a class="code" href="class_c_data.html" title="Conteneur pour les données.">CData</a>(_type_data , _value_data , _unit_data , _description));
+<a name="l00135"></a>00135         }
+<a name="l00136"></a>00136     }
+<a name="l00137"></a>00137 
+<a name="l00140"></a><a class="code" href="class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8">00140</a>     QVariant <a class="code" href="class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8" title="Renvoi la valeure en fonction du _type_data dans la liste.">getValueData</a>(QString _type_data)
+<a name="l00141"></a>00141     {
+<a name="l00142"></a>00142         <span class="keywordtype">bool</span> find = <span class="keyword">false</span>;
+<a name="l00143"></a>00143         QVariant result = 0;
+<a name="l00144"></a>00144         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0 ; i &lt; count() &amp;&amp; find == <span class="keyword">false</span>; i++)
+<a name="l00145"></a>00145         {
+<a name="l00146"></a>00146             <span class="keywordflow">if</span> ((*<span class="keyword">this</span>)[i].getTypeData() == _type_data)
+<a name="l00147"></a>00147             {
+<a name="l00148"></a>00148                result = (*this)[i].getValueData();
+<a name="l00149"></a>00149                find = <span class="keyword">true</span>;
+<a name="l00150"></a>00150             }
+<a name="l00151"></a>00151         }
+<a name="l00152"></a>00152         <span class="keywordflow">return</span> result;
+<a name="l00153"></a>00153     }
+<a name="l00154"></a>00154 };
+<a name="l00155"></a>00155 
+<a name="l00158"></a><a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2e">00158</a> <span class="keyword">enum</span> <a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2e" title="Permet d&amp;#39;identifier les différentes listes de données.">EDataInformations</a>
+<a name="l00159"></a>00159 {
+<a name="l00160"></a><a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2ea562ec7635cb8cae8f17764c4db31fe06">00160</a>     <a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2ea562ec7635cb8cae8f17764c4db31fe06">INFORMATIONS_CONNECTIONS_SETTINGS</a> = 0,
+<a name="l00161"></a><a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2ea4ad26c966eabf003ec274cd7ce072036">00161</a>     <a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2ea4ad26c966eabf003ec274cd7ce072036">INFORMATIONS_DATA</a> = 1
+<a name="l00162"></a>00162 };
+<a name="l00163"></a>00163 
+<a name="l00166"></a><a class="code" href="class_c_list_data_plugin.html">00166</a> <span class="keyword">class </span><a class="code" href="class_c_list_data_plugin.html" title="Cette classe reprèsente la liste des données d&amp;#39;un plugin. Elle stocke plusieurs liste de donnée...">CListDataPlugin</a> : <span class="keyword">public</span> QList&lt;CListData&gt;
+<a name="l00167"></a>00167 {
+<a name="l00168"></a>00168 
+<a name="l00169"></a>00169 <span class="keyword">public</span> :
+<a name="l00170"></a>00170 
+<a name="l00173"></a><a class="code" href="class_c_list_data_plugin.html#a4d88251066e8e25b8574f767a433bd53">00173</a>     <a class="code" href="class_c_list_data_plugin.html#a4d88251066e8e25b8574f767a433bd53" title="Constructeur.">CListDataPlugin</a> ()
+<a name="l00174"></a>00174     {
+<a name="l00175"></a>00175        <a class="code" href="class_c_list_data.html" title="Représente une liste de donnée. Cette classe possède les accesseurs pour manipuler les données...">CListData</a> list_data_1;
+<a name="l00176"></a>00176        <a class="code" href="class_c_list_data.html" title="Représente une liste de donnée. Cette classe possède les accesseurs pour manipuler les données...">CListData</a> list_data_2;
+<a name="l00177"></a>00177        list_data_1.clear();
+<a name="l00178"></a>00178        list_data_2.clear();
+<a name="l00179"></a>00179        append (list_data_1);
+<a name="l00180"></a>00180        append (list_data_2);
+<a name="l00181"></a>00181     }
+<a name="l00182"></a>00182 
+<a name="l00183"></a>00183 
+<a name="l00186"></a><a class="code" href="class_c_list_data_plugin.html#aeb407872fd948fa1c5a24e2f3e16e995">00186</a>     <a class="code" href="class_c_list_data_plugin.html#aeb407872fd948fa1c5a24e2f3e16e995" title="Desctructeur.">~CListDataPlugin</a> ()
+<a name="l00187"></a>00187     {
+<a name="l00188"></a>00188         clear();
+<a name="l00189"></a>00189     }
+<a name="l00190"></a>00190 
+<a name="l00193"></a><a class="code" href="class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c">00193</a>     <a class="code" href="class_c_list_data.html" title="Représente une liste de donnée. Cette classe possède les accesseurs pour manipuler les données...">CListData</a>&amp; <a class="code" href="class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations.">index</a>(<span class="keywordtype">int</span> _i)
+<a name="l00194"></a>00194     {
+<a name="l00195"></a>00195         <span class="keywordflow">return</span> (*<span class="keyword">this</span>)[_i];
+<a name="l00196"></a>00196     }
+<a name="l00197"></a>00197 
+<a name="l00200"></a><a class="code" href="class_c_list_data_plugin.html#ac5f750e6788039a379184f57eb2f280c">00200</a>     <a class="code" href="class_c_data.html" title="Conteneur pour les données.">CData</a>&amp; <a class="code" href="class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations.">index</a>(<span class="keywordtype">int</span> _i , <span class="keywordtype">int</span> _j)
+<a name="l00201"></a>00201     {
+<a name="l00202"></a>00202         <span class="keywordflow">return</span> (*<span class="keyword">this</span>)[_i][_j];
+<a name="l00203"></a>00203     }
+<a name="l00204"></a>00204 
+<a name="l00207"></a><a class="code" href="class_c_list_data_plugin.html#a656342b2b4eb4bd110cd225ba41cd631">00207</a>     QString <a class="code" href="class_c_list_data_plugin.html#a656342b2b4eb4bd110cd225ba41cd631" title="Renvoi une description de la liste de donnée indexé par EDataInformations.">getTitle</a> (<span class="keywordtype">int</span> _i)
+<a name="l00208"></a>00208     {
+<a name="l00209"></a>00209         QString result = <span class="stringliteral">&quot;&quot;</span>;
+<a name="l00210"></a>00210         <span class="keywordflow">switch</span> (_i)
+<a name="l00211"></a>00211         {
+<a name="l00212"></a>00212             <span class="keywordflow">case</span> <a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2ea562ec7635cb8cae8f17764c4db31fe06">INFORMATIONS_CONNECTIONS_SETTINGS</a> :
+<a name="l00213"></a>00213                 result = <span class="stringliteral">&quot;Informations de connexions&quot;</span>;
+<a name="l00214"></a>00214             <span class="keywordflow">break</span>;
+<a name="l00215"></a>00215 
+<a name="l00216"></a>00216             <span class="keywordflow">case</span> <a class="code" href="data__plugins_8h.html#a12dd07fcabd82a683c633df2ff6aeb2ea4ad26c966eabf003ec274cd7ce072036">INFORMATIONS_DATA</a> :
+<a name="l00217"></a>00217                 result = <span class="stringliteral">&quot;Informations de données&quot;</span>;
+<a name="l00218"></a>00218             <span class="keywordflow">break</span>;
+<a name="l00219"></a>00219 
+<a name="l00220"></a>00220             <span class="keywordflow">default</span> :
+<a name="l00221"></a>00221             <span class="keywordflow">break</span>;
+<a name="l00222"></a>00222         }
+<a name="l00223"></a>00223         <span class="keywordflow">return</span> result;
+<a name="l00224"></a>00224     }
+<a name="l00225"></a>00225 };
+<a name="l00226"></a>00226 
+<a name="l00229"></a><a class="code" href="class_c_list_data_service.html">00229</a> <span class="keyword">class </span><a class="code" href="class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&amp;#39;un service. Un service à accée à toute les informa...">CListDataService</a> : <span class="keyword">public</span> QList&lt;CListDataPlugin*&gt;
+<a name="l00230"></a>00230 {
+<a name="l00231"></a>00231    <span class="keyword">public</span> :
+<a name="l00232"></a>00232 
+<a name="l00235"></a><a class="code" href="class_c_list_data_service.html#a5939470a327c2c62084599be2bf9be91">00235</a>     <a class="code" href="class_c_list_data_service.html#a5939470a327c2c62084599be2bf9be91" title="Constructeur.">CListDataService</a> ()
+<a name="l00236"></a>00236     {
+<a name="l00237"></a>00237     }
+<a name="l00238"></a>00238 
+<a name="l00241"></a><a class="code" href="class_c_list_data_service.html#a2109bbee508a6a49301c9af552aad96b">00241</a>     <a class="code" href="class_c_list_data_service.html#a2109bbee508a6a49301c9af552aad96b" title="Destructeur.">~CListDataService</a> ()
+<a name="l00242"></a>00242     {
+<a name="l00243"></a>00243 
+<a name="l00244"></a>00244     }
+<a name="l00245"></a>00245 
+<a name="l00248"></a><a class="code" href="class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c">00248</a>     <a class="code" href="class_c_list_data_plugin.html" title="Cette classe reprèsente la liste des données d&amp;#39;un plugin. Elle stocke plusieurs liste de donnée...">CListDataPlugin</a>* <a class="code" href="class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&amp;#39;un plugin de type EDataInformations, qui contient la valeure _value_d...">getListDataPlugin</a> (<span class="keywordtype">int</span> _data_informations , QString _type_data , QVariant _value_data)
+<a name="l00249"></a>00249     {
+<a name="l00250"></a>00250         <a class="code" href="class_c_list_data_plugin.html" title="Cette classe reprèsente la liste des données d&amp;#39;un plugin. Elle stocke plusieurs liste de donnée...">CListDataPlugin</a> *list_data_plugin = NULL;
+<a name="l00251"></a>00251         <span class="keywordtype">bool</span> m_stop = <span class="keyword">false</span>;
+<a name="l00252"></a>00252         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0 ;  i &lt; count() &amp;&amp; m_stop == false ; i++)
+<a name="l00253"></a>00253         {
+<a name="l00254"></a>00254             <span class="keywordflow">if</span> (<a class="code" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&amp;#39;un plugin. _i est la _ième liste de plugin.">index</a>(i,_data_informations).getValueData(_type_data) == _value_data)
+<a name="l00255"></a>00255             {
+<a name="l00256"></a>00256                 list_data_plugin = <a class="code" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&amp;#39;un plugin. _i est la _ième liste de plugin.">index</a>(i);
+<a name="l00257"></a>00257                 m_stop = <span class="keyword">true</span>;
+<a name="l00258"></a>00258             }
+<a name="l00259"></a>00259         }
+<a name="l00260"></a>00260         <span class="keywordflow">return</span> list_data_plugin;
+<a name="l00261"></a>00261     }
+<a name="l00262"></a>00262 
+<a name="l00265"></a><a class="code" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d">00265</a>     <a class="code" href="class_c_list_data_plugin.html" title="Cette classe reprèsente la liste des données d&amp;#39;un plugin. Elle stocke plusieurs liste de donnée...">CListDataPlugin</a>* <a class="code" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&amp;#39;un plugin. _i est la _ième liste de plugin.">index</a> (<span class="keywordtype">int</span> _i)
+<a name="l00266"></a>00266     {
+<a name="l00267"></a>00267         <span class="keywordflow">return</span> (*<span class="keyword">this</span>)[_i];
+<a name="l00268"></a>00268     }
+<a name="l00269"></a>00269 
+<a name="l00272"></a><a class="code" href="class_c_list_data_service.html#aab02c9773893368f042ae98926cef05d">00272</a>     <a class="code" href="class_c_list_data.html" title="Représente une liste de donnée. Cette classe possède les accesseurs pour manipuler les données...">CListData</a>&amp; <a class="code" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&amp;#39;un plugin. _i est la _ième liste de plugin.">index</a>(<span class="keywordtype">int</span> _i , <span class="keywordtype">int</span> _j)
+<a name="l00273"></a>00273     {
+<a name="l00274"></a>00274         <span class="keywordflow">return</span> (*(*<span class="keyword">this</span>)[_i])[_j];
+<a name="l00275"></a>00275     }
+<a name="l00276"></a>00276 
+<a name="l00279"></a><a class="code" href="class_c_list_data_service.html#a268ba392ec2c859cbf0f38cb91908284">00279</a>     <a class="code" href="class_c_data.html" title="Conteneur pour les données.">CData</a>&amp; <a class="code" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&amp;#39;un plugin. _i est la _ième liste de plugin.">index</a>(<span class="keywordtype">int</span> _i , <span class="keywordtype">int</span> _j , <span class="keywordtype">int</span> _k)
+<a name="l00280"></a>00280     {
+<a name="l00281"></a>00281         <span class="keywordflow">return</span> (*(*<span class="keyword">this</span>)[_i])[_j][_k];
+<a name="l00282"></a>00282     }  
+<a name="l00283"></a>00283 };
+<a name="l00284"></a>00284 
+<a name="l00285"></a>00285 <span class="preprocessor">#endif</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:06 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

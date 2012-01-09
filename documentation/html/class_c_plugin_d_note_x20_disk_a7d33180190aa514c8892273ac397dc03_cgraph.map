@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_d_note_x20_disk.html#ace64f7dfa0f52edb65fdac56582d9dd5" title="Utilisé par l&#39;application pour savoir si le plugin est associé à un périphérique ou pas..." alt="" coords="268,5,473,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_d_note_x20_disk.html#a6a7a65848908427c9fbd0a1747ff4b90" title="CPluginDNoteX20Disk::parseDirectory" alt="" coords="247,59,495,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_d_note_x20_disk.html#a795c2fa52d64a59b22ef5c2aaec2f856" title="CPluginDNoteX20Disk::signalUpdateServices" alt="" coords="544,59,835,88"/>
+</map>

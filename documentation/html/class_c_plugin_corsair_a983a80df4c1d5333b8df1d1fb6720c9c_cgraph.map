@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_corsair.html#a159a8b5cf9487cc389dc3a0be7e5fc53" title="Initialisation de la liste de données de connections des plugins." alt="" coords="263,5,540,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_corsair.html#a9cce7692fac1dba49bc4c53310799f6c" title="Initialisation de la liste de données des plugins." alt="" coords="609,56,815,85"/>
+<area shape="rect" id="node7" href="$class_c_plugin_corsair.html#a14d845e3b59c7b30c17754e6ec834543" title="CPluginCorsair::slotDisconnect" alt="" coords="299,109,504,139"/>
+<area shape="rect" id="node10" href="$class_c_plugin_corsair.html#a5e01a9d4b3a6c4c7aa10a6ea311284e6" title="CPluginCorsair::signalDisconnect" alt="" coords="603,109,821,139"/>
+<area shape="rect" id="node12" href="$class_c_plugin_corsair.html#a990e0df77d49e6f716d2448dcd649eff" title="CPluginCorsair::signalUpdateServices" alt="" coords="589,163,835,192"/>
+</map>

@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a:  Fichier source de /home/c2a/Documents/projet_c2a/plugins/pluginD-Notex20Disk/plugin_d-note_x20_disk.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>/home/c2a/Documents/projet_c2a/plugins/pluginD-Notex20Disk/plugin_d-note_x20_disk.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="plugin__d-note__x20__disk_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00002"></a>00002 
+<a name="l00003"></a>00003 
+<a name="l00004"></a>00004 
+<a name="l00005"></a>00005 
+<a name="l00006"></a>00006 
+<a name="l00007"></a>00007 <span class="preprocessor">#ifndef __PLUGIN_DNOTE_X20_DISK_H__</span>
+<a name="l00008"></a>00008 <span class="preprocessor"></span><span class="preprocessor">#define __PLUGIN_DNOTE_X20_DISK_H__</span>
+<a name="l00009"></a>00009 <span class="preprocessor"></span>
+<a name="l00010"></a>00010 <span class="preprocessor">#include&lt;QtGui&gt;</span>
+<a name="l00011"></a>00011 
+<a name="l00012"></a>00012 
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;../../interface/pluginAbstract.h&quot;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &quot;../../interface/pluginAbstractObject.h&quot;</span>
+<a name="l00015"></a>00015 
+<a name="l00018"></a><a class="code" href="class_c_plugin_d_note_x20_disk.html">00018</a> <span class="keyword">class </span><a class="code" href="class_c_plugin_d_note_x20_disk.html" title="Cette classe est similaire au plugin corsaire. Il faudrait faire un plugin plus générique avec libusb...">CPluginDNoteX20Disk</a> :  <span class="keyword">public</span> <a class="code" href="class_c_plugin_abstract_object.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins pour les slots et si...">CPluginAbstractObject</a> , <span class="keyword">public</span> <a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a>
+<a name="l00019"></a>00019 {
+<a name="l00020"></a>00020 
+<a name="l00021"></a>00021     Q_OBJECT
+<a name="l00022"></a>00022     Q_INTERFACES(<a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a>)
+<a name="l00023"></a>00023 
+<a name="l00024"></a>00024 <span class="keyword">public</span> :
+<a name="l00025"></a>00025 
+<a name="l00026"></a>00026     <a class="code" href="class_c_plugin_d_note_x20_disk.html#a4303448eb6d223a143d60f6a725ff9a2">CPluginDNoteX20Disk</a>();
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028     <a class="code" href="class_c_plugin_d_note_x20_disk.html#a1f3c487b99cf63b86d4c0605156b172b">~CPluginDNoteX20Disk</a>();
+<a name="l00029"></a>00029 
+<a name="l00030"></a>00030     <span class="keyword">virtual</span> QString <a class="code" href="class_c_plugin_d_note_x20_disk.html#a4adadae1bc86a609d7727b3538b509b9" title="Renvoi le nom du plugin.">getNamePlugin</a>();
+<a name="l00031"></a>00031 
+<a name="l00032"></a>00032     <span class="keyword">virtual</span> QObject *<a class="code" href="class_c_plugin_d_note_x20_disk.html#a98de0f69ec4a5c37123e66602334a0d4" title="Renvoi l&amp;#39;object, ca permet de connecter les signaux.">getObject</a>();
+<a name="l00033"></a>00033     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a321321190ac605ae5ee445f41d7b3e27" title="Affecte le nom du périphérique. Ex : /dev/ttyS0.">setDevice</a> (QString _device);
+<a name="l00034"></a>00034 
+<a name="l00035"></a>00035     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a7d33180190aa514c8892273ac397dc03" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq...">start</a>();
+<a name="l00036"></a>00036     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#afe98a7c9c1b257de3076b3f09a6e9599" title="Stop le plugin, lors d&amp;#39;une déconnection par exemple.">stop</a>();
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039     <span class="keyword">virtual</span> QWidget *<a class="code" href="class_c_plugin_d_note_x20_disk.html#a5bc48d93c51c68edf31928183fc63265" title="Renvoi le widget associé, pour les plugins série, le widget est cutecom, les autres n&amp;#39;ont pas de ...">getWidget</a>();
+<a name="l00040"></a>00040 
+<a name="l00041"></a>00041     <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a8c4cca396009b8635f6a3fa81413ebb7" title="Cette variable permet de donner une priorité lorsque deux ou plusieurs plugins sont valide pour détét...">getPriority</a>();
+<a name="l00042"></a>00042 
+<a name="l00043"></a>00043     <span class="keywordtype">bool</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#ace64f7dfa0f52edb65fdac56582d9dd5" title="Utilisé par l&amp;#39;application pour savoir si le plugin est associé à un périphérique ou pas...">isUsed</a>();
+<a name="l00044"></a>00044 
+<a name="l00045"></a>00045     <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a94ab2a9fe7bf62a84a64a08d380b631e" title="Utilisé par l&amp;#39;application pour indiquer l&amp;#39;utilisation d&amp;#39;un plugin par un périphérique...">setUsed</a>  (<span class="keywordtype">bool</span> _used);
+<a name="l00046"></a>00046 
+<a name="l00047"></a>00047 <span class="keyword">public</span> slots :
+<a name="l00048"></a>00048 
+<a name="l00049"></a>00049     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a5c673d4d997d817251a9a62ecaebec25">slotReceiveData</a> (QString &amp;_data);
+<a name="l00050"></a>00050 
+<a name="l00051"></a>00051 
+<a name="l00052"></a><a class="code" href="class_c_plugin_d_note_x20_disk.html#a364ce09442be4922f9067634aeda118c">00052</a>     <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="class_c_plugin_d_note_x20_disk.html#a364ce09442be4922f9067634aeda118c">slotSendData</a>    () {}
+<a name="l00053"></a>00053 
+<a name="l00054"></a>00054     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a2a5a66fc1cd49253a1feb4033b75ea6a">slotDisconnect</a> ();
+<a name="l00055"></a>00055 
+<a name="l00056"></a>00056     <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a6a7a65848908427c9fbd0a1747ff4b90">parseDirectory</a>();
+<a name="l00057"></a>00057 signals :
+<a name="l00058"></a>00058 
+<a name="l00059"></a>00059     <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#af8c4656a236e0fe0698b1516fca15e48">signalDisconnect</a>   (<a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a>*);
+<a name="l00060"></a>00060 
+<a name="l00061"></a>00061     <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a795c2fa52d64a59b22ef5c2aaec2f856">signalUpdateServices</a> ();
+<a name="l00062"></a>00062 
+<a name="l00063"></a>00063 <span class="keyword">protected</span> :
+<a name="l00064"></a>00064 
+<a name="l00065"></a>00065     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#a104864f8894f123ed56e6977fb426fff" title="Initialisation de la liste de données de connections des plugins.">setDataConnectionSettings</a> ();
+<a name="l00066"></a>00066 
+<a name="l00067"></a>00067     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_d_note_x20_disk.html#ae16cb12d2c25a607067990c78fea9dc6" title="Initialisation de la liste de données des plugins.">setDefaultData</a>();
+<a name="l00068"></a>00068 
+<a name="l00069"></a>00069 <span class="keyword">private</span> :
+<a name="l00070"></a>00070 
+<a name="l00071"></a>00071     QString        m_device_type;
+<a name="l00072"></a>00072     QTimer         m_timer;
+<a name="l00073"></a>00073 };
+<a name="l00074"></a>00074 
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076 
+<a name="l00077"></a>00077 <span class="preprocessor">#endif</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_send_data_base.html#a1c6f897800ffdf1399042793ad737bac" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="244,32,473,61"/>
+<area shape="rect" id="node5" href="$class_c_list_data_plugin.html#a656342b2b4eb4bd110cd225ba41cd631" title="Renvoi une description de la liste de donnée indexé par EDataInformations." alt="" coords="523,5,691,35"/>
+<area shape="rect" id="node7" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="525,59,688,88"/>
+</map>

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a:  Fichier source de /home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/cutecom.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/cutecom.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="cutecom_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*  Copyright (C) 2004-2005 Alexander Neundorf &lt;neundorf@kde.org&gt;</span>
+<a name="l00002"></a>00002 <span class="comment"></span>
+<a name="l00003"></a>00003 <span class="comment">    This program is free software; you can redistribute it and/or modify</span>
+<a name="l00004"></a>00004 <span class="comment">    it under the terms of the GNU General Public License as published by</span>
+<a name="l00005"></a>00005 <span class="comment">    the Free Software Foundation; either version 2 of the License, or</span>
+<a name="l00006"></a>00006 <span class="comment">    (at your option) any later version.</span>
+<a name="l00007"></a>00007 <span class="comment"></span>
+<a name="l00008"></a>00008 <span class="comment">    This program is distributed in the hope that it will be useful,</span>
+<a name="l00009"></a>00009 <span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<a name="l00010"></a>00010 <span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<a name="l00011"></a>00011 <span class="comment">    GNU General Public License for more details.</span>
+<a name="l00012"></a>00012 <span class="comment"></span>
+<a name="l00013"></a>00013 <span class="comment">    You should have received a copy of the GNU General Public License</span>
+<a name="l00014"></a>00014 <span class="comment">    along with this program; if not, write to the Free Software</span>
+<a name="l00015"></a>00015 <span class="comment">    Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.</span>
+<a name="l00016"></a>00016 <span class="comment"></span>
+<a name="l00017"></a>00017 <span class="comment">*/</span>
+<a name="l00018"></a>00018 
+<a name="l00019"></a>00019 <span class="preprocessor">#ifndef __CUTECOM_H__</span>
+<a name="l00020"></a>00020 <span class="preprocessor"></span><span class="preprocessor">#define __CUTECOM_H__</span>
+<a name="l00021"></a>00021 <span class="preprocessor"></span>
+<a name="l00022"></a>00022 
+<a name="l00023"></a>00023 <span class="preprocessor">#include &lt;iostream&gt;</span>
+<a name="l00024"></a>00024 <span class="keyword">using namespace </span>std;
+<a name="l00025"></a>00025 
+<a name="l00026"></a>00026 <span class="preprocessor">#include &lt;errno.h&gt;</span>
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028 <span class="preprocessor">#include &lt;sys/ioctl.h&gt;</span>
+<a name="l00029"></a>00029 <span class="preprocessor">#include &lt;sys/termios.h&gt;</span>
+<a name="l00030"></a>00030 
+<a name="l00031"></a>00031 <span class="preprocessor">#include &lt;sys/types.h&gt;</span>
+<a name="l00032"></a>00032 
+<a name="l00033"></a>00033 <span class="preprocessor">#include &lt;fcntl.h&gt;</span>
+<a name="l00034"></a>00034 
+<a name="l00035"></a>00035 
+<a name="l00036"></a>00036 <span class="preprocessor">#include &quot;<a class="code" href="ui__cutecommdlg_8h.html">ui_cutecommdlg.h</a>&quot;</span>
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039 <span class="preprocessor">#include &lt;QtGui&gt;</span>
+<a name="l00040"></a>00040 
+<a name="l00041"></a><a class="code" href="cutecom_8h.html#ab906b4ec7635efa6a0419625ec762273">00041</a> <span class="preprocessor">#define CUTECOMM_BUFSIZE (4096)</span>
+<a name="l00042"></a>00042 <span class="preprocessor"></span>
+<a name="l00043"></a>00043 
+<a name="l00044"></a>00044 <span class="comment">//#define WRITE_ERROR_LOGGER() std::cout&lt;&lt;__FILE__&lt;&lt;+__PRETTY_FUNCTION__&lt;&lt;std::endl;</span>
+<a name="l00045"></a><a class="code" href="cutecom_8h.html#a718fc6a7ca30bca184f9d95e1b57fd71">00045</a> <span class="preprocessor"> #define WRITE_ERROR_LOGGER()</span>
+<a name="l00046"></a>00046 <span class="preprocessor"></span>
+<a name="l00047"></a><a class="code" href="class_c_cute_com.html">00047</a> <span class="keyword">class </span><a class="code" href="class_c_cute_com.html">CCuteCom</a>:<span class="keyword">public</span> QWidget, <span class="keyword">public</span> Ui::CuteCommDlg
+<a name="l00048"></a>00048 {
+<a name="l00049"></a>00049    Q_OBJECT
+<a name="l00050"></a>00050    <span class="keyword">public</span>:
+<a name="l00051"></a>00051 
+<a name="l00052"></a>00052       <a class="code" href="class_c_cute_com.html">CCuteCom</a>(QWidget* parent = NULL);
+<a name="l00053"></a>00053       <span class="keyword">virtual</span> <span class="keywordtype">bool</span> eventFilter(QObject* watched, QEvent *e);
+<a name="l00054"></a>00054 
+<a name="l00055"></a>00055    <span class="keyword">public</span> slots:
+<a name="l00056"></a>00056 
+<a name="l00057"></a>00057       <span class="keywordtype">void</span> execCmd();
+<a name="l00058"></a>00058       <span class="keywordtype">void</span> readData(<span class="keywordtype">int</span> fd);
+<a name="l00059"></a>00059       <span class="keywordtype">void</span> sendFile();
+<a name="l00060"></a>00060       <span class="keywordtype">void</span> showAboutMsg();
+<a name="l00061"></a>00061 
+<a name="l00062"></a>00062       <span class="keywordtype">void</span> oldCmdClicked(QListWidgetItem* item);
+<a name="l00063"></a>00063       <span class="keywordtype">void</span> saveSettings();
+<a name="l00064"></a>00064       <span class="keywordtype">void</span> readFromStdout();
+<a name="l00065"></a>00065       <span class="keywordtype">void</span> readFromStderr();
+<a name="l00066"></a>00066       <span class="keywordtype">void</span> sendDone();
+<a name="l00067"></a>00067       <span class="keywordtype">void</span> connectTTY();
+<a name="l00068"></a>00068       <span class="keywordtype">void</span> disconnectTTY();
+<a name="l00069"></a>00069       <span class="keywordtype">void</span> killSz();
+<a name="l00070"></a>00070       <span class="keywordtype">void</span> enableSettingWidgets(<span class="keywordtype">bool</span> enable);
+<a name="l00071"></a>00071       <span class="keywordtype">void</span> doOutput();
+<a name="l00072"></a>00072       <span class="keywordtype">void</span> sendKey();
+<a name="l00073"></a>00073       <span class="keywordtype">void</span> hexOutputClicked(<span class="keywordtype">bool</span> on);
+<a name="l00074"></a>00074       <span class="keywordtype">void</span> enableLogging(<span class="keywordtype">bool</span> on);
+<a name="l00075"></a>00075       <span class="keywordtype">void</span> chooseLogFile();
+<a name="l00076"></a>00076       <span class="keywordtype">void</span> clearOutput();
+<a name="l00077"></a>00077 
+<a name="l00078"></a>00078    <span class="keyword">public</span>:
+<a name="l00079"></a>00079 
+<a name="l00080"></a>00080       <span class="keywordtype">void</span> fillBaudCb();
+<a name="l00081"></a>00081       <span class="keywordtype">void</span> addOutput(<span class="keyword">const</span> QString&amp; text);
+<a name="l00082"></a>00082       <span class="keywordtype">bool</span> sendByte(<span class="keywordtype">char</span> c, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> delay);
+<a name="l00083"></a>00083       <span class="keywordtype">void</span> disconnectTTYRestore(<span class="keywordtype">bool</span> restore);
+<a name="l00084"></a>00084       <span class="keywordtype">void</span> readSettings();
+<a name="l00085"></a>00085       <span class="keywordtype">void</span> prevCmd();
+<a name="l00086"></a>00086       <span class="keywordtype">void</span> nextCmd();
+<a name="l00087"></a>00087       <span class="keywordtype">bool</span> sendString(<span class="keyword">const</span> QString&amp; s);
+<a name="l00088"></a>00088       <span class="keywordtype">void</span> setNewOptions(<span class="keywordtype">int</span> baudrate, <span class="keywordtype">int</span> databits, <span class="keyword">const</span> QString&amp; parity, <span class="keyword">const</span> QString&amp; stop, <span class="keywordtype">bool</span> softwareHandshake, <span class="keywordtype">bool</span> hardwareHandshake);
+<a name="l00089"></a>00089       <span class="keyword">virtual</span> <span class="keywordtype">void</span> resizeEvent(QResizeEvent *e);
+<a name="l00090"></a>00090 
+<a name="l00091"></a><a class="code" href="class_c_cute_com.html#a8742f031c069282dfce1f2d4a5accd49">00091</a>       <span class="keywordtype">bool</span>              m_isConnected;
+<a name="l00092"></a><a class="code" href="class_c_cute_com.html#a156702dc03d2aa6899b320d2ddd3af17">00092</a>       <span class="keywordtype">int</span>               m_fd;
+<a name="l00093"></a><a class="code" href="class_c_cute_com.html#aab2ac53797a3e0d937b927de9dfd2739">00093</a>       <span class="keyword">struct </span>termios    m_oldtio;
+<a name="l00094"></a><a class="code" href="class_c_cute_com.html#aba94c1613ec3624c314f949e21f9c799">00094</a>       <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>      m_cmdBufIndex;
+<a name="l00095"></a><a class="code" href="class_c_cute_com.html#a89b73973dcbd57643382a5bc23728fcc">00095</a>       QSocketNotifier  *m_notifier;
+<a name="l00096"></a><a class="code" href="class_c_cute_com.html#aa6a5f2a9a51959b5a6a462296a1e0052">00096</a>       <span class="keywordtype">char</span>              m_buf[CUTECOMM_BUFSIZE];
+<a name="l00097"></a><a class="code" href="class_c_cute_com.html#a264d8c166ba3b28828854987152f9740">00097</a>       QProcess         *m_sz;
+<a name="l00098"></a><a class="code" href="class_c_cute_com.html#abdfbe30ef37f738e10619c2d54b823f7">00098</a>       QProgressDialog  *m_progress;
+<a name="l00099"></a><a class="code" href="class_c_cute_com.html#a0e59b241becd79615949811f7ca251e8">00099</a>       <span class="keywordtype">int</span>               m_progressStepSize;
+<a name="l00100"></a>00100 
+<a name="l00101"></a><a class="code" href="class_c_cute_com.html#a76027be2f5e52ef5f49fbf5633fca557">00101</a>       QFileDialog      *m_fileDlg;
+<a name="l00102"></a><a class="code" href="class_c_cute_com.html#a67f91c1123046ebdb1886974ebb408c7">00102</a>       QString           m_sendFileDialogStartDir;
+<a name="l00103"></a>00103 
+<a name="l00104"></a><a class="code" href="class_c_cute_com.html#a367ffc7fb7a34ff6862a73f10aada57a">00104</a>       QTimer            m_outputTimer;
+<a name="l00105"></a><a class="code" href="class_c_cute_com.html#a3f44271f2406b6b6933327ff44add075">00105</a>       QTime             m_outputTimerStart;
+<a name="l00106"></a><a class="code" href="class_c_cute_com.html#aad71d5ef0161a28376b22fcb894b4eb0">00106</a>       QString           m_outputBuffer;
+<a name="l00107"></a>00107 
+<a name="l00108"></a><a class="code" href="class_c_cute_com.html#ad10a736aabce6e9a6696bac80426f0fb">00108</a>       QTimer            m_keyRepeatTimer;
+<a name="l00109"></a><a class="code" href="class_c_cute_com.html#a3eb1b4f275cf5edf328be6aff152fcef">00109</a>       <span class="keywordtype">char</span>              m_keyCode;
+<a name="l00110"></a><a class="code" href="class_c_cute_com.html#a5096df4816d65204750edea0e4c1ccb7">00110</a>       <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>      m_hexBytes;
+<a name="l00111"></a><a class="code" href="class_c_cute_com.html#a762b06f1c12761914ffb3213506c02ca">00111</a>       <span class="keywordtype">char</span>              m_previousChar;
+<a name="l00112"></a>00112 
+<a name="l00113"></a><a class="code" href="class_c_cute_com.html#a477d55052998354b08e170d3b52cf614">00113</a>       QFile             m_logFile;
+<a name="l00114"></a>00114 
+<a name="l00115"></a>00115 signals :
+<a name="l00116"></a>00116       <span class="keywordtype">void</span> signalReceiveData (QString &amp;_data);
+<a name="l00117"></a>00117       <span class="keywordtype">void</span> signalDisconnect();
+<a name="l00118"></a>00118 
+<a name="l00119"></a>00119 };
+<a name="l00120"></a>00120 
+<a name="l00121"></a>00121 <span class="preprocessor">#endif</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:06 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

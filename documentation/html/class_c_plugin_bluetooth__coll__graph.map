@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_c_plugin_abstract_object.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins pour les slots et si..." alt="" coords="311,5,465,35"/>
+<area shape="rect" id="node4" href="$class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins." alt="" coords="329,59,447,88"/>
+<area shape="rect" id="node6" href="$class_c_list_data_plugin.html" title="Cette classe reprèsente la liste des données d&#39;un plugin. Elle stocke plusieurs liste de donnée..." alt="" coords="5,112,123,141"/>
+<area shape="rect" id="node8" href="$class_c_plugin_bluetooth_thread_send_file.html" title="Ce thread est lancé lors de l&#39;envoi de fichiers." alt="" coords="281,112,495,141"/>
+<area shape="rect" id="node11" href="$class_c_plugin_bluetooth_thread.html" title="Ce thread surveille et détecte les périphériques bluetooth." alt="" coords="307,165,469,195"/>
+</map>

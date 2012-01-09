@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_network.html#acd94bf98f68e6729933c91c2cd61c699" title="Initialisation de la liste de données de connections des plugins." alt="" coords="275,5,560,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_network.html#ae0f398f0f880748a1427d8a7e48a3e2e" title="Initialisation de la liste de données des plugins." alt="" coords="311,59,524,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_network.html#af52e4b1ce0696e8d6b111c6b17b7ec10" title="CPluginNetwork::slotUpdate" alt="" coords="324,112,511,141"/>
+<area shape="rect" id="node9" href="$class_c_plugin_network.html#ad7db00cee3e94079b0541bc77f32108f" title="CPluginNetwork::signalUpdateServices" alt="" coords="609,112,860,141"/>
+</map>

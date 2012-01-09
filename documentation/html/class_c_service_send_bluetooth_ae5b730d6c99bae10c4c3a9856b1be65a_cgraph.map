@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&#39;un plugin de type EDataInformations, qui contient la valeure _value_d..." alt="" coords="309,5,544,35"/>
+<area shape="rect" id="node7" href="$class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8" title="Renvoi la valeure en fonction du _type_data dans la liste." alt="" coords="343,59,511,88"/>
+<area shape="rect" id="node9" href="$class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations." alt="" coords="349,112,504,141"/>
+<area shape="rect" id="node11" href="$class_c_list_data.html#a8577645a0359b0de86c6ba60fbd0323e" title="Ajoute un CData si le _type_data n&#39;existe pas dans la liste, ou le modifie sinon." alt="" coords="343,165,511,195"/>
+<area shape="rect" id="node13" href="$class_c_service_send_bluetooth.html#ad6f5227c4eebb1b86fe51f4b3f38cfce" title="CServiceSendBluetooth::signalSendData" alt="" coords="296,219,557,248"/>
+<area shape="rect" id="node5" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="607,5,769,35"/>
+</map>

@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a:  Fichier source de /home/c2a/Documents/projet_c2a/plugins/pluginCANGine/plugin_cangine.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>/home/c2a/Documents/projet_c2a/plugins/pluginCANGine/plugin_cangine.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="plugin__cangine_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00002"></a>00002 
+<a name="l00003"></a>00003 
+<a name="l00004"></a>00004 
+<a name="l00005"></a>00005 
+<a name="l00006"></a>00006 
+<a name="l00007"></a>00007 <span class="preprocessor">#ifndef __PLUGIN_CANGINE_H__</span>
+<a name="l00008"></a>00008 <span class="preprocessor"></span><span class="preprocessor">#define __PLUGIN_CANGINE_H__</span>
+<a name="l00009"></a>00009 <span class="preprocessor"></span>
+<a name="l00010"></a>00010 <span class="preprocessor">#include&lt;QtGui&gt;</span>
+<a name="l00011"></a>00011 
+<a name="l00012"></a>00012 <span class="preprocessor">#include &quot;<a class="code" href="plugin__abstract__serial__port_8h.html">plugin_abstract_serial_port.h</a>&quot;</span>
+<a name="l00013"></a>00013 
+<a name="l00016"></a><a class="code" href="class_c_plugin_c_a_n_gine.html">00016</a> <span class="keyword">class </span><a class="code" href="class_c_plugin_c_a_n_gine.html" title="Classe pour gérer le cangine. Pour détecter la déconnection du périphérique il faut surveiller avec u...">CPluginCANGine</a>:  <span class="keyword">public</span> <a class="code" href="class_c_plugin_abstract_serial_port.html" title="Classe abstraite des plugins port série.">CPluginAbstractSerialPort</a>
+<a name="l00017"></a>00017 {
+<a name="l00018"></a>00018     Q_OBJECT
+<a name="l00019"></a>00019     Q_INTERFACES(<a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a>)
+<a name="l00020"></a>00020 
+<a name="l00021"></a>00021 <span class="keyword">public</span> :
+<a name="l00022"></a>00022 
+<a name="l00023"></a>00023     <a class="code" href="class_c_plugin_c_a_n_gine.html#a24ce7fe434c9c9533caba3ba13c0b955">CPluginCANGine</a>();
+<a name="l00024"></a>00024 
+<a name="l00025"></a>00025     <a class="code" href="class_c_plugin_c_a_n_gine.html#a666d4908e849b226117fe9d3b98a81f2">~CPluginCANGine</a>();
+<a name="l00026"></a>00026 
+<a name="l00027"></a>00027     <span class="keyword">virtual</span> QString <a class="code" href="class_c_plugin_c_a_n_gine.html#a977c2ea168bd4a5163e5574b88191aa2" title="Renvoi le nom du plugin.">getNamePlugin</a>();
+<a name="l00028"></a>00028 
+<a name="l00029"></a>00029     <span class="keyword">virtual</span> QObject *<a class="code" href="class_c_plugin_c_a_n_gine.html#a71574991db41f095efbf6b1a9678dd3b" title="Renvoi l&amp;#39;object, ca permet de connecter les signaux.">getObject</a>();
+<a name="l00030"></a>00030 
+<a name="l00031"></a>00031     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a9e6eade95baa50df1bb94ac251c2dd1c" title="Affecte le nom du périphérique. Ex : /dev/ttyS0.">setDevice</a> (QString _device);
+<a name="l00032"></a>00032 
+<a name="l00033"></a>00033     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a8439fc9d105565675d9c2cb33cee7eb8" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq...">start</a>();
+<a name="l00034"></a>00034 
+<a name="l00035"></a>00035     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a5ff3b96fa7c695729f7e8846daf943c9" title="Stop le plugin, lors d&amp;#39;une déconnection par exemple.">stop</a>();
+<a name="l00036"></a>00036 
+<a name="l00037"></a>00037     <span class="keyword">virtual</span> QWidget *<a class="code" href="class_c_plugin_c_a_n_gine.html#a0157812bfc92f23a79d12c70625999c1" title="Renvoi le widget associé, pour les plugins série, le widget est cutecom, les autres n&amp;#39;ont pas de ...">getWidget</a>();
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039     <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a110b39081fe22e05cabdf42707ad94d3" title="Cette variable permet de donner une priorité lorsque deux ou plusieurs plugins sont valide pour détét...">getPriority</a>();
+<a name="l00040"></a>00040 
+<a name="l00041"></a>00041     <span class="keywordtype">bool</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a8ec5a99680aa2adbe992113393932cad" title="Utilisé par l&amp;#39;application pour savoir si le plugin est associé à un périphérique ou pas...">isUsed</a>();
+<a name="l00042"></a>00042 
+<a name="l00043"></a>00043     <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#aad94b7f5f17f32a8ad1245c72421cbe7" title="Utilisé par l&amp;#39;application pour indiquer l&amp;#39;utilisation d&amp;#39;un plugin par un périphérique...">setUsed</a>  (<span class="keywordtype">bool</span> _used);
+<a name="l00044"></a>00044 
+<a name="l00045"></a>00045 <span class="keyword">public</span> slots :
+<a name="l00046"></a>00046 
+<a name="l00047"></a>00047     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a79906b980bf36f20442b512ed954e37a">slotReceiveData</a> (QString &amp;_data);
+<a name="l00048"></a>00048 
+<a name="l00049"></a><a class="code" href="class_c_plugin_c_a_n_gine.html#a41a05cb007c9880e2d666d77531cbca2">00049</a>     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a41a05cb007c9880e2d666d77531cbca2">slotSendData</a>    () {}
+<a name="l00050"></a>00050 
+<a name="l00051"></a>00051     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a304235544c05fa11c2248e075b2429a9">slotDisconnect</a>  ();
+<a name="l00052"></a>00052 
+<a name="l00053"></a>00053 signals :
+<a name="l00054"></a>00054 
+<a name="l00055"></a>00055     <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#aec7c08d548258ea593819917b379b507">signalDisconnect</a>   (<a class="code" href="class_c_plugin_abstract.html" title="Classe abstraite qui contient la déclaration des méthodes génériques aux plugins.">CPluginAbstract</a>*);
+<a name="l00056"></a>00056 
+<a name="l00057"></a>00057     <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a6b64be44e6b9242ececd83398420f33c">signalUpdateServices</a> ();
+<a name="l00058"></a>00058 
+<a name="l00059"></a>00059 <span class="keyword">protected</span> :
+<a name="l00060"></a>00060 
+<a name="l00061"></a>00061     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#a1dea9189f8c720d8d32c03f89a0bd105" title="Initialisation de la liste de données de connections des plugins.">setDataConnectionSettings</a> ();
+<a name="l00062"></a>00062 
+<a name="l00063"></a>00063     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_c_plugin_c_a_n_gine.html#ae8757e165df887c26e126b7c0023bad9" title="Initialisation de la liste de données des plugins.">setDefaultData</a>();
+<a name="l00064"></a>00064 
+<a name="l00065"></a>00065 <span class="keyword">private</span> :
+<a name="l00066"></a>00066 
+<a name="l00067"></a>00067     <span class="keywordtype">void</span> parseToMessage ();
+<a name="l00068"></a>00068 
+<a name="l00069"></a>00069     QRegExp m_device_type;
+<a name="l00070"></a>00070 
+<a name="l00071"></a>00071     QString m_data;
+<a name="l00072"></a>00072 
+<a name="l00073"></a>00073     QList&lt;QString&gt; m_list_string_validation;
+<a name="l00074"></a>00074 
+<a name="l00075"></a>00075     QString m_message;
+<a name="l00076"></a>00076 
+<a name="l00077"></a>00077     QTimer m_time_disconnect;
+<a name="l00078"></a>00078 
+<a name="l00079"></a>00079     <span class="keywordtype">int</span>    m_cpt_iteration_data;
+<a name="l00080"></a>00080 };
+<a name="l00081"></a>00081 
+<a name="l00082"></a>00082 
+<a name="l00083"></a>00083 
+<a name="l00084"></a>00084 <span class="preprocessor">#endif</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

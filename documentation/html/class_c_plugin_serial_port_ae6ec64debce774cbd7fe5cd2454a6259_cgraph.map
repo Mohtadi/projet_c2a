@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_serial_port.html#a2e69cc8119a03736cd1bf5f1a92c5c35" title="Initialisation de la liste de données des plugins." alt="" coords="295,5,516,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_serial_port.html#a8ff1cf0e8787d0fb248bbd4316aedc20" title="CPluginSerialPort::signalDisconnect" alt="" coords="289,59,521,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_serial_port.html#a51dcdc1e3b27543e22232801b84c947a" title="CPluginSerialPort::signalUpdateServices" alt="" coords="276,112,535,141"/>
+</map>

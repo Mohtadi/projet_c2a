@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_copy_corsair_to_data.html#a70ee67b6dbb2b11ca5ab0f5bce1e6cfc" title="Lance le démarrage du service." alt="" coords="344,72,571,101"/>
+<area shape="rect" id="node11" href="$class_c_service_copy_corsair_to_data.html#ac03699b090305de3593d7c1c60359997" title="CServiceCopyCorsairToData::updateWidget" alt="" coords="317,139,597,168"/>
+<area shape="rect" id="node5" href="$class_c_service_copy_corsair_to_data_thread.html#a3a97f283adf62b9cf3ae9d022000d6e9" title="CServiceCopyCorsairToDataThread::setListDataService" alt="" coords="647,5,996,35"/>
+<area shape="rect" id="node7" href="$class_c_service_copy_corsair_to_data_thread.html#ab1a1688af5e98fbc2784012c874e5c4e" title="CServiceCopyCorsairToDataThread::setStop" alt="" coords="679,59,964,88"/>
+<area shape="rect" id="node9" href="$class_c_service_copy_corsair_to_data_thread.html#a65f9f4b32fb9ad3597d691de40aed01c" title="CServiceCopyCorsairToDataThread::setTreeWidget" alt="" coords="659,112,984,141"/>
+<area shape="rect" id="node13" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="740,165,903,195"/>
+</map>

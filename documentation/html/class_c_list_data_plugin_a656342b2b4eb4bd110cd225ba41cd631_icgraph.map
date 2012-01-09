@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_dock_widget_list_data_service.html#aac261ac62f78d7d365eed5da04704fc0" title="CDockWidgetListDataService::createTreeWidgetListDataService" alt="" coords="223,5,623,35"/>
+<area shape="rect" id="node7" href="$class_c_service_send_data_base.html#a1c6f897800ffdf1399042793ad737bac" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="308,59,537,88"/>
+<area shape="rect" id="node11" href="$class_c_service_save_file_html.html#acda2d20434b0f339c1091e06d80d931a" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="312,112,533,141"/>
+<area shape="rect" id="node15" href="$class_c_service_save_file.html#ab8430d16aa32672f064383c8242a2500" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="327,165,519,195"/>
+<area shape="rect" id="node19" href="$class_c_service_flite.html#af9ce1658230601c4f177f578020aae1e" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="340,219,505,248"/>
+<area shape="rect" id="node23" href="$class_c_service_copy_d_note_disk_to_data.html#a9bcd87f6300fde74a1e47f7f4a216a6b" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="283,272,563,301"/>
+<area shape="rect" id="node27" href="$class_c_service_copy_corsair_to_data.html#abc858051987348c3a6c3f262241f26a4" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="293,325,552,355"/>
+<area shape="rect" id="node5" href="$class_c_dock_widget_list_data_service.html#a05e6aaafeb9a0da4385261b23011db56" title="CDockWidgetListDataService::CDockWidgetListDataService" alt="" coords="673,5,1052,35"/>
+<area shape="rect" id="node9" href="$class_c_service_send_data_base.html#ad80887340b0b1cc0134c1758c391c60b" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="768,59,957,88"/>
+<area shape="rect" id="node13" href="$class_c_service_save_file_html.html#ae3b92ea11dc4c53d39290963d2797b99" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="773,112,952,141"/>
+<area shape="rect" id="node17" href="$class_c_service_save_file.html#a558ecfbf9ccab1645543f8572b67effc" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="787,165,939,195"/>
+<area shape="rect" id="node21" href="$class_c_service_flite.html#aa1d100d513b145c1013a9c00383fa663" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="800,219,925,248"/>
+<area shape="rect" id="node25" href="$class_c_service_copy_d_note_disk_to_data.html#a2d7d0b6c2285403759ab0d31b0f4d924" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="743,272,983,301"/>
+<area shape="rect" id="node29" href="$class_c_service_copy_corsair_to_data.html#a7ce1a3b5f0d2fb898d8940ed2c5feba9" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="755,325,971,355"/>
+</map>

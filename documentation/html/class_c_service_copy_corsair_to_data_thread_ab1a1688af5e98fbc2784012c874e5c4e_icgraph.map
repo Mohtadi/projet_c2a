@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_copy_corsair_to_data.html#a70ee67b6dbb2b11ca5ab0f5bce1e6cfc" title="Lance le démarrage du service." alt="" coords="339,5,565,35"/>
+<area shape="rect" id="node7" href="$class_c_service_copy_corsair_to_data.html#a4b7b96ae8a23c4b698523a13a0221f58" title="Stop le service." alt="" coords="340,59,564,88"/>
+<area shape="rect" id="node5" href="$class_c_service_copy_corsair_to_data.html#a8a3763e5133e5b152ec5ad6ca7d2f0d1" title="CServiceCopyCorsairToData::slotUpdate" alt="" coords="615,5,876,35"/>
+</map>

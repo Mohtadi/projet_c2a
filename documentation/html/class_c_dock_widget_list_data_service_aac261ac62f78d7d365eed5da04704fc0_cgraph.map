@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_data.html#a037d59261b54eb8546950ac2d6f9c6ca" title="Renvoi la descritpion de la donnée." alt="" coords="464,5,616,35"/>
+<area shape="rect" id="node5" href="$class_c_data.html#a590d37da468e1144e203826b98a5051a" title="Renvoi sous forme d&#39;une string list le titre des données, utilisé pour les titre des QTreeWidget..." alt="" coords="457,59,623,88"/>
+<area shape="rect" id="node7" href="$class_c_list_data_plugin.html#a656342b2b4eb4bd110cd225ba41cd631" title="Renvoi une description de la liste de donnée indexé par EDataInformations." alt="" coords="456,112,624,141"/>
+<area shape="rect" id="node9" href="$class_c_data.html#a68b65e8e35c242980cf899e820300592" title="Renvoi le type de la donnée." alt="" coords="469,165,611,195"/>
+<area shape="rect" id="node11" href="$class_c_data.html#a2d9e72332df79e46ef00bb4b6ee9d681" title="Renvoi l&#39;unité de la donnée." alt="" coords="471,219,609,248"/>
+<area shape="rect" id="node13" href="$class_c_data.html#a4cbecee173d3d9561ea494615367949f" title="Renvoi la valeure de la donnée." alt="" coords="467,272,613,301"/>
+<area shape="rect" id="node15" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="459,325,621,355"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_main_window.html#ad8688525fa9b9a2566cc05c4385e378e" title="Initialisation des différentes connections entre widgets." alt="" coords="304,5,480,35"/>
+<area shape="rect" id="node5" href="$class_c_main_window.html#a2658656736a5e3136e3e9197dd7303aa" title="Création des actions." alt="" coords="295,59,489,88"/>
+<area shape="rect" id="node7" href="$class_c_main_window.html#ae3f3a10a90b65e7d373e31f9129ff630" title="Création et initialisation de la tool bar." alt="" coords="295,112,489,141"/>
+<area shape="rect" id="node9" href="$class_c_main_window.html#a8cf23e5234864e7bedaf300ded66f251" title="Crée et initialise le répertoire de travail de l&#39;application. Efface tout les fichiers au lanceme..." alt="" coords="267,165,517,195"/>
+<area shape="rect" id="node11" href="$class_c_dock_widget_plugins.html#a97125623bae2473b5810538d20e5d537" title="CDockWidgetPlugins::getListDataService" alt="" coords="259,219,525,248"/>
+<area shape="rect" id="node13" href="$class_c_dock_widget_device_monitor.html#a489a3dc0479251bb8aa9a2805f694ce5" title="CDockWidgetDeviceMonitor::getListDevice" alt="" coords="255,272,529,301"/>
+<area shape="rect" id="node15" href="$class_c_dock_widget_plugins.html#ae406fa0d67a7f33fc1b67a49e3c6fef2" title="CDockWidgetPlugins::getListPlugins" alt="" coords="273,325,511,355"/>
+</map>

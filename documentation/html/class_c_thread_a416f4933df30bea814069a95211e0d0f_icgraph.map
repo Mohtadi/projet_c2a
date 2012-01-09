@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_save_file_html.html#a6bcaddb20f85abaaf9588cf41b59d694" title="CServiceSaveFileHtml::slotUpdate" alt="" coords="191,5,417,35"/>
+<area shape="rect" id="node5" href="$class_c_service_save_file.html#a9fdc26215f44f5fc2ba0d5cfc193f2a7" title="CServiceSaveFile::slotUpdate" alt="" coords="205,59,403,88"/>
+<area shape="rect" id="node7" href="$class_c_service_flite.html#a3efce48e71f4c74cf6179690e759f610" title="Lance le démarrage du service." alt="" coords="237,112,371,141"/>
+<area shape="rect" id="node9" href="$class_c_service_copy_d_note_disk_to_data.html#a504d4a17439ad78927be516b62981e64" title="Lance le démarrage du service." alt="" coords="180,165,428,195"/>
+<area shape="rect" id="node13" href="$class_c_service_copy_corsair_to_data.html#a70ee67b6dbb2b11ca5ab0f5bce1e6cfc" title="Lance le démarrage du service." alt="" coords="191,219,417,248"/>
+<area shape="rect" id="node17" href="$class_c_service_save_file_html.html#a2babb2bae7ddcc300e0e2747c0b93dd4" title="Stop le service." alt="" coords="211,272,397,301"/>
+<area shape="rect" id="node19" href="$class_c_service_save_file.html#a184af40bcc0c92dcb28f6ce078b94f98" title="Stop le service." alt="" coords="224,325,384,355"/>
+<area shape="rect" id="node21" href="$class_c_service_flite.html#a224c0f200aee284e82dc6a6362ccc216" title="Stop le service." alt="" coords="237,379,371,408"/>
+<area shape="rect" id="node23" href="$class_c_service_copy_d_note_disk_to_data.html#a1361c145518666b92a485e64afb5e36b" title="Stop le service." alt="" coords="180,432,428,461"/>
+<area shape="rect" id="node25" href="$class_c_service_copy_corsair_to_data.html#a4b7b96ae8a23c4b698523a13a0221f58" title="Stop le service." alt="" coords="192,485,416,515"/>
+<area shape="rect" id="node11" href="$class_c_service_copy_d_note_disk_to_data.html#accf8718d61c60607b0573f762ebd780c" title="CServiceCopyDNoteDiskToData::slotUpdate" alt="" coords="479,165,764,195"/>
+<area shape="rect" id="node15" href="$class_c_service_copy_corsair_to_data.html#a8a3763e5133e5b152ec5ad6ca7d2f0d1" title="CServiceCopyCorsairToData::slotUpdate" alt="" coords="491,219,752,248"/>
+</map>

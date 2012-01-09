@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE c2a>
+<Project>
+ <service name="service copy CORSAIR" start="0"/>
+ <service name="service copy tablette tactile" start="0"/>
+ <service name="service flite" start="0"/>
+ <service name="service save file" start="0">
+  <parameters filename="fichier.txt"/>
+ </service>
+ <service name="service save file html" start="0">
+  <parameters filename="index.html"/>
+ </service>
+ <service name="service save file bluetooth" start="0">
+  <parameters interval="1" address="6c:d6:8a:94:51:c4"/>
+ </service>
+ <service name="service data base" start="1">
+  <checked plugin="Plugin cangine" type="PCAN_ENGSPEED" information="Informations de données"/>
+  <checked plugin="Plugin cangine" type="PCAN_ACCEL" information="Informations de données"/>
+  <checked plugin="Plugin cangine" type="PCAN_TCO" information="Informations de données"/>
+  <checked plugin="Plugin cangine" type="PCAN_SPEED" information="Informations de données"/>
+  <checked plugin="Plugin cangine" type="PCAN_SPEED_BR" information="Informations de données"/>
+  <checked plugin="Plugin gps" type="GPS_TIME_HEURE" information="Informations de données"/>
+  <checked plugin="Plugin gps" type="GPS_TIME_MINUTE" information="Informations de données"/>
+  <checked plugin="Plugin gps" type="GPS_TIME_SECONDE" information="Informations de données"/>
+  <checked plugin="Plugin gps" type="GPS_LATITUDE_DEGRE" information="Informations de données"/>
+  <parameters password="cresticc2a" interval="5" address="ayaida@sql.free.fr" user="ayaida" database="ayaida"/>
+ </service>
+ <service name="service save file ftp" start="0">
+  <parameters port="21" password="cresticc2a" login="ayaida" interval="5" serveur="ftpperso.free.fr"/>
+ </service>
+</Project>

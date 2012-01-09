@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>project_c2a: Référence de la classe CServiceSaveFileHtml</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&nbsp;de&nbsp;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hiérarchie&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&nbsp;de&nbsp;classe</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Connecteurs publics</a> &#124;
+<a href="#signals">Signaux</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a>  </div>
+  <div class="headertitle">
+<h1>Référence de la classe CServiceSaveFileHtml</h1>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="CServiceSaveFileHtml" --><!-- doxytag: inherits="CServiceAbstractObject,CServiceAbstract" -->
+<p>Permet de générer un fichier html, si on active le service ftp envoi directement le fichier html sur un serveur. Mais des fois à cause des rafraichissement intempestif et des copie sur le serveur, le fichier html s'affiche mal dans le navigateur, c'est pour ca qu'il y a aussi la possibilité de passer par le service de base de donnée.  
+<a href="#_details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="service__save__file__html_8h_source.html">service_save_file_html.h</a>&gt;</code></p>
+
+<p>Est dérivée de <a class="el" href="class_c_service_abstract_object.html">CServiceAbstractObject</a>, et <a class="el" href="class_c_service_abstract.html">CServiceAbstract</a>.</p>
+<div class="dynheader">
+Graphe de collaboration de CServiceSaveFileHtml:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html__coll__graph.png" border="0" usemap="#_c_service_save_file_html_coll__map" alt="Collaboration graph"/></div>
+<map name="_c_service_save_file_html_coll__map" id="_c_service_save_file_html_coll__map">
+<area shape="rect" id="node2" href="class_c_service_abstract_object.html" title="Classe abstraite qui contient la déclaration des signaux et slots des services." alt="" coords="5,101,168,131"/><area shape="rect" id="node4" href="class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services." alt="" coords="192,101,317,131"/><area shape="rect" id="node6" href="class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&#39;un service. Un service à accée à toute les informa..." alt="" coords="288,5,413,35"/><area shape="rect" id="node8" href="class_c_service_save_file_html_thread.html" title="Thread enregistre les informations cochées dans le treeWidget dans un fichiers, et génére un fichier ..." alt="" coords="341,101,536,131"/></map>
+<center><span class="legend">[<a href="graph_legend.html">légende</a>]</span></center></div>
+
+<p><a href="class_c_service_save_file_html-members.html">Liste de tous les membres</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-slots"></a>
+Connecteurs publics</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a6bcaddb20f85abaaf9588cf41b59d694">slotUpdate</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="signals"></a>
+Signaux</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a2ba9dcb50421f52a61da56fe198dc32c">signalSendData</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#ae029cb9b964180be07f34c449cc61415">CServiceSaveFileHtml</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#af551e3cec1fb7be9a62f01f56670ff5d">~CServiceSaveFileHtml</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#ae3b92ea11dc4c53d39290963d2797b99">init</a> (<a class="el" href="class_c_list_data_service.html">CListDataService</a> *_list_data_informations)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans l'application, et tout les services y ont accés.  <a href="#ae3b92ea11dc4c53d39290963d2797b99"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QObject *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#ad93e62a7d8197dd9999e61ae9302c260">getObject</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi l'object pour la connection des signaux et des slots.  <a href="#ad93e62a7d8197dd9999e61ae9302c260"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a7bbeb6ab3a752e82dd1377c867079d55">getNameService</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi le nom du service.  <a href="#a7bbeb6ab3a752e82dd1377c867079d55"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QString&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a7994144440a10982a9d0ff1461678c1b">getDescriptionService</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi une description basique du service.  <a href="#a7994144440a10982a9d0ff1461678c1b"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#abb4dc038ee1c7f99febcd2078e8ff8ee">createWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Méthode utilisé pour créer le widget associé au paramètrage du service.  <a href="#abb4dc038ee1c7f99febcd2078e8ff8ee"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#acda2d20434b0f339c1091e06d80d931a">initWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Méthode utilisé pour initialiser le widget associé au paramètrage du service.  <a href="#acda2d20434b0f339c1091e06d80d931a"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a9fecae3bd84b3d4cdf36f50eb90948a1">updateWidget</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual QWidget *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#afa42a2d88d3c3fafa698ae230fd6b6d2">getWidget</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Renvoi la widget. Chaque service doit avoir un widget de crée.  <a href="#afa42a2d88d3c3fafa698ae230fd6b6d2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a5ebcf345fc4ae2f137f7e8411d4dc265">start</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lance le démarrage du service.  <a href="#a5ebcf345fc4ae2f137f7e8411d4dc265"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a2babb2bae7ddcc300e0e2747c0b93dd4">stop</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Stop le service.  <a href="#a2babb2bae7ddcc300e0e2747c0b93dd4"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a24ea9b0ff4ceb38c806392c091154aa4">save</a> (QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Fonction d'enregistrement des paramètres pour le fichier projet.  <a href="#a24ea9b0ff4ceb38c806392c091154aa4"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_service_save_file_html.html#a2db187460954280cba8fbcc8db8f00ff">load</a> (QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Fonction de chargement des paramètres pour le fichier projet.  <a href="#a2db187460954280cba8fbcc8db8f00ff"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Description détaillée</h2>
+<p>Permet de générer un fichier html, si on active le service ftp envoi directement le fichier html sur un serveur. Mais des fois à cause des rafraichissement intempestif et des copie sur le serveur, le fichier html s'affiche mal dans le navigateur, c'est pour ca qu'il y a aussi la possibilité de passer par le service de base de donnée. </p>
+<hr/><h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="ae029cb9b964180be07f34c449cc61415"></a><!-- doxytag: member="CServiceSaveFileHtml::CServiceSaveFileHtml" ref="ae029cb9b964180be07f34c449cc61415" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CServiceSaveFileHtml::CServiceSaveFileHtml </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_ae029cb9b964180be07f34c449cc61415_cgraph.png" border="0" usemap="#class_c_service_save_file_html_ae029cb9b964180be07f34c449cc61415_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_ae029cb9b964180be07f34c449cc61415_cgraph" id="class_c_service_save_file_html_ae029cb9b964180be07f34c449cc61415_cgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#abb4dc038ee1c7f99febcd2078e8ff8ee" title="Méthode utilisé pour créer le widget associé au paramètrage du service." alt="" coords="349,5,589,35"/><area shape="rect" id="node5" href="class_c_data.html#a590d37da468e1144e203826b98a5051a" title="Renvoi sous forme d&#39;une string list le titre des données, utilisé pour les titre des QTreeWidget..." alt="" coords="639,5,804,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af551e3cec1fb7be9a62f01f56670ff5d"></a><!-- doxytag: member="CServiceSaveFileHtml::~CServiceSaveFileHtml" ref="af551e3cec1fb7be9a62f01f56670ff5d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CServiceSaveFileHtml::~CServiceSaveFileHtml </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/><h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="abb4dc038ee1c7f99febcd2078e8ff8ee"></a><!-- doxytag: member="CServiceSaveFileHtml::createWidget" ref="abb4dc038ee1c7f99febcd2078e8ff8ee" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::createWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Méthode utilisé pour créer le widget associé au paramètrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a193fefa5fce1706c423f35fcbbde0f57">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_cgraph.png" border="0" usemap="#class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_cgraph" id="class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_cgraph">
+<area shape="rect" id="node3" href="class_c_data.html#a590d37da468e1144e203826b98a5051a" title="Renvoi sous forme d&#39;une string list le titre des données, utilisé pour les titre des QTreeWidget..." alt="" coords="295,5,460,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_icgraph.png" border="0" usemap="#class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_icgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_icgraph" id="class_c_service_save_file_html_abb4dc038ee1c7f99febcd2078e8ff8ee_icgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#ae029cb9b964180be07f34c449cc61415" title="CServiceSaveFileHtml::CServiceSaveFileHtml" alt="" coords="293,5,589,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7994144440a10982a9d0ff1461678c1b"></a><!-- doxytag: member="CServiceSaveFileHtml::getDescriptionService" ref="a7994144440a10982a9d0ff1461678c1b" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CServiceSaveFileHtml::getDescriptionService </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi une description basique du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a0b0ba137409806890e1004266e95961d">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7bbeb6ab3a752e82dd1377c867079d55"></a><!-- doxytag: member="CServiceSaveFileHtml::getNameService" ref="a7bbeb6ab3a752e82dd1377c867079d55" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CServiceSaveFileHtml::getNameService </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi le nom du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a3dc0fb1acae6e181abd827200eb711fc">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a7bbeb6ab3a752e82dd1377c867079d55_icgraph.png" border="0" usemap="#class_c_service_save_file_html_a7bbeb6ab3a752e82dd1377c867079d55_icgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a7bbeb6ab3a752e82dd1377c867079d55_icgraph" id="class_c_service_save_file_html_a7bbeb6ab3a752e82dd1377c867079d55_icgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#a2db187460954280cba8fbcc8db8f00ff" title="Fonction de chargement des paramètres pour le fichier projet." alt="" coords="317,5,504,35"/><area shape="rect" id="node5" href="class_c_service_save_file_html.html#a24ea9b0ff4ceb38c806392c091154aa4" title="Fonction d&#39;enregistrement des paramètres pour le fichier projet." alt="" coords="316,59,505,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad93e62a7d8197dd9999e61ae9302c260"></a><!-- doxytag: member="CServiceSaveFileHtml::getObject" ref="ad93e62a7d8197dd9999e61ae9302c260" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QObject * CServiceSaveFileHtml::getObject </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi l'object pour la connection des signaux et des slots. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ac14305da687c30981a247d22866131f8">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afa42a2d88d3c3fafa698ae230fd6b6d2"></a><!-- doxytag: member="CServiceSaveFileHtml::getWidget" ref="afa42a2d88d3c3fafa698ae230fd6b6d2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget * CServiceSaveFileHtml::getWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Renvoi la widget. Chaque service doit avoir un widget de crée. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a075c4787a54f6ad7cb53c83fd3dee73a">CServiceAbstract</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae3b92ea11dc4c53d39290963d2797b99"></a><!-- doxytag: member="CServiceSaveFileHtml::init" ref="ae3b92ea11dc4c53d39290963d2797b99" args="(CListDataService *_list_data_informations)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_list_data_service.html">CListDataService</a> *&nbsp;</td>
+          <td class="paramname"> <em>_list_data_service</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans l'application, et tout les services y ont accés. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a9b4552c16e29974ec493750c24d207ee">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_ae3b92ea11dc4c53d39290963d2797b99_cgraph.png" border="0" usemap="#class_c_service_save_file_html_ae3b92ea11dc4c53d39290963d2797b99_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_ae3b92ea11dc4c53d39290963d2797b99_cgraph" id="class_c_service_save_file_html_ae3b92ea11dc4c53d39290963d2797b99_cgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#acda2d20434b0f339c1091e06d80d931a" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="235,32,456,61"/><area shape="rect" id="node5" href="class_c_list_data_plugin.html#a656342b2b4eb4bd110cd225ba41cd631" title="Renvoi une description de la liste de donnée indexé par EDataInformations." alt="" coords="504,5,672,35"/><area shape="rect" id="node7" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="507,59,669,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="acda2d20434b0f339c1091e06d80d931a"></a><!-- doxytag: member="CServiceSaveFileHtml::initWidget" ref="acda2d20434b0f339c1091e06d80d931a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::initWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Méthode utilisé pour initialiser le widget associé au paramètrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ad8861d7e9e6d4eb0c2d2ccef29bbdaa7">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_cgraph.png" border="0" usemap="#class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_cgraph" id="class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_cgraph">
+<area shape="rect" id="node3" href="class_c_list_data_plugin.html#a656342b2b4eb4bd110cd225ba41cd631" title="Renvoi une description de la liste de donnée indexé par EDataInformations." alt="" coords="275,5,443,35"/><area shape="rect" id="node5" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="277,59,440,88"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_icgraph.png" border="0" usemap="#class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_icgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_icgraph" id="class_c_service_save_file_html_acda2d20434b0f339c1091e06d80d931a_icgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#ae3b92ea11dc4c53d39290963d2797b99" title="Initialise le service avec la liste de tout les plugins. Une seule liste de service est utilisée dans..." alt="" coords="276,5,455,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2db187460954280cba8fbcc8db8f00ff"></a><!-- doxytag: member="CServiceSaveFileHtml::load" ref="a2db187460954280cba8fbcc8db8f00ff" args="(QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::load </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDomElement &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_element</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Fonction de chargement des paramètres pour le fichier projet. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a27065c998abeb12278874cfccb93d9e1">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a2db187460954280cba8fbcc8db8f00ff_cgraph.png" border="0" usemap="#class_c_service_save_file_html_a2db187460954280cba8fbcc8db8f00ff_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a2db187460954280cba8fbcc8db8f00ff_cgraph" id="class_c_service_save_file_html_a2db187460954280cba8fbcc8db8f00ff_cgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#a7bbeb6ab3a752e82dd1377c867079d55" title="Renvoi le nom du service." alt="" coords="241,5,500,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a24ea9b0ff4ceb38c806392c091154aa4"></a><!-- doxytag: member="CServiceSaveFileHtml::save" ref="a24ea9b0ff4ceb38c806392c091154aa4" args="(QDomDocument &amp;_dom_document, QDomElement &amp;_dom_element)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::save </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDomElement &amp;&nbsp;</td>
+          <td class="paramname"> <em>_dom_element</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Fonction d'enregistrement des paramètres pour le fichier projet. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#afc5d28e1f9f4338f677be74297189c7a">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a24ea9b0ff4ceb38c806392c091154aa4_cgraph.png" border="0" usemap="#class_c_service_save_file_html_a24ea9b0ff4ceb38c806392c091154aa4_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a24ea9b0ff4ceb38c806392c091154aa4_cgraph" id="class_c_service_save_file_html_a24ea9b0ff4ceb38c806392c091154aa4_cgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#a7bbeb6ab3a752e82dd1377c867079d55" title="Renvoi le nom du service." alt="" coords="247,5,505,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2ba9dcb50421f52a61da56fe198dc32c"></a><!-- doxytag: member="CServiceSaveFileHtml::signalSendData" ref="a2ba9dcb50421f52a61da56fe198dc32c" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::signalSendData </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [signal]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6bcaddb20f85abaaf9588cf41b59d694"></a><!-- doxytag: member="CServiceSaveFileHtml::slotUpdate" ref="a6bcaddb20f85abaaf9588cf41b59d694" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::slotUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual, slot]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a6bcaddb20f85abaaf9588cf41b59d694_cgraph.png" border="0" usemap="#class_c_service_save_file_html_a6bcaddb20f85abaaf9588cf41b59d694_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a6bcaddb20f85abaaf9588cf41b59d694_cgraph" id="class_c_service_save_file_html_a6bcaddb20f85abaaf9588cf41b59d694_cgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html_thread.html#aa9ae5a587ab1c9ce80be5f46da247a18" title="CServiceSaveFileHtmlThread::setStop" alt="" coords="280,5,528,35"/><area shape="rect" id="node5" href="class_c_service_save_file_html.html#a9fecae3bd84b3d4cdf36f50eb90948a1" title="CServiceSaveFileHtml::updateWidget" alt="" coords="283,59,525,88"/><area shape="rect" id="node7" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="577,59,740,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ebcf345fc4ae2f137f7e8411d4dc265"></a><!-- doxytag: member="CServiceSaveFileHtml::start" ref="a5ebcf345fc4ae2f137f7e8411d4dc265" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::start </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lance le démarrage du service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#a5c0455c0b0d8a2b1b7d5ee2923677f68">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a5ebcf345fc4ae2f137f7e8411d4dc265_cgraph.png" border="0" usemap="#class_c_service_save_file_html_a5ebcf345fc4ae2f137f7e8411d4dc265_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a5ebcf345fc4ae2f137f7e8411d4dc265_cgraph" id="class_c_service_save_file_html_a5ebcf345fc4ae2f137f7e8411d4dc265_cgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html_thread.html#ae3de4ecb56fd4aeb0f7dc4f7e8f97bc0" title="CServiceSaveFileHtmlThread::setFile" alt="" coords="279,5,521,35"/><area shape="rect" id="node5" href="class_c_service_save_file_html_thread.html#a6288a2ceccdd9162a181994ce068dc13" title="CServiceSaveFileHtmlThread::setListDataService" alt="" coords="243,59,557,88"/><area shape="rect" id="node7" href="class_c_service_save_file_html_thread.html#a999bb0a08b489323e121857cb9b64447" title="CServiceSaveFileHtmlThread::setTreeWidget" alt="" coords="256,112,544,141"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2babb2bae7ddcc300e0e2747c0b93dd4"></a><!-- doxytag: member="CServiceSaveFileHtml::stop" ref="a2babb2bae7ddcc300e0e2747c0b93dd4" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::stop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stop le service. </p>
+
+<p>Implémente <a class="el" href="class_c_service_abstract.html#ac26dc37102f572fdff37874f3b561221">CServiceAbstract</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a2babb2bae7ddcc300e0e2747c0b93dd4_cgraph.png" border="0" usemap="#class_c_service_save_file_html_a2babb2bae7ddcc300e0e2747c0b93dd4_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a2babb2bae7ddcc300e0e2747c0b93dd4_cgraph" id="class_c_service_save_file_html_a2babb2bae7ddcc300e0e2747c0b93dd4_cgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html_thread.html#aa9ae5a587ab1c9ce80be5f46da247a18" title="CServiceSaveFileHtmlThread::setStop" alt="" coords="243,5,491,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9fecae3bd84b3d4cdf36f50eb90948a1"></a><!-- doxytag: member="CServiceSaveFileHtml::updateWidget" ref="a9fecae3bd84b3d4cdf36f50eb90948a1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CServiceSaveFileHtml::updateWidget </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_cgraph.png" border="0" usemap="#class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_cgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_cgraph" id="class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_cgraph">
+<area shape="rect" id="node3" href="class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="297,5,460,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_icgraph.png" border="0" usemap="#class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_icgraph" alt=""/></div>
+<map name="class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_icgraph" id="class_c_service_save_file_html_a9fecae3bd84b3d4cdf36f50eb90948a1_icgraph">
+<area shape="rect" id="node3" href="class_c_service_save_file_html.html#a6bcaddb20f85abaaf9588cf41b59d694" title="CServiceSaveFileHtml::slotUpdate" alt="" coords="296,5,523,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>/home/c2a/Documents/projet_c2a/services/serviceSaveFileHtml/<a class="el" href="service__save__file__html_8h_source.html">service_save_file_html.h</a></li>
+<li>/home/c2a/Documents/projet_c2a/services/serviceSaveFileHtml/<a class="el" href="service__save__file__html_8cpp.html">service_save_file_html.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Valeurs énumérées</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Thu Jan 5 2012 16:52:07 pour project_c2a par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.1 </small></address>
+</body>
+</html>

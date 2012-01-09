@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_c_service_abstract_object.html" title="Classe abstraite qui contient la déclaration des signaux et slots des services." alt="" coords="5,101,168,131"/>
+<area shape="rect" id="node4" href="$class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services." alt="" coords="192,101,317,131"/>
+<area shape="rect" id="node6" href="$class_c_list_data_service.html" title="Cette classe reprèsente la liste des données d&#39;un service. Un service à accée à toute les informa..." alt="" coords="279,5,404,35"/>
+<area shape="rect" id="node8" href="$class_c_service_save_file_thread.html" title="Thread enregistre les informations cochées dans le treeWidget dans un fichier." alt="" coords="341,101,507,131"/>
+</map>

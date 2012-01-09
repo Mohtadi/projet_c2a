@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_corsair.html#ad31e179f0a6179dc08804a6b12728f51" title="Utilisé par l&#39;application pour savoir si le plugin est associé à un périphérique ou pas..." alt="" coords="220,5,377,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_corsair.html#acac1da1009a409fd6f01e6ad3356ffc9" title="CPluginCorsair::parseDirectory" alt="" coords="197,59,400,88"/>
+<area shape="rect" id="node7" href="$class_c_plugin_corsair.html#a990e0df77d49e6f716d2448dcd649eff" title="CPluginCorsair::signalUpdateServices" alt="" coords="448,59,693,88"/>
+</map>

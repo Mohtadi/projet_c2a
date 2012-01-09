@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_service_copy_d_note_disk_to_data.html#a9bcd87f6300fde74a1e47f7f4a216a6b" title="Méthode utilisé pour initialiser le widget associé au paramètrage du service." alt="" coords="295,85,575,115"/>
+<area shape="rect" id="node5" href="$class_c_list_data_service.html#ac90ab106b65d36a8de043bcc104a732c" title="Renvoi la liste de donnée d&#39;un plugin de type EDataInformations, qui contient la valeure _value_d..." alt="" coords="625,5,860,35"/>
+<area shape="rect" id="node9" href="$class_c_list_data_plugin.html#a656342b2b4eb4bd110cd225ba41cd631" title="Renvoi une description de la liste de donnée indexé par EDataInformations." alt="" coords="659,59,827,88"/>
+<area shape="rect" id="node11" href="$class_c_list_data.html#a4a0f4337957c24781d6eb6da6b00bbd8" title="Renvoi la valeure en fonction du _type_data dans la liste." alt="" coords="659,112,827,141"/>
+<area shape="rect" id="node13" href="$class_c_list_data_plugin.html#a498e1ce9f174aacb8a0419e448cf7b3c" title="Renvoi la liste de donnée indexé par EDataInformations." alt="" coords="665,165,820,195"/>
+<area shape="rect" id="node7" href="$class_c_list_data_service.html#ab5ec066549910da427377569c45bd37d" title="Renvoi la liste de données d&#39;un plugin. _i est la _ième liste de plugin." alt="" coords="911,5,1073,35"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_abstract.html#ae645cc7d33106380c81c31916cc519c7" title="Renvoi l&#39;object, ca permet de connecter les signaux." alt="" coords="471,5,652,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_abstract.html#a1e8aa77031495a191ee79227190b8a8e" title="Affecte le nom du périphérique. Ex : /dev/ttyS0." alt="" coords="232,320,416,349"/>
+<area shape="rect" id="node7" href="$class_c_plugin_abstract.html#aceee71156fbd549ea7d6fc3378e9fa56" title="Utilisé par l&#39;application pour indiquer l&#39;utilisation d&#39;un plugin par un périphérique..." alt="" coords="475,59,648,88"/>
+<area shape="rect" id="node9" href="$class_c_device.html#a17bf04cd799d031eb374898c63f0038f" title="Signal qui apelle la mise à jour de l&#39;interface pour actualiser les données reçuent du périphériq..." alt="" coords="708,216,1015,245"/>
+<area shape="rect" id="node11" href="$class_c_device.html#aed67cb1bd29a7a7c4c988770964956a9" title="Slot qui est apellé lorsqu&#39;un plugin detecte une déconnection." alt="" coords="240,137,408,167"/>
+<area shape="rect" id="node16" href="$class_c_device.html#a53ed24298b0f78cc75ecd145c8c553fd" title="Le périphérique reçoit des données à transmettre aux services, le slot est apellé depuis les plugins..." alt="" coords="464,216,659,245"/>
+<area shape="rect" id="node22" href="$class_c_plugin_abstract.html#af44a922d7ca9eb29ca2a687a572bbcdc" title="Lance le plugin, renvoi vrai si le plugin détécte le périphérique associé. La fonction peut être bloq..." alt="" coords="249,373,399,403"/>
+<area shape="rect" id="node19" href="$class_c_plugin_abstract.html#aa8114644bf0e37c5e1844fa028e5d5e9" title="Stop le plugin, lors d&#39;une déconnection par exemple." alt="" coords="487,163,636,192"/>
+</map>

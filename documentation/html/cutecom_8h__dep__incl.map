@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$cutecom_8cpp.html" title="/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/cutecom.cpp" alt="" coords="511,83,1004,112"/>
+<area shape="rect" id="node5" href="$plugin__abstract__serial__port_8h.html" title="/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/plugin_abstract_serial_port.h" alt="" coords="1028,83,1615,112"/>
+<area shape="rect" id="node7" href="$plugin__abstract__serial__port_8cpp.html" title="/home/c2a/Documents/projet_c2a/interface/pluginAbstractSerialPort/plugin_abstract_serial_port.cpp" alt="" coords="5,160,605,189"/>
+<area shape="rect" id="node9" href="$plugin__cangine_8h.html" title="Plugin de périphériques cangine." alt="" coords="629,160,1088,189"/>
+<area shape="rect" id="node13" href="$plugin__gprs_8h.html" title="Plugin de périphériques du gprs." alt="" coords="1112,160,1531,189"/>
+<area shape="rect" id="node17" href="$plugin__gps_8h.html" title="Plugin de périphériques du gps." alt="" coords="1561,160,1967,189"/>
+<area shape="rect" id="node21" href="$plugin__serial__port_8h.html" title="Plugin de périphériques par défaut. Si je detecte un périphérique et que je ne sais pas ce que c&#39;..." alt="" coords="2001,160,2476,189"/>
+<area shape="rect" id="node11" href="$plugin__cangine_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginCANGine/plugin_cangine.cpp" alt="" coords="604,237,1076,267"/>
+<area shape="rect" id="node15" href="$plugin__gprs_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginGPRS/plugin_gprs.cpp" alt="" coords="1100,237,1535,267"/>
+<area shape="rect" id="node19" href="$plugin__gps_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginGPS/plugin_gps.cpp" alt="" coords="1559,237,1977,267"/>
+<area shape="rect" id="node23" href="$plugin__serial__port_8cpp.html" title="/home/c2a/Documents/projet_c2a/plugins/pluginSerialPort/plugin_serial_port.cpp" alt="" coords="2001,237,2489,267"/>
+</map>

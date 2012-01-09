@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_plugin_c_a_n_gine.html#a1dea9189f8c720d8d32c03f89a0bd105" title="Initialisation de la liste de données de connections des plugins." alt="" coords="289,5,580,35"/>
+<area shape="rect" id="node5" href="$class_c_plugin_c_a_n_gine.html#ae8757e165df887c26e126b7c0023bad9" title="Initialisation de la liste de données des plugins." alt="" coords="649,56,868,85"/>
+<area shape="rect" id="node7" href="$class_c_plugin_c_a_n_gine.html#aec7c08d548258ea593819917b379b507" title="CPluginCANGine::signalDisconnect" alt="" coords="643,163,875,192"/>
+<area shape="rect" id="node9" href="$class_c_plugin_c_a_n_gine.html#a304235544c05fa11c2248e075b2429a9" title="CPluginCANGine::slotDisconnect" alt="" coords="325,109,544,139"/>
+<area shape="rect" id="node15" href="$class_c_plugin_c_a_n_gine.html#a79906b980bf36f20442b512ed954e37a" title="CPluginCANGine::slotReceiveData" alt="" coords="320,213,549,243"/>
+<area shape="rect" id="node13" href="$class_c_plugin_c_a_n_gine.html#a6b64be44e6b9242ececd83398420f33c" title="CPluginCANGine::signalUpdateServices" alt="" coords="629,109,888,139"/>
+</map>

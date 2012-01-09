@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_c_service_abstract.html" title="Cette classe reprèsente la classe abstraite des services." alt="" coords="24,192,149,221"/>
+<area shape="rect" id="node3" href="$class_c_service_copy_corsair_to_data.html" title="Service de copie des fichiers de la clé usb corsaire. Il faudrait peut être repasser avec libusb pour..." alt="" coords="228,325,420,355"/>
+<area shape="rect" id="node5" href="$class_c_service_copy_d_note_disk_to_data.html" title="Service de copie des fichiers de la tablette tactile vers le répertoire de travail." alt="" coords="217,379,431,408"/>
+<area shape="rect" id="node7" href="$class_c_service_flite.html" title="Service de voix synthétique. La librairie utilisé est flite&#45;1.4&#45;release, les versions antérieur ne ma..." alt="" coords="273,432,375,461"/>
+<area shape="rect" id="node9" href="$class_c_service_save_file.html" title="Service d&#39;enregistrement des données dans un fichier text, il faut revoir des fois c&#39;est pas ..." alt="" coords="261,5,387,35"/>
+<area shape="rect" id="node11" href="$class_c_service_save_file_html.html" title="Permet de générer un fichier html, si on active le service ftp envoi directement le fichier html sur ..." alt="" coords="247,59,401,88"/>
+<area shape="rect" id="node13" href="$class_c_service_send_bluetooth.html" title="Les informations sont transmis au plugin bluetooth par l&#39;intermediaire de la liste de donnée..." alt="" coords="244,112,404,141"/>
+<area shape="rect" id="node15" href="$class_c_service_send_data_base.html" title="CServiceSendDataBase" alt="" coords="243,165,405,195"/>
+<area shape="rect" id="node17" href="$class_c_service_send_ftp.html" title="CServiceSendFtp" alt="" coords="261,219,387,248"/>
+<area shape="rect" id="node19" href="$class_c_service_send_ftp_gprs.html" title="CServiceSendFtpGprs" alt="" coords="248,272,400,301"/>
+<area shape="rect" id="node20" href="$class_c_service_abstract_object.html" title="Classe abstraite qui contient la déclaration des signaux et slots des services." alt="" coords="5,245,168,275"/>
+</map>
